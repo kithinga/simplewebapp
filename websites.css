@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.rowsite{
+    
+    padding:0.1rem;
+    min-height: 5rem;
+    color:white;
+    /* margin-bottom: 1rem; */
+ 
+}
+.addsite{
+    border: none;
+    color:rgb(221, 227, 233);
+    background-color:rgb(44, 69, 104);
+    height:3.3rem;
+    width:10rem;
+    font-weight: 500;
+    border-radius:0.2rem;
+    margin: 16px 0px 0px 16px;
+    transition-duration: 0.3s;
+}
+.addsite:hover{
+    box-shadow: 1px 1px 8px  rgb(12, 12, 12);
+    transform: scale(1.1);
+}
+.sites{
+    border: none;
+    padding:0.5rem;
+    background-color: rgb(229, 230, 231);
+}
+
+.segment{
+    /* this height can be changed or done better dont make it fixed cause some div smay be bigger */
+    height: 13rem;
+    /* background: linear-gradient(45deg, rgb(173, 198, 206), rgb(17, 79, 114)); */
+    color: rgb(12, 111, 156);
+    border-radius:0.4rem;
+    border: 1.3px solid  rgb(217, 228, 230);
+    margin: 0.5rem; 
+    padding: 1.7rem ;
+    transition-duration: 0.3s;
+    background-color: white;
+
+}
+.segment:hover{
+    background-color:white;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px  rgb(194, 188, 188);
+    /* transform: rotate(0.5deg); */
+    transform: scale(1.02);
+}
+.segment::first-letter{
+    text-transform: uppercase;
+}
+.segment h6{
+ color:rgb(51, 52, 53);
+ font-weight: 500;
+ 
+}
+.hd{
+    font-size: 1.3em;
+    font-weight: 450;
+    /* color: rgb(255, 255, 255); */
+}
+.mid{
+     font-size: 1.2em;
+     /* color: rgb(255, 255, 255); */
+}
+.link{
+    color: rgb(65, 62, 107);
+    margin-left: 60%;
+    margin-right:5%;
+    border-radius:3px;
+    border: solid 1px rgb(255, 255, 255);
+    padding-bottom: 0.7rem;
+    padding-left: 2rem;
+}
+.link:hover{
+    border: solid 1px rgb(217, 199, 226);
+}
+.look{
+
+    margin-left: 2rem;
+    font-weight: 500;
+    font-size:2rem;
+}

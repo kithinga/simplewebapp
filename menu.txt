@@ -1,0 +1,6 @@
+I have a list of fruits
+(a) Oranges
+(b) Guavas
+(c) Lemons
+(d) Apples
+(d) Mangoes

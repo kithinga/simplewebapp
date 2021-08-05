@@ -1,0 +1,150 @@
+
+
+.iconrow{
+    padding-top: 1rem;
+    text-align:center;
+   
+}
+.tasktitle{
+    color: rgb(7, 32, 58);
+
+}
+.pone{
+    color: rgb(194, 145, 22);
+    font-weight:600;
+    font-size:1.5rem;
+
+}
+.ptwo{
+    color: rgb(7, 32, 58);
+    font-weight:400;
+    font-size: 8px;
+}
+.tasks{
+    min-height: 10rem;
+}
+.todo_row{
+    padding: 8px 1px 8px 1px;
+    margin-right: 1.5rem;
+}
+.todo_item{
+    min-height:6rem;
+    padding:1rem;
+    border-radius:3px;
+    margin: 0.5rem;
+    /* font-weight: 500; */
+    border: solid 1px rgb(229, 234, 236);
+    box-shadow: 1px 1px 10px rgb(241, 243, 245);
+    color:rgb(7, 32, 58);
+    transition-duration: 0.5s;
+    border-bottom-left-radius: 12px;
+}
+.done_item{
+    /* background-color:rgb(7, 32, 58); */
+    box-shadow: 1px 1px 10px rgb(241, 243, 245);
+    color:rgb(20, 150, 74);
+    /* font-weight:300; */
+    border: solid 1px rgb(227, 243, 233);
+    min-height:6rem;
+    padding:1rem;
+    border-radius:3px;
+    margin: 0.5rem;
+    transition-duration: 0.5s;
+    background-color: white;
+    border-bottom-right-radius: 12px;
+    
+}
+.done_item:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(187, 190, 194);
+
+}
+.todo_item:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(198, 203, 206);
+     color:rgb(7, 32, 58);
+}
+.done_row{
+    padding: 8px 1px 8px 1px;
+    margin-left: 1.5rem;
+    background-color: rgb(250, 252, 253);
+}
+.column_1{
+    background-color: rgb(245, 249, 252);
+    color: rgb(30, 35, 43);
+    padding-left: 5rem;
+    min-height: 5rem;
+    margin: 10px 7px 0px 7px;
+    border-radius: 3px;
+    margin-right: 2rem;
+    border: rgb(235, 238, 241) solid 2px;
+}
+.column_2{
+    background-color: rgb(240, 248, 247);
+    color: rgb(15, 141, 43);
+    padding-top: 0.5rem;;
+    padding-left: 5rem;
+    min-height: 5rem;
+    margin: 10px 7px 0px 7px;
+    border-radius: 3px;
+    margin-left: 2rem;
+    border: rgb(230, 238, 230) 2px solid;
+}
+
+.yah{
+    float: right;
+    color:rgb(240, 245, 245);
+}
+.yah1{
+    margin-top: 1rem;
+    margin-left: 30%;
+    transition-duration: 0.5s;
+    font-weight: 900;
+    border: solid 2px rgb(191, 205, 206);
+    padding:3px;
+    border-radius: 2px;
+    border-bottom-left-radius: 10px;
+}
+.yah2{
+    margin-left: 30%;
+    transition-duration: 0.5s;
+    font-weight: 900;
+    border: solid 2px rgb(224, 232, 233);
+    padding:3px;
+    border-radius: 2px;
+    border-bottom-left-radius: 10px;
+}
+.yah1:hover{
+    color:green;
+    transform: scale(1.15);
+    cursor: pointer;
+    
+}
+.yah2:hover{
+    color:green;
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+
+
+/* for data from databse editing */
+.type{
+    color:rgb(19, 102, 179);
+}
+.task{
+   word-spacing: 2px;
+   /* font-weight: 500; */
+ 
+}
+
+.dat{
+    margin-left: 70%;
+    font-size: 10px;
+    font-weight:200;
+
+}
+
+

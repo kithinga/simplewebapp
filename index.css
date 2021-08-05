@@ -1,0 +1,335 @@
+*{
+    padding:0;
+    margin:0;
+}
+button:focus {
+  outline: none !important;
+}
+.roro{
+    margin-top:5.4rem;
+    /* position:absolute; */
+    /* background-color:grey; */
+}
+.modal-content {
+    background-color:white;
+}
+
+a{
+    text-decoration: none !important;
+    padding: 0;
+    margin: 0;
+    color: rgb(88, 88, 88);
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+@media (max-width: 797px) {
+    body { 
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .container-fluid {
+        margin:0;
+        padding:0;
+    }
+    .search{
+        display:none;
+    }
+}
+
+
+.add{
+    background-color:rgb(6, 71, 77);
+    color:rgb(182, 197, 201);
+    text-align: center;
+}
+
+/*btn for submitting ide*/
+.addbtn{
+    height:3.5rem;
+    width:10rem;
+    color:rgb(3, 96, 124);
+    border-radius: 3px;
+    border:solid 3px rgb(238, 240, 241);
+    margin-top: 3rem;
+}
+/*btn for adding idea*/
+.ideabtn{
+    border: none;
+    font-weight: 400;
+    height:3.1rem;
+    width:12rem;
+    /* text-shadow: 1px 1px 1px white; */
+    color:rgb(12, 1, 1);
+    border-radius:6rem;
+    margin-bottom: 2rem;
+    /* margin-top: 1rem; */
+    background-color:rgb(255, 123, 0);
+}
+
+.frm input{
+    padding-left: 2rem;
+    margin-left:2rem;
+    height:2.8rem;
+    border-radius: 3px;
+    border:solid 1px rgb(199, 195, 195);
+}
+
+.luna{
+  padding:1rem;
+  margin-top: 3rem;
+  background-color:rgb(6, 71,77);
+  border-radius:2px;
+  font-weight: 400;
+  text-align:center;
+}
+.delbtn{
+    height:3.2rem;
+    width:10rem;
+    color:rgb(3, 96, 124);
+    border-radius: 3px;
+    border:solid 3px rgb(197, 197, 199);
+    margin-top: 3rem;
+}
+.deldiv{
+    
+    background-color:rgb(241, 241, 241);
+    margin: 0.5rem;
+    color: #0e83a7;
+    padding:2rem;
+    border:solid 0.5px rgb(238, 234, 234) ;
+
+}
+.txarea{
+    padding:0.5rem;
+    margin-left: 2rem;
+    border: solid 1px grey;
+}
+.delinput{
+    padding-left: 2rem;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 2px;
+    border: solid rgb(197, 196, 196) 1px;
+}
+.mdh{
+    padding-left: 4rem;
+}
+.view{
+    padding:1rem;
+    /* border: solid rgb(245, 241, 241) 1px; */
+    min-height:10rem;
+    box-shadow: 1px 3px 7px #ebeae8;
+  
+}
+/* top of view section where we have category ideas.*/
+.categ{
+    height: 4rem;
+    color: rgb(30, 124, 141);
+    padding: 1rem;
+    text-align: center;
+
+}
+.categ p{
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 0.5rem;
+    letter-spacing:1px;
+    border-bottom: solid 1.5px rgb(233, 238, 238);
+    padding-bottom: 10px;
+    /* font-family:"Poppins",Arial,sans-serif;
+    /* font-style: normal; */
+    /* font-family: 'proxima-nova',sans-serif */
+}
+
+
+.exit{
+    border-radius:30rem !important;
+    padding:0.5rem;
+    width: 7rem;
+}
+.ima{
+    height:16rem;
+    width: 100%;
+    /* box-shadow: 1px 3px 7px #e9e3e3; */
+    border-radius:2px;
+    margin-top: 0.8rem;
+}
+.texter{
+      
+      padding:0.5rem 1rem 0.5rem 1.5rem;
+}
+
+
+.card{
+    position: relative;
+    cursor: pointer;
+    border-radius:0.3rem;
+    /* font-family: Tw cen MT; */
+    margin: 1rem;
+    padding:0.6rem;
+    /* min-height: 10rem; */
+    border: solid 0.5px rgb(236, 241, 241);
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 7px 2px #f0f5f5;
+
+
+}
+.card:hover{
+
+   transform: scale(1.03);
+   box-shadow: 1px 1px 7px 2px #dee6e6;
+
+}
+
+
+
+/*drop down section here*/
+
+.dropdown {
+    margin-left: 60%;
+    position: relative;
+    display: inline-block;
+    /* transition:1s; */
+  }
+  .dropdown p:hover{
+     color: #0e83a7;
+     font-weight: 500;
+  }
+  .spa{
+      margin-left: 8rem;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width:10em;
+    font-weight: 400;
+    border: solid 1px rgb(236, 236, 236);
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.2);
+    padding:1em;
+    color:rgb(61, 61, 61);
+    transition-duration: 0.5s;
+    text-align: center;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    transition:ease-in-out;
+    background-color: #fdfdfd;
+  }
+
+
+
+.details{
+  font-size:1em;
+  /* letter-spacing: 1px; */
+  font-weight: 400;
+  word-spacing: 2px;
+  color: rgb(107, 107, 110);
+}
+.comp{
+    padding: 1.5rem;
+}
+
+
+.id{
+  border-bottom: solid rgb(247, 242, 242) 0.5px;
+  padding-bottom: 5px;
+  /* padding-top: 0.2rem; */
+  font-weight: 400;
+  padding-left: 1rem;
+  color: rgb(22, 132, 165);
+}
+.card h5::first-letter{
+    text-transform: uppercase;
+}
+.six{
+    font-weight: 400;
+    margin-top: 5px;
+    color: rgb(32, 34, 32);
+    font-size: 0.7rem;
+}
+.six::first-letter{
+    text-transform: uppercase;
+}
+
+ .date {
+     /* text-decoration:underline; */
+     letter-spacing: -1px;
+     padding-bottom: 2px;
+    text-align: right;
+    font-size: 0.2em;
+    color:rgb(51, 80, 102);
+    margin-top: 10px;
+}
+
+
+/* CSS FOR COLORS FILE  */
+
+.colors{
+    /* background-color:black; */
+  padding: 5px;
+   
+}
+
+
+.lipin{
+    margin-top:0.2rem;
+
+    height:40vh;
+    /* border: solid rgb(116, 86, 91) 1px; */
+      background-color:rgb(10, 24, 24);
+    padding: 4rem;
+    border-radius:3px;
+    letter-spacing: 2px;
+    color:pink;
+    /* box-shadow: 1px 3px 17px rgb(235, 194, 200); */
+}
+
+.pinli{
+    height:40vh;
+    /* border: solid grey 1px; */
+    margin-top:0.2rem;
+    padding:5rem;
+    border-radius:3px;
+    background-color: rgb(228, 142, 170);
+ /* box-shadow: 1px 3px 17px rgb(128, 176, 180);  */
+    color:rgb(14, 27, 26);
+    letter-spacing: 2px;
+}
+.yelli{
+    height:40vh;
+    margin-top:0.2rem;
+
+    /* border: solid grey 1px; */
+    padding:5em;
+    border-radius:3px;
+    background-color: rgb(241, 159, 6);
+ /* box-shadow: 1px 3px 17px rgb(128, 176, 180);  */
+    color:rgb(26, 154, 240);
+    letter-spacing: 2px;
+}
+
+
+
+.edit{
+    color:rgb(105, 104, 104);
+    font-size:2rem;
+    font-weight: 700;
+    float: right;
+}
+
+.bits{
+    border: solid 0.5px rgb(82, 139, 71) ;
+    padding:0.5rem;
+    color:green;
+    font-weight: 600;
+    border-radius:10rem;
+    background-color:white;
+    width:5rem;
+}
+
