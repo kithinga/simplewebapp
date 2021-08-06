@@ -5,7 +5,6 @@ include 'links.php';
 include 'header.php';
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,12 +59,11 @@ include 'header.php';
               <div class="modal-footer">
                 <button type="button" class="btn btn-danger exit" data-dismiss="modal">Close</button>
               </div>
-
             </div>
           </div>
         </div>
-
       </div>
+
       <div class="view col-sm-12 col-lg-9 col-xs-12">
 
         <div class="categ">
