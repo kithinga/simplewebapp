@@ -9,41 +9,24 @@
 .head{
     min-height: 5rem;
     background-color: rgb(1, 14, 27);
-    border-bottom: 0.5px solid rgb(7, 130, 146);
     top: 0;
     padding-top: 2rem;
     width: 100%;
     z-index:1000;
     /* position:fixed; */
-    border-top: 1px solid rgb(238, 235, 235);
+    border-top: 0.5px solid rgb(238, 235, 235);
     } 
     .search{
         /* background-color: red; */
         min-height: 3rem;
     }
-.search input{
-    float: right;
-    height: 3rem;
-    width: 15rem;
-    border: solid 1px rgb(196, 193, 196);
-    border-radius: 1px;
-    padding-left: 1.5rem;
-    margin-right: 7rem;
-    padding-bottom: 3px;
-    outline: none;
-    margin-bottom: 0.2rem;
-}
-::placeholder{
-    color:grey;
-    font-weight: 400;
-}
+
 
 .log{
     font-weight: 900;
     padding-top: 0.6em;
     min-height:3rem;
     text-align: center;
-    border-bottom: 0.5px solid rgb(47, 47, 80);
 }
 .lo{
     margin-top:0.5rem;
@@ -71,7 +54,7 @@
 
 
 .header_container {
-    border-bottom: 2px solid rgb(227, 235, 235);
+    border-bottom: 1px solid rgb(0, 3, 5);
 }
 
 .nav-item{

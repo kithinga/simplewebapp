@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container-fluid">
-    <div class="foot row no-gutters">
+    <div class="foots row no-gutters">
         <div class="fot col-lg-12"><p class="fo">© KITHINGA INC. All Rights Reserved</p></div>
     </div>
     </div>

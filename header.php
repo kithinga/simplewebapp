@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kithinga spa</title>
 </head>
 <body>
     <div class="container-fluid header_container">
@@ -15,9 +15,9 @@
         <div class="log col-lg-4 col-sm-12"><a href="index.php"><p class="lo"><span class="material-icons md-24">style adjust</span></p></a>
          </div>
         <div class="name col-lg-4 col-sm-12 sp">Kithinga</div>
-        <div class="search col-lg-4 col-md-6 col-sm-12"><input type="text"  placeholder="kithinga"></div>
+        <div class="search col-lg-4 col-md-6 col-sm-12"></div>
     </div>
-    <nav class="navbar navbar-expand-lg ">
+    <!-- <nav class="navbar navbar-expand-lg ">
           <button class="navbar-toggler toggs" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon con material-icons md-24">view_list</span>
           </button>
@@ -32,7 +32,7 @@
               <a class="nav-item nav-link" href="check.php"><span class="paddup">Designs</span> <span class="material-icons">cloth</span></a>
             </div>
           </div>
-        </nav>
+        </nav> -->
     </div>
 </body>
 </html>
