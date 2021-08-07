@@ -15,6 +15,41 @@ include 'header.php';
 </head>
 
 <body>
+  
+  <div class="container-fluid all-slots">
+    <!-- ideas section -->
+    <div class="row no-gutters sec-one">
+      <div class="col lg-4">
+         <div class="idea-items">
+           <h5>Tasks</h5>
+         </div>
+      </div>
+      <div class="col lg-8">
+         <div class="sketches-items">
+           <h5>Sketches</h5>
+         </div>
+      </div>
+    </div>
+
+
+     <!-- todods section -->
+    <div class="row sec-two">
+      <div class="col md-6">rown2 col two</div>
+      <div class="col md-6">rown2 col two</div>
+    </div>
+
+    <!-- sketches section -->
+    <div class="row sec-three">
+      <div class="col lg-6">rown2 col two</div>
+      <div class="col lg-6">rown2 col two</div>
+    </div>
+
+  </div>
+
+
+
+
+
   <div class="container-fluid bui">
     <div class="row no-gutters roro">
       <div class="add col-sm-12 col-lg-3 col-xs-12">
@@ -26,7 +61,7 @@ include 'header.php';
         <!-- add data to the database -->
         <!--add button-->
         <button type="button" class="ideabtn" data-toggle="modal" data-target="#myModal">
-           <span>Add idea</span>
+          <span>Add idea</span>
         </button>
         <!-- The Modal -->
         <div class="modal fade" id="myModal">
@@ -47,9 +82,9 @@ include 'header.php';
                   <input type="text" name="id" placeholder="identifier" required>
                   <input type="color" name="color" placeholder="colorpicker" required>
                   <br><br>
-                  <input type="date"  name="date" placeholder="date" required><br><br>
+                  <input type="date" name="date" placeholder="date" required><br><br>
                   <input type="text" name="about" placeholder="about" required><br><br>
-                
+
                   <textarea name="details" cols="26" rows="2" placeholder="details" class="txarea" required></textarea><br><br>
                   <input type="file" name="image" accept="image/*;capture=camera"><br><br>
                   <button type="submit" class=" addbtn">submit</button>
@@ -69,7 +104,7 @@ include 'header.php';
         <div class="categ">
           <p>Viewing all ideas</p>
         </div>
-       
+
 
         <div class="comp row nospace no-gutters">
 
@@ -124,6 +159,3 @@ include 'header.php';
 <?php
 include 'footer.php';
 ?>
-
-
-

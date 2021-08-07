@@ -333,3 +333,43 @@ a{
     width:5rem;
 }
 
+
+
+/* THIS IS THE NEWEST CSS */
+/* section one */
+.sec-one{
+    min-height: 18rem;
+    margin:0.5rem;
+    color:rgb(207, 200, 200);
+    text-align: center;
+}
+.idea-items{
+    background-color:rgb(61, 4, 61);
+    min-height: 18rem;
+    border-radius: 4px;
+    margin:1rem;
+    padding-top: 8rem;
+}
+.sketches-items{
+    background-color:rgb(32, 5, 32);
+    min-height: 18rem;
+    border-radius: 4px;
+    margin:1rem;
+    padding-top: 8rem;
+}
+
+
+/* section 2 */
+.sec-two{
+    min-height: 15rem;
+    background-color: darkcyan;
+    margin:0.5rem;
+}
+
+
+/* section 3 */
+.sec-three{
+    min-height:12rem;
+    background-color: rgb(86, 88, 88);
+    margin:0.5rem;
+}
