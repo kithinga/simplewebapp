@@ -14,13 +14,16 @@ include  'links.php';
 <body>
   <div class="container-fluid">
     <div class="head row no-gutters">
-      <div class="home col-lg-3"><a href="index.php">
+      <div class="col-lg-3">
+           <div class="home"><a href="index.php">
           <p><span class="inov material-icons md-24">home</span></p>
-        </a>
+        </a></div>
       </div>
-      <div class="name col-lg-7">Good morning kithinga</div>
-      <div class="search col-lg-2">
-        <span class="material-icons md-48">perm_identity</span>
+      <div class="col-lg-7">
+        <div class="name">Manage all activities</div>
+      </div>
+      <div class="col-lg-2">
+        <div class="search"><span class="material-icons md-48">perm_identity</span></div>
       </div>
     </div>
     <!-- <nav class="navbar navbar-expand-lg ">

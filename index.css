@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin:0;
+    font-family: Calibre;
 }
 
 /* THIS IS THE NEWEST CSS */
@@ -8,95 +9,99 @@
 .all-slots{
     background-color:rgb(4, 8, 24);
 }
+
+
+.all-slots {
+    background-image: linear-gradient(rgb(37, 7, 73), rgb(5, 1, 7));
+  }
 .sec-one{
-    min-height: 16rem;
+    min-height: 13rem;
     color:rgb(68, 4, 77);
     text-align: center;
-    font-size:1.5rem;
-    letter-spacing:2px;
+    font-size:2rem;
     font-weight: 500;
+    color:rgb(189, 164, 192);
     cursor: pointer;
 }
 
 .idea-items{
     background-color:rgb(54, 4, 54);
-    min-height: 16rem;
+    min-height: 12rem;
     border-radius:4px;
-    margin:3rem;
+    margin:1rem;
     color:white;
-  
+    /* background-image: linear-gradient(to right, rgb(39, 3, 48), rgb(20, 1, 20)); */
+    background-image: linear-gradient(rgb(28, 5, 56), rgb(6, 1, 8));
 }
-.idea-items:hover .sketches-items{
-   background-color: rgb(31, 3, 31);
-}
+
 .icon-sec{
     padding-top: 3rem;
     padding-bottom:2rem;
 }
 .sketches-items{
     background-color:rgb(34, 18, 34);
-    min-height: 16rem;
+    background-image: linear-gradient(to right, rgb(19, 11, 19) , rgb(34, 18, 34));
+    min-height: 12rem;
     border-radius: 4px;
-    margin:3rem;
+    margin:1rem;
     color: rgb(207, 189, 189);
 }
 
 
 /* section 2 */
 .sec-two{
-    min-height: 16rem;
+    min-height: 13rem;
     color:rgb(207, 200, 200);
     text-align: center;
-    font-size:1.5rem;
-    letter-spacing:2px;
-    font-weight: 600;
+    font-size:2rem;
+    font-weight: 500;
 }
 .task-items{
-    background-color: rgb(25, 51, 51);
-    min-height: 16rem;
+    /* background-color: rgb(25, 51, 51); */
+    background-image: linear-gradient(to right, rgb(20, 37, 37) , rgb(10, 20, 20));
+    min-height: 12rem;
     border-radius: 4px;
-    margin:3rem;
+    margin:1rem;
     color: rgb(207, 184, 184);
 }
 
 .colour-items{
     background-color: rgb(26, 40, 56);
-    min-height: 16rem;
+    min-height: 12rem;
     border-radius: 4px;
-    margin:3rem;
-
+    margin:1rem;
+    background-image: linear-gradient(rgb(16, 25, 36), rgb(22, 34, 48));
 }
 .artkit-items{
     background-color: rgb(34, 27, 58);
-    min-height: 16rem;
+    min-height: 12rem;
     border-radius: 4px;
-    margin:3rem;
+    margin:1rem;
     opacity: 0.9;
 }
 
 
 /* section 3 */
 .sec-three{
-    min-height:16rem;
+    min-height:13rem;
     text-align: center;
     color: rgb(203, 208, 211);
-    font-size:1.5rem;
-    letter-spacing:2px;
+    font-size:2rem;
     font-weight: 500;
 }
 
 
 .design-items{
     background-color: rgb(41, 41, 25);
-    min-height: 16rem;
+    min-height: 12rem;
     border-radius: 4px;
-    margin:3rem;
+    margin:1rem;
  
 }
 .website-items{
     background-color: rgb(37, 13, 7);
-    min-height: 16rem;
+    min-height: 12rem;
     border-radius: 4px;
-    margin:3rem;
+    margin:1rem;
  
 }

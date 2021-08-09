@@ -9,6 +9,7 @@
 .pigment{
 transition-duration: 0.5s;
 min-height: 12rem;
+margin: 5px;
 }
 .pigment:hover{
    opacity: 0.7;
@@ -21,25 +22,28 @@ min-height: 12rem;
   }
 .imgbtn{
     outline: none;
-   color:rgb(4, 87, 87);
-   background-color:white;
+    color:rgb(4, 87, 87);
+    background-color:white;
     margin: 1rem;
     width:12rem;
     height:3rem;
     border-radius:2rem;
     font-weight: 500;
-    border: 1px solid rgb(196, 202, 202);
+    border: none;
     padding-bottom:5px;
+}
+.add-art{
+    font-size:2rem;
 }
 
 .artimg{
     z-index: -100;
     width: 100%;
     height:270px;
- 
+    border-radius:4px;
 }
 .sketches{
- background-color: aliceblue;
+ background-color: rgb(4, 21, 36);
 }
 
 .centre-image{

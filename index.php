@@ -18,47 +18,47 @@ include 'header.php';
 
   <div class="container-fluid all-slots">
     <!-- section one -->
-    <div class="row no-gutters sec-one">
-      <div onclick="location.href='ideas.php'" class="col-lg-4">
+    <div class="row no-gutters sec-one" data-aos="fade-up">
+      <div onclick="location.href='ideas.php'" class="col-lg-4 col-xs-6">
         <div class="idea-items">
           <span class="icon-sec material-icons">batch_prediction</span>
-          <h5>Ideas</h5>
+          <h4>Ideas</h4>
         </div>
       </div>
-      <div onclick="location.href='sketches.php'" class="col-lg-8">
+      <div onclick="location.href='sketches.php'" class="col-lg-8 col-xs-6">
         <div class="sketches-items">
         <span class="icon-sec material-icons">draw</span>
-          <h5>Sketches</h5>
+          <h4>Sketches</h4>
         </div>
       </div>
     </div>
 
 
     <!-- section two-->
-    <div class="row sec-two no-gutters">
+    <div class="row sec-two no-gutters" data-aos="fade-up">
       <div class="col-lg-4">
         <div class="task-items">
          <span class="icon-sec material-icons">task</span>
-          <h5>Tasks</h5>
+          <h4>Tasks</h4>
         </div>
       </div>
       <div class="col-lg-4">
         <div class="colour-items">
         <span class="icon-sec material-icons">palette</span>
-          <h5>Colours</h5>
+          <h4>Colours</h4>
         </div>
       </div>
       <div class="col-lg-4">
         <div class="artkit-items">
           <span class="icon-sec material-icons">weekend</span>
-          <h5>Artkit</h5>
+          <h4>Artkit</h4>
         </div>
       </div>
     </div>
 
 
     <!--section  three-->
-    <div class="row sec-three no-gutters">
+    <div class="row sec-three no-gutters" data-aos="fade-up">
       <div class="col-lg-8">
         <div class="website-items">
         <span class="icon-sec material-icons">language</span>
