@@ -36,19 +36,19 @@ include 'header.php';
 
     <!-- section two-->
     <div class="row sec-two no-gutters" data-aos="fade-up">
-      <div class="col-lg-4">
+      <div onclick="location.href='todos.php'" class="col-lg-4">
         <div class="task-items">
          <span class="icon-sec material-icons">task</span>
           <h4>Tasks</h4>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div onclick="location.href='colours.php'" class="col-lg-4">
         <div class="colour-items">
         <span class="icon-sec material-icons">palette</span>
           <h4>Colours</h4>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div onclick="location.href='landing.php'" class="col-lg-4">
         <div class="artkit-items">
           <span class="icon-sec material-icons">weekend</span>
           <h4>Artkit</h4>
@@ -59,13 +59,13 @@ include 'header.php';
 
     <!--section  three-->
     <div class="row sec-three no-gutters" data-aos="fade-up">
-      <div class="col-lg-8">
+      <div onclick="location.href='websites.php'" class="col-lg-8">
         <div class="website-items">
         <span class="icon-sec material-icons">language</span>
           <h5>Websites</h5>
         </div>
       </div>
-      <div class="col lg-4">
+      <div  onclick="location.href='check.php'" class="col lg-4">
         <div class="design-items">
         <span class="icon-sec material-icons">architecture</span>
           <h5>Designs</h5>

@@ -10,9 +10,9 @@
     background-color:rgb(4, 8, 24);
 }
 
-
 .all-slots {
     background-image: linear-gradient(rgb(37, 7, 73), rgb(5, 1, 7));
+    
   }
 .sec-one{
     min-height: 13rem;
@@ -103,5 +103,4 @@
     min-height: 12rem;
     border-radius: 4px;
     margin:1rem;
- 
 }

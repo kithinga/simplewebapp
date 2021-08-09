@@ -38,7 +38,11 @@ include 'links.php';
                         <div class="segment">
                             <h6 class="hd"> <?php print $row['site']; ?></h6>
                             <p class="mid"> <?php print $row['about']; ?></p>
-                            <a href="<?php print $row['link']; ?>" target="_blank"><p class="link">view site <span class="look">➡</span></p></a>
+                            <a href="<?php print $row['link']; ?>" target="_blank">
+                                <p class="link">view site <span class="look"><span class="material-icons">
+                                            chevron_right
+                                        </span></span></p>
+                            </a>
                         </div>
 
                     </div>
@@ -49,7 +53,7 @@ include 'links.php';
 
         </div>
 
-     
+
         <!-- The Modal -->
         <div class="modal fade" id="myModal">
             <div class="modal-dialog">

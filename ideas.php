@@ -15,8 +15,28 @@ include 'header.php';
 
 
 <body>
-    <div class="container-fluid bui">
-        <div class="row">
+    <div class="view container-fluid bui">
+
+        <!-- div for page title and adding idea button -->
+        <div class="row categ no-gutters">
+            <div class="col-lg-6">
+                <div class="wording"><span class="idea-head">Viewing all ideas</span></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="add-idea">
+                    <!--add button-->
+                    <button type="button" class="ideabtn" data-toggle="modal" data-target="#myModal">
+                        <span class="material-icons">
+                                add arrow_drop_down
+                            </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- The modal area -->
+        <div class="row no-gutters">
             <br>
             <!-- add data to the database -->
             <!-- The Modal -->
@@ -51,24 +71,7 @@ include 'header.php';
             </div>
         </div>
 
-
-        <!-- div for page title and adding idea button -->
-        <div class="row categ no-gutters">
-            <div class="col-lg-6">
-                <div class="wording">Viewing all ideas</div>
-            </div>
-            <div class="col-lg-6">
-                <div class="add-idea">
-                    <!--add button-->
-                    <button type="button" class="ideabtn" data-toggle="modal" data-target="#myModal">
-                        <span>Add idea <span class="material-icons">
-                                add
-                            </span></span>
-                    </button>
-                </div>
-            </div>
-        </div>
-
+         
 
         <!-- cards for all ideas  -->
         <div class="row no-gutters">

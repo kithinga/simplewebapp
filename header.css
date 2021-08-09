@@ -3,15 +3,26 @@
   margin: 0;
   font-family: "Calibre-Bold";
 }
+
+.loki{
+    padding:0.6rem;
+    border: solid 1px rgb(89, 75, 102);
+    border-radius:1.5rem;
+    color: rgb(17, 213, 248);
+}
 .home{
-    padding-top: 3rem;
+    padding-top: 5rem;
     color: rgb(218, 218, 228);
     min-height: 6rem;
     color:rgb(199, 186, 186);
 }
 .inov{
-  margin-left: 3rem;
+  margin-left: 6rem;
   color: white;
+  padding: 0.6rem;
+  border: solid 1px rgb(76, 64, 87);
+  border-radius:1rem;
+  color: rgb(89, 217, 240);
 }
 .paddup {
   padding-bottom: 1rem;
@@ -27,7 +38,7 @@
 }
 .search {
   color: rgb(173, 163, 173);
-  padding-top: 4rem;
+  padding-top: 5rem;
   padding-left: 60%;
   min-height: 6rem;
 }

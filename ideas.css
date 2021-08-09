@@ -41,6 +41,11 @@ a {
   text-align: center;
 }
 
+.idea-head{
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing:-1px;
+}
 /*btn for submitting ide*/
 .addbtn {
   height: 3.5rem;
@@ -56,9 +61,9 @@ a {
   font-weight: 500;
   height: 3rem;
   width: 15rem;
-  color: rgb(12, 1, 1);
+  color: rgb(221, 212, 231);
   border-radius: 3px;
-  background-color: rgb(255, 123, 0);
+    background-color: rgb(41, 7, 73);
 }
 
 .frm input {
@@ -76,6 +81,7 @@ a {
   border-radius: 3px;
   border: solid 3px rgb(197, 197, 199);
   margin-top: 3rem;
+  background-color:transparent;
 }
 .deldiv {
   background-color: rgb(241, 241, 241);
@@ -98,15 +104,14 @@ a {
 }
 
 .view {
-  min-height: 10rem;
-  box-shadow: 1px 3px 7px #ebeae8;
+  /* background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3em0K?ver=1513&q=90&m=6&h=431&w=767&b=%23FFFFFFFF&l=f&o=t&aim=true); */
 }
 /* top of view section where we have category ideas.*/
 .categ {
   height: 4rem;
-  color: rgb(30, 124, 141);
+  color: rgb(157, 151, 163);
   text-align: center;
-  background-color: grey;
+  background-image: linear-gradient( rgb(35, 3, 75),rgb(35, 3, 75));
 }
 .categ p {
   font-size: 1.2em;
@@ -137,13 +142,12 @@ a {
   position: relative;
   cursor: pointer;
   border-radius: 0.3rem;
-  /* font-family: Tw cen MT; */
   margin: 1rem;
   padding: 0.6rem;
-  /* min-height: 10rem; */
+  min-height: 10rem;
   border: solid 0.5px rgb(236, 241, 241);
   transition-duration: 0.5s;
-  box-shadow: 1px 1px 7px 2px #f0f5f5;
+  /* box-shadow: 1px 1px 7px 2px #f0f5f5; */
 }
 .card:hover {
   transform: scale(1.03);
