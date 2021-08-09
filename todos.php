@@ -156,6 +156,6 @@ include 'header.php';
 </html>
 <?php
 
-include "footer.php";
+include "foots.php";
 
 ?>
