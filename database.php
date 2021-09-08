@@ -19,19 +19,21 @@
     exit();
     
   }
-
+  
 
   if(isset($_GET['edit'])){
     $id = $_GET['edit'];
-    $result = $conn("SELECT FROM design WHERE id = '$id';"); 
-    
-    if(count($result)==1){
-      $row = $result->fetch_array();
+    $sql = "SELECT FROM design WHERE id = '$id';"; 
+    $result = $conn->query($sql);
+    if($result->num_rows>0){
+      $row = mysqli_fetch_array($result);
       $id = $row['id'];
       $details = $row['details'];
       $about = $row['about'];
       $date = $row['date'];
     }
-
+    else{
+      header("Location: http://localhost/Vanilla/notfound.php");
+    }
   }
   ?>
