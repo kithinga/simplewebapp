@@ -27,8 +27,8 @@ include 'header.php';
                     <!--add button-->
                     <button type="button" class="ideabtn" data-toggle="modal" data-target="#myModal">
                         <span class="material-icons">
-                                add arrow_drop_down
-                            </span>
+                            add arrow_drop_down
+                        </span>
                     </button>
                 </div>
             </div>
@@ -71,7 +71,7 @@ include 'header.php';
             </div>
         </div>
 
-         
+
 
         <!-- cards for all ideas  -->
         <div class="row no-gutters">
@@ -89,8 +89,11 @@ include 'header.php';
                                 <span class="material-icons md-24 spa">more_vert</span>
                                 <div class="dropdown-content">
                                     <p>Editin</p>
-                                    <a href="delete.php?status=<?php print $row['id'] ?>">
-                                        <p id="remove">Remove</p>
+                                    <a href="database.php?edit=<?php print $row['id'] ?>" class="btn btn-info">
+                                     Edit
+                                    </a>
+                                    <a href="database.php?delete=<?php print $row['id'] ?>" class="btn btn-danger">
+                                     Delete
                                     </a>
                                 </div>
                             </div>
@@ -100,9 +103,19 @@ include 'header.php';
                                 <p class="six"><?php print $row['about']; ?></p>
                                 <p class="details"><?php print $row['details']; ?></p>
                             </div>
-                            <!-- <div class="imager">
-                  <p><img class="ima" src="images/<?php print $row['image']; ?>" alt=""></p>
-                </div> -->
+                            <div class="action-sec">
+                                <ul>
+                                    <li><span class="material-icons">
+                                            archive
+                                        </span></li>
+                                    <li><span class="material-icons edit-btn">
+                                            edit
+                                        </span></li>
+                                    <li><span class="material-icons">
+                                            delete_outline
+                                        </span></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 <?php } ?>

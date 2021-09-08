@@ -4,28 +4,34 @@
     $dbpassword="";
     $dbname="vanilla";
     $conn=mysqli_connect($server,$dbusername,$dbpassword,$dbname);
-?> 
 
 
-<!-- <?php
-   // $server="localhost";
-   // $dbusername="id16399066_root";
-   // $dbpassword="";
-   // // \\GopyZ8}ia)5B}W
-   // $dbname="id16399066_vanilla";
- 
-  //  $conn=mysqli_connect($server,$dbusername,$dbpassword,$dbname);
-?> -->
+
+  if(isset($_GET['delete'])){
+    $id = $_GET['delete'];
+    $sql = "DELETE FROM design WHERE id = '$id';";
+
+    // This line is needed in for the query for function
+    // it points at the database as well as the database.
+    mysqli_query($conn, $sql);
+    header("Location: http://localhost/Vanilla/ideas.php
+    ", TRUE, 301);
+    exit();
+    
+  }
 
 
-<!-- //   $server="localhost";
-//     $dbusername="id16399066_kdb";
-//     $dbpassword="/rOGORC\2k#RBQkR";
-//     $dbname="id16399066_kuser";
-//     $conn=mysqli_connect($server,$dbusername,$dbpassword,$dbname);
+  if(isset($_GET['edit'])){
+    $id = $_GET['edit'];
+    $result = $conn("SELECT FROM design WHERE id = '$id';"); 
+    
+    if(count($result)==1){
+      $row = $result->fetch_array();
+      $id = $row['id'];
+      $details = $row['details'];
+      $about = $row['about'];
+      $date = $row['date'];
+    }
 
-// // Check connection
-// if ($conn->connect_error) {
-//   die("Connection failed: " . $conn->connect_error);
-// }
-// echo "Connected successfully"; -->
+  }
+  ?>

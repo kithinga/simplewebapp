@@ -22,11 +22,8 @@ mysqli_query($conn, $sql);
 echo "life is fun";
 ?>
 
-
-
-
 <script src="vanilla.js"></script>
 
 <script>
-  window.location.href = "index.php";
+  window.location.href = "ideas.php";
 </script>

@@ -54,7 +54,7 @@ include "header.php";
         </div>
       </div>
     </div>
-    <div class="row no-gutters sketches">
+    <div class="basal row no-gutters sketches">
       <?php
       $sql = "SELECT * FROM art;";
       $result = mysqli_query($conn, $sql);
@@ -63,7 +63,7 @@ include "header.php";
       if ($result) {
         while ($row = mysqli_fetch_assoc($result)) {
       ?>
-          <div class=" col-md-4 col-sm-12 col-xs-12  " data-aos="fade-up" id="<?php print $row['id']; ?>">
+          <div class="basal col-md-4 col-sm-12 col-xs-12  " data-aos="fade-up" id="<?php print $row['id']; ?>">
             <div class="pigment ">
               <img class="artimg img-fluid" src="images/<?php print $row['image']; ?>" alt="">
             </div>

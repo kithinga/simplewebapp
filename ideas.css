@@ -103,10 +103,7 @@ a {
   border: solid rgb(197, 196, 196) 1px;
 }
 
-.view {
-  /* background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3em0K?ver=1513&q=90&m=6&h=431&w=767&b=%23FFFFFFFF&l=f&o=t&aim=true); */
-}
-/* top of view section where we have category ideas.*/
+
 .categ {
   height: 4rem;
   color: rgb(157, 151, 163);
@@ -137,6 +134,9 @@ a {
 .texter {
   padding: 0.5rem 1rem 0.5rem 1.5rem;
 }
+
+
+
 
 .card {
   position: relative;
@@ -192,7 +192,6 @@ a {
 
 .details {
   font-size: 1em;
-  /* letter-spacing: 1px; */
   font-weight: 400;
   word-spacing: 2px;
   color: rgb(107, 107, 110);
@@ -201,8 +200,7 @@ a {
 .id {
   border-bottom: solid rgb(247, 242, 242) 0.5px;
   padding-bottom: 5px;
-  /* padding-top: 0.2rem; */
-  font-weight: 400;
+  font-weight: 700;
   padding-left: 1rem;
   color: rgb(22, 132, 165);
 }
@@ -220,11 +218,38 @@ a {
 }
 
 .date {
-  /* text-decoration:underline; */
   letter-spacing: -1px;
   padding-bottom: 2px;
   text-align: right;
   font-size: 0.2em;
   color: rgb(51, 80, 102);
   margin-top: 10px;
+}
+
+
+/* The bottom area of the card */
+.action-sec{
+  padding-top: 1rem;
+  height:4rem;
+  border-top: 1px solid rgb(240, 243, 245);
+  text-align: center;
+  color: #959ca0;
+  display: none;
+}
+.action-sec ul li{
+  display:inline-flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.action-sec span{
+  border: 1px solid rgb(213, 218, 224);
+  padding:1.3px;
+  border-radius:0.9rem;
+}
+
+.edit-btn{
+  margin-left: 4rem;
+  margin-right: 4rem;
+
 }

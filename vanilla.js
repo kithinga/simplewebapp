@@ -60,6 +60,33 @@ press.click(function(){
 })
 
 
+// Action on the card.
+
+
+// $("card").each(function(){
+//   var actsec= $(this).find(".action-sec");
+//   $( ".card").hover(function() {
+//     actsec.fadeIn("slow", function() {})
+//   });
+  
+// })
+
+
+// $(".card").each(function(){
+//   var actsec= $(this).find(".action-sec");
+//   $( ".card").hover(function() {
+//     actsec.fadeIn("slow", function() {})
+//   });
+  
+// })
+
+
+
+
+
+
+
+
 
 
 

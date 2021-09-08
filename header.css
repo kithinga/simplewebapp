@@ -30,7 +30,7 @@
 .head {
   min-height: 12rem;
   /* background-color: rgb(2, 13, 24); */
-  background-image: linear-gradient( rgb(0, 0, 0),rgb(35, 3, 75));
+  background-image: linear-gradient( rgb(9, 3, 19),rgb(20, 7, 41));
   top: 0;
   width: 100%;
   z-index: 1000;
