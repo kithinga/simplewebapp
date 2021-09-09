@@ -4,11 +4,6 @@
     font-family: Calibre;
 }
 
-/* THIS IS THE NEWEST CSS */
-/* section one */
-.all-slots{
-    /* background-color:rgb(4, 8, 24); */
-}
 
 .all-slots {
     background-image: linear-gradient(rgb(20, 7, 41), rgb(0, 0, 0));
@@ -16,7 +11,6 @@
   }
 .sec-one{
     min-height: 10rem;
-    color:rgb(68, 4, 77);
     text-align: center;
     font-size:2rem;
     font-weight: 500;
@@ -30,7 +24,7 @@
     margin:1rem;
     color:rgb(175, 170, 170);
     /* background-image: linear-gradient(to right, rgb(39, 3, 48), rgb(20, 1, 20)); */
-    background-image: linear-gradient(rgb(45, 39, 54), rgb(49, 40, 53));
+    background-image: linear-gradient(rgb(45, 39, 54), rgb(70, 53, 77));
 }
 .idea-items:hover{
     background-image: linear-gradient(rgb(60, 52, 71), rgb(66, 53, 71));
@@ -41,8 +35,7 @@
     padding-bottom:1rem;
 }
 .sketches-items{
-    background-color:rgb(34, 18, 34);
-    background-image: linear-gradient(to right, rgb(43, 26, 43) , rgb(36, 24, 36));
+    background-image: linear-gradient(to right, rgb(43, 26, 43) , rgb(36, 23, 36));
     min-height: 9rem;
     border-radius: 4px;
     margin:1rem;

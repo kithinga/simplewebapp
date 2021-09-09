@@ -26,7 +26,7 @@ include 'header.php';
                 <div class="add-idea">
                     <!--add button-->
                     <button type="button" class="ideabtn" data-toggle="modal" data-target="#myModal">
-                        <span class="material-icons">
+                        <span class="material-icons adder">
                             add arrow_drop_down
                         </span>
                     </button>

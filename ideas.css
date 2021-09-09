@@ -55,6 +55,11 @@ a {
   border: solid 3px rgb(238, 240, 241);
   margin-top: 1rem;
 }
+.adder{
+  border:1px solid rgb(55, 61, 95);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
 /*btn for adding idea*/
 .ideabtn {
   border: none;
@@ -103,10 +108,13 @@ a {
   border: solid rgb(197, 196, 196) 1px;
 }
 
+/* .wording{
 
+} */
 .categ {
-  height: 4rem;
-  color: rgb(157, 151, 163);
+  padding-top: 1rem;
+  height: 5rem;
+  color: rgb(196, 187, 204);
   text-align: center;
   background-image: linear-gradient( rgb(35, 3, 75),rgb(35, 3, 75));
 }
@@ -134,9 +142,6 @@ a {
 .texter {
   padding: 0.5rem 1rem 0.5rem 1.5rem;
 }
-
-
-
 
 .card {
   position: relative;

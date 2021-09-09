@@ -1,5 +1,5 @@
 <?php
- include "links.php"
+ include "header.php"
 ?>
 
 <!DOCTYPE html>
