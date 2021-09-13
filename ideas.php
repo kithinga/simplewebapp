@@ -5,14 +5,12 @@ include 'header.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home kithinga</title>
 </head>
-
 
 <body>
     <div class="view container-fluid bui">
@@ -33,7 +31,6 @@ include 'header.php';
                 </div>
             </div>
         </div>
-
 
         <!-- The modal area -->
         <div class="row no-gutters">
@@ -71,8 +68,6 @@ include 'header.php';
             </div>
         </div>
 
-
-
         <!-- cards for all ideas  -->
         <div class="row no-gutters">
             <?php
@@ -90,10 +85,10 @@ include 'header.php';
                                 <div class="dropdown-content">
                                     <p>Editin</p>
                                     <a href="database.php?edit=<?php print $row['id'] ?>" class="btn btn-info">
-                                     Edit
+                                        Edit
                                     </a>
                                     <a href="database.php?delete=<?php print $row['id'] ?>" class="btn btn-danger">
-                                     Delete
+                                        Delete
                                     </a>
                                 </div>
                             </div>
@@ -127,5 +122,7 @@ include 'header.php';
         AOS.init();
     </script>
 </body>
-
+<?php
+include 'footer.php';
+?>
 </html>

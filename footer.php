@@ -10,9 +10,9 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container-fluid">
-    <div class="foots row no-gutters">
-        <div class="fot col-lg-12"><p class="fo">© KITHINGA INC. All Rights Reserved</p></div>
+    <div class="container-fluid footer-container">
+    <div class="footer-row row no-gutters">
+        <div class="footer-column col-lg-12"><p class="fo">© KITHINGA INC. All Rights Reserved</p></div>
     </div>
     </div>
 </body>

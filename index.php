@@ -47,7 +47,7 @@ include 'header.php';
     <div class="row no-gutters">
       <div class="col-lg-3"></div>
       <div class="col-lg-6">
-        <div class="row sec-two no-gutters" >
+        <div class="row sec-two no-gutters">
           <div onclick="location.href='todos.php'" class="col-lg-4">
             <div class="task-items" data-aos="zoom-out" data-aos-duration="3000">
               <span class="icon-sec material-icons">task</span>
@@ -55,12 +55,12 @@ include 'header.php';
             </div>
           </div>
           <div onclick="location.href='colours.php'" class="col-lg-4">
-            <div class="colour-items" data-aos="zoom-in" data-aos-duration="3000" >
+            <div class="colour-items" data-aos="zoom-in" data-aos-duration="3000">
               <span class="icon-sec material-icons">palette</span>
               <h4>Colours</h4>
             </div>
           </div>
-          <div onclick="location.href='landing.php'" class="col-lg-4">
+          <div onclick="location.href='artkit.php'" class="col-lg-4">
             <div class="artkit-items" data-aos="fade-left" data-aos-duration="3000">
               <span class="icon-sec material-icons">weekend</span>
               <h4>Artkit</h4>
@@ -76,7 +76,7 @@ include 'header.php';
     <div class="row no-gutters">
       <div class="col-lg-3"></div>
       <div class="col-lg-6">
-        <div class="row sec-three no-gutters" data-aos="fade-up"  data-aos-duration="1500">
+        <div class="row sec-three no-gutters" data-aos="fade-up" data-aos-duration="1500">
           <div onclick="location.href='websites.php'" class="col-lg-8">
             <div class="website-items">
               <span class="icon-sec material-icons">language</span>
@@ -101,9 +101,4 @@ include 'header.php';
     AOS.init();
   </script>
 </body>
-
 </html>
-
-<?php
-include 'footer.php';
-?>

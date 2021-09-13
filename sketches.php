@@ -95,10 +95,9 @@ include "header.php";
   <script>
     AOS.init();
   </script>
+  <?php
+  include 'footer.php';
+  ?>
 </body>
 
 </html>
-
-<?php
-include 'footer.php';
-?>

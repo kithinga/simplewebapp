@@ -3,8 +3,10 @@
     margin: 0;
 }
 
-
-.foots{
+.footer-container{
+   bottom: 0;
+}
+.footer-row{
     background-color:rgb(9, 14, 19);
     height:4rem;
     color:rgb(145, 145, 146);
@@ -14,7 +16,7 @@
     font-family: 'Calibre-Bold',"Meiryo",Osaka; 
 }
 
-.fot{
+.footer-column{
     margin-top:0.8rem;
 }
 

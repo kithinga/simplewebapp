@@ -15,7 +15,7 @@ include 'links.php';
     <?php
     include 'header.php';
     ?>
-    <div class="container-fluid">
+    <div class="container-fluid colour-slots">
         <div class="ciana row no-gutters">
             <div class="lipin col-lg-3 col-sm-12 col-xs-12" data-aos="fade-down">
                 <h1>Light to pink</h1>
@@ -47,5 +47,8 @@ include 'links.php';
         AOS.init();
     </script>
 </body>
+<?php
+include 'footer.php';
+?>
 
 </html>

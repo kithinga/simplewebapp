@@ -14,7 +14,8 @@
   <link rel="stylesheet" href="index.css" />
   <link rel="stylesheet" href="sketches.css" />
   <link rel="stylesheet" href="header.css" />
-  <link rel="stylesheet" href="landing.css" />
+  <link rel="stylesheet" href="artkit.css" />
+  <link rel="stylesheet" href="colours.css" />
   <link rel="stylesheet" href="footer.css" />
   <link rel="stylesheet" href="websites.css" />
   <link rel="stylesheet" href="todos.css" />
