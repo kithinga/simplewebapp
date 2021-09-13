@@ -1,5 +1,6 @@
 <?php
 include  'links.php';
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,8 +13,8 @@ include  'links.php';
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="head row no-gutters">
+  <div class="container-fluid ">
+    <div class="head row no-gutters myhead">
       <div class="col-lg-3">
            <div class="home"><a href="index.php">
           <p><span class="inov material-icons md-24">home</span></p>
@@ -43,6 +44,6 @@ include  'links.php';
           </div>
         </nav> -->
   </div>
+  <script src="vanilla.js"></script>
 </body>
-
 </html>

@@ -1,9 +1,5 @@
 <!--adding php to my code -->
-<?php
-include 'database.php';
-include 'links.php';
-include 'header.php';
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,8 +9,12 @@ include 'header.php';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vanilla</title>
 </head>
-
 <body>
+<?php
+include 'database.php';
+include 'links.php';
+include 'header.php';
+?>
   <div class="container-fluid all-slots">
     <!-- section one -->
 

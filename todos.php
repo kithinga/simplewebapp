@@ -23,129 +23,136 @@ include 'header.php';
                 <div class="tasktitle">
                     <p class="pone">Tasks to do and already done</p>
                 </div>
-                </div>
             </div>
         </div>
-        <div class="row no-gutters tasks">
-            <div class="col-sm-12  col-lg-6 ">
-                <div class="column_1">
-                    <h4>Tasks Todo <span class="material-icons yah1" data-toggle="modal" data-target="#myModal">add</span></h4>
-                </div>
+    </div>
+    <div class="row no-gutters tasks">
+        <div class="col-sm-12  col-lg-6 ">
+            <div class="column_1">
+                <h4>Tasks Todo <span class="material-icons yah1" data-toggle="modal" data-target="#myModal">add</span></h4>
+            </div>
 
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
 
-                <!-- The Modal -->
-                <div class="modal fade" id="myModal">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-
-                            <!-- Modal Header -->
-                            <br>
-                            <div class="mdh modal-header">
-                                <h4 class="modal-title">Adding tasks</h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-                            <!-- Modal body -->
-                            <div class="modal-body">
-                                <form class="frm" action="addTodos.php" method="POST">
-                                    <input type="text" name="id" placeholder="Task type" required>
-                                    <br><br>
-                                    <input type="text" name="task" placeholder="task" required><br><br>
-                                    <input type="date" name="date" placeholder="date" required><br><br>
-                                    <button type="submit" class="btn addbtn">submit</button>
-                                </form>
-                            </div>
-                            <!-- Modal footer -->
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-danger exit" data-dismiss="modal">Close</button>
-                            </div>
-
+                        <!-- Modal Header -->
+                        <br>
+                        <div class="mdh modal-header">
+                            <h4 class="modal-title">Adding tasks</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form class="frm" action="addTodos.php" method="POST">
+                                <input type="text" name="id" placeholder="Task type" required>
+                                <br><br>
+                                <input type="text" name="task" placeholder="task" required><br><br>
+                                <input type="date" name="date" placeholder="date" required><br><br>
+                                <button type="submit" class="btn addbtn">submit</button>
+                            </form>
+                        </div>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger exit" data-dismiss="modal">Close</button>
+                        </div>
+
                     </div>
-                </div>
-
-                <div class="row no-gutters todo_row ">
-
-                    <?php
-                    $sql = "SELECT * FROM todos;";
-                    $result = mysqli_query($conn, $sql);
-                    $check = mysqli_num_rows($result);
-
-                    if ($result) {
-                        while ($row = mysqli_fetch_assoc($result)) {
-                    ?>
-                            <div class="col-sm-12 col-md-4" data-aos="fade-up" id="<?php print $row['id']; ?>">
-                                <div class="todo_item">
-                                    <p class="type"><?php print $row['id']; ?> <span class="material-icons yah">alarm</span></p>
-                                    <p class="task"><?php print $row['task']; ?></p>
-                                    <p class="dat"><?php print $row['date']; ?></p>
-                                </div>
-                            </div>
-                        <?php } ?>
-                    <?php } ?>
-
                 </div>
             </div>
 
+            <div class="row no-gutters todo_row ">
 
+                <?php
+                $sql = "SELECT * FROM todos;";
+                $result = mysqli_query($conn, $sql);
+                $check = mysqli_num_rows($result);
 
-
-
-            <div class="col-sm-12 col-lg-6 ">
-                <div class="column_2">
-                    <h4>Done Tasks <span class="material-icons yah2" data-toggle="modal" data-target="#myModal">beenhere </span> </h4>
-                </div>
-
-                <div class="modal fade" id="myModal">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-
-                            <!-- Modal Header -->
-                            <br>
-                            <div class="mdh modal-header">
-                                <h4 class="modal-title">Adding tasks</h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                if ($result) {
+                    while ($row = mysqli_fetch_assoc($result)) {
+                ?>
+                        <div class="col-sm-12 col-md-4" data-aos="fade-up" id="<?php print $row['id']; ?>">
+                            <div class="todo_item">
+                                <a href="database.php?taskdelete=<?php print $row['id'] ?>">
+                                    <span class="tdicon material-icons">delete</span>
+                                </a>
+                                <a href="database.php?taskpush=<?php print $row['id'] ?>">
+                                    <span class=" material-icons">move_to_inbox</span>
+                                </a>
+                                <p class="type"><?php print $row['id']; ?></p>
+                                <p class="task"><?php print $row['task']; ?></p>
+                                <p class="dat"><?php print $row['date']; ?></p>
                             </div>
-                            <!-- Modal body -->
-                            <div class="modal-body">
-                                <form class="frm" action="addTodos.php" method="POST">
-                                    <input type="text" name="id" placeholder="Task type" required>
-                                    <br><br>
-                                    <input type="text" name="task" placeholder="task" required><br><br>
-                                    <input type="date" name="date" placeholder="date" required><br><br>
-                                    <button type="submit" class="btn addbtn">submit</button>
-                                </form>
-                            </div>
-                            <!-- Modal footer -->
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-danger exit" data-dismiss="modal">Close</button>
-                            </div>
-
                         </div>
-                    </div>
-                </div>
-
-
-                <div class="row no-gutters done_row">
-                    <?php
-                    $sql = "SELECT * FROM finished;";
-                    $result = mysqli_query($conn, $sql);
-                    $check = mysqli_num_rows($result);
-
-                    if ($result) {
-                        while ($row = mysqli_fetch_assoc($result)) {
-                    ?>
-                            <div class="col-sm-12 col-md-4" data-aos="fade-up" id="<?php print $row['id']; ?>">
-                                <div class="done_item">
-                                    <p class="type2"><?php print $row['id']; ?> <span class="material-icons yah">done</span></p>
-                                    <p class="task2"><?php print $row['task']; ?></p>
-                                    <p class="dat"><?php print $row['date']; ?></p>
-                                </div>
-                            </div>
-                        <?php } ?>
                     <?php } ?>
-                </div>
+                <?php } ?>
+
             </div>
         </div>
+
+
+
+
+
+        <div class="col-sm-12 col-lg-6 ">
+            <div class="column_2">
+                <h4>Done Tasks <span class="material-icons yah2" data-toggle="modal" data-target="#myModal">beenhere </span> </h4>
+            </div>
+
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <br>
+                        <div class="mdh modal-header">
+                            <h4 class="modal-title">Adding tasks</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form class="frm" action="addTodos.php" method="POST">
+                                <input type="text" name="id" placeholder="Task type" required>
+                                <br><br>
+                                <input type="text" name="task" placeholder="task" required><br><br>
+                                <input type="date" name="date" placeholder="date" required><br><br>
+                                <button type="submit" class="btn addbtn">submit</button>
+                            </form>
+                        </div>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger exit" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row no-gutters done_row">
+                <?php
+                $sql = "SELECT * FROM finished;";
+                $result = mysqli_query($conn, $sql);
+                $check = mysqli_num_rows($result);
+
+                if ($result) {
+                    while ($row = mysqli_fetch_assoc($result)) {
+                ?>
+                        <div class="col-sm-12 col-md-4" data-aos="fade-up" id="<?php print $row['id']; ?>">
+                            <div class="done_item">
+                                <p class="type2"><?php print $row['id']; ?> <a href="database.php?taskdone=<?php print $row['id'] ?>">
+                                        <span class="tdicon material-icons">done</span>
+                                    </a> </p>
+                                <p class="task2"><?php print $row['task']; ?></p>
+                                <p class="dat"><?php print $row['date']; ?></p>
+                            </div>
+                        </div>
+                    <?php } ?>
+                <?php } ?>
+            </div>
+        </div>
+    </div>
     </div>
     <script src="vanilla.js"></script>
     <script>

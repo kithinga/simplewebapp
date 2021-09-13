@@ -8,6 +8,7 @@
 .all-slots {
     background-image: linear-gradient(rgb(20, 7, 41), rgb(0, 0, 0));
     min-height: 100vh;
+
   }
 .sec-one{
     min-height: 10rem;

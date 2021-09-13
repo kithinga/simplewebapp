@@ -5,6 +5,7 @@ include 'header.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -80,7 +81,8 @@ include 'header.php';
             ?>
                     <div class="w-30 col-lg-3 col-md-4 col-sm-6 col-xs-12 " data-aos="fade-up" id="<?php print $row['id']; ?>">
                         <div class="card " contenteditable="truename">
-                            <div class="dropdown">
+                           
+                        <div class="dropdown">
                                 <span class="material-icons md-24 spa">more_vert</span>
                                 <div class="dropdown-content">
                                     <p>Editin</p>
@@ -92,12 +94,14 @@ include 'header.php';
                                     </a>
                                 </div>
                             </div>
+
                             <div class="texter">
                                 <p class="id" data-toggle="tooltip" data-placement="top" title="identifier"><?php print $row['id']; ?></p>
                                 <p class="date">Added on <?php print $row['date']; ?></p>
                                 <p class="six"><?php print $row['about']; ?></p>
                                 <p class="details"><?php print $row['details']; ?></p>
                             </div>
+
                             <div class="action-sec">
                                 <ul>
                                     <li><span class="material-icons">
@@ -111,6 +115,7 @@ include 'header.php';
                                         </span></li>
                                 </ul>
                             </div>
+
                         </div>
                     </div>
                 <?php } ?>
@@ -125,4 +130,5 @@ include 'header.php';
 <?php
 include 'footer.php';
 ?>
+
 </html>
