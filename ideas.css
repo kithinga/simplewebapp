@@ -71,6 +71,10 @@ a {
     background-color: rgb(41, 7, 73);
 }
 
+
+
+
+
 .frm input {
   padding-left: 2rem;
   margin-left: 2rem;
@@ -79,22 +83,6 @@ a {
   border: solid 1px rgb(199, 195, 195);
 }
 
-.delbtn {
-  height: 3.2rem;
-  width: 10rem;
-  color: rgb(3, 96, 124);
-  border-radius: 3px;
-  border: solid 3px rgb(197, 197, 199);
-  margin-top: 3rem;
-  background-color:transparent;
-}
-.deldiv {
-  background-color: rgb(241, 241, 241);
-  margin: 0.5rem;
-  color: #0e83a7;
-  padding: 2rem;
-  border: solid 0.5px rgb(238, 234, 234);
-}
 .txarea {
   padding: 0.5rem;
   margin-left: 2rem;
@@ -167,10 +155,36 @@ a {
   display: inline-block;
   /* transition:1s; */
 }
-.dropdown p:hover {
-  color: #0e83a7;
-  font-weight: 500;
+
+
+.btn-delete{
+  border-radius: 30rem;
+  border: solid 1px rgb(236, 104, 104);
+  padding: 3px;
+  width:6rem;
+  
 }
+.btn-edit{
+  border-radius: 30rem;
+  border: solid 1px rgb(66, 129, 145);
+  padding: 3px;
+  width:6rem;
+}
+
+
+.btn-delete:hover {
+  color: #977365;
+  border: 1px solid rgb(201, 191, 191);
+  box-shadow: 0px 2px 6px 0px rgba(197, 201, 204, 0.692);
+}
+
+.btn-edit:hover {
+  border: solid 1px rgb(196, 208, 212);
+  color: rgb(99, 150, 163);
+  box-shadow: 0px 2px 6px 0px rgba(197, 201, 204, 0.692);
+}
+
+
 .spa {
   margin-left: 8rem;
 }
@@ -179,7 +193,7 @@ a {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 10em;
+  min-width: 8em;
   font-weight: 400;
   border: solid 1px rgb(236, 236, 236);
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);

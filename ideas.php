@@ -85,11 +85,12 @@ if ($result) {
                         <div class="dropdown">
                                 <span class="material-icons md-24 spa">more_vert</span>
                                 <div class="dropdown-content">
-                                    <p>  <a href="database.php?edit=<?php print $row['id']?>" class="btn-edit">
+                                    <p class="btn-edit">  <a href="database.php?edit=<?php print $row['id']?>" >
                                         Edit
                                          </a>
                                     </p>
-                                   <p> <a href="database.php?delete=<?php print $row['id']?>" class="btn-delete">
+                                    <hr>
+                                   <p  class="btn-delete"> <a href="database.php?delete=<?php print $row['id']?>">
                                         Delete
                                        </a>
                                    </p>
@@ -101,20 +102,6 @@ if ($result) {
                                 <p class="date">Added on <?php print $row['date'];?></p>
                                 <p class="six"><?php print $row['about'];?></p>
                                 <p class="details"><?php print $row['details'];?></p>
-                            </div>
-
-                            <div class="action-sec">
-                                <ul>
-                                    <li><span class="material-icons">
-                                            archive
-                                        </span></li>
-                                    <li><span class="material-icons edit-btn">
-                                            edit
-                                        </span></li>
-                                    <li><span class="material-icons">
-                                            delete_outline
-                                        </span></li>
-                                </ul>
                             </div>
 
                         </div>
