@@ -72,34 +72,35 @@ include 'header.php';
         <!-- cards for all ideas  -->
         <div class="row no-gutters">
             <?php
-            $sql = "SELECT * FROM design;";
-            $result = mysqli_query($conn, $sql);
-            $check = mysqli_num_rows($result);
+$sql = "SELECT * FROM design;";
+$result = mysqli_query($conn, $sql);
+$check = mysqli_num_rows($result);
 
-            if ($result) {
-                while ($row = mysqli_fetch_assoc($result)) {
-            ?>
-                    <div class="w-30 col-lg-3 col-md-4 col-sm-6 col-xs-12 " data-aos="fade-up" id="<?php print $row['id']; ?>">
+if ($result) {
+    while ($row = mysqli_fetch_assoc($result)) {
+        ?>
+                    <div class="w-30 col-lg-3 col-md-4 col-sm-6 col-xs-12 " data-aos="fade-up" id="<?php print $row['id'];?>">
                         <div class="card " contenteditable="truename">
-                           
+
                         <div class="dropdown">
                                 <span class="material-icons md-24 spa">more_vert</span>
                                 <div class="dropdown-content">
-                                    <p>Editin</p>
-                                    <a href="database.php?edit=<?php print $row['id'] ?>" class="btn btn-info">
+                                    <p>  <a href="database.php?edit=<?php print $row['id']?>" class="btn-edit">
                                         Edit
-                                    </a>
-                                    <a href="database.php?delete=<?php print $row['id'] ?>" class="btn btn-danger">
+                                         </a>
+                                    </p>
+                                   <p> <a href="database.php?delete=<?php print $row['id']?>" class="btn-delete">
                                         Delete
-                                    </a>
+                                       </a>
+                                   </p>
                                 </div>
                             </div>
 
                             <div class="texter">
-                                <p class="id" data-toggle="tooltip" data-placement="top" title="identifier"><?php print $row['id']; ?></p>
-                                <p class="date">Added on <?php print $row['date']; ?></p>
-                                <p class="six"><?php print $row['about']; ?></p>
-                                <p class="details"><?php print $row['details']; ?></p>
+                                <p class="id" data-toggle="tooltip" data-placement="top" title="identifier"><?php print $row['id'];?></p>
+                                <p class="date">Added on <?php print $row['date'];?></p>
+                                <p class="six"><?php print $row['about'];?></p>
+                                <p class="details"><?php print $row['details'];?></p>
                             </div>
 
                             <div class="action-sec">
@@ -118,8 +119,8 @@ include 'header.php';
 
                         </div>
                     </div>
-                <?php } ?>
-            <?php } ?>
+                <?php }?>
+            <?php }?>
         </div>
     </div>
     <script src="vanilla.js"></script>
