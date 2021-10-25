@@ -16,6 +16,14 @@ boy.click(function(){
 
 
 
+// // hovering pigment to display delete button
+// var idele = $('.idele');
+// var pigment =$('.pigment');
+
+// pigment.hover(function(){
+//   idele.css("display","block");
+// })
+
 
 
 
@@ -51,10 +59,10 @@ var centre=$(".centre-image");
 var pigment=$(".pigment");
 
 
-pigment.click(function(){
-  centre.css("display","block");
+// pigment.click(function(){
+//   centre.css("display","block");
   
-})
+// })
 
 
 var press = $(".press");

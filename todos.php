@@ -2,7 +2,6 @@
 include 'database.php';
 include 'links.php';
 include 'header.php';
-
 ?>
 
 <!DOCTYPE html>
@@ -31,7 +30,6 @@ include 'header.php';
             <div class="column_1">
                 <h4>Tasks Todo <span class="material-icons yah1" data-toggle="modal" data-target="#myModal">add</span></h4>
             </div>
-
             <!-- The Modal -->
             <div class="modal fade" id="myModal">
                 <div class="modal-dialog">
@@ -75,7 +73,7 @@ include 'header.php';
                         <div class="col-sm-12 col-md-4" data-aos="fade-up" id="<?php print $row['id']; ?>">
                             <div class="todo_item">
                                 <a href="database.php?taskdelete=<?php print $row['id'] ?>">
-                                    <span class="tdicon material-icons">delete</span>
+                                    <span class=" material-icons">delete</span>
                                 </a>
                                 <a href="database.php?taskpush=<?php print $row['id'] ?>">
                                     <span class=" material-icons">move_to_inbox</span>

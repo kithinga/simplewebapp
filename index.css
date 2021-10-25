@@ -10,12 +10,17 @@
     min-height: 100vh;
 
   }
+  .all-slots h4 {
+      font-size: 0.5em;
+      letter-spacing:2px;
+      font-weight:700;
+  }
 .sec-one{
     min-height: 10rem;
     text-align: center;
     font-size:2rem;
     font-weight: 500;
-    color:rgb(189, 164, 192);
+    color:rgb(159, 124, 163);
     cursor: pointer;
 }
 
@@ -25,7 +30,7 @@
     margin:1rem;
     color:rgb(175, 170, 170);
     /* background-image: linear-gradient(to right, rgb(39, 3, 48), rgb(20, 1, 20)); */
-    background-image: linear-gradient(rgb(45, 39, 54), rgb(70, 53, 77));
+    background-image: linear-gradient(rgb(78, 68, 94), rgb(109, 83, 119));
 }
 .idea-items:hover{
     background-image: linear-gradient(rgb(60, 52, 71), rgb(66, 53, 71));
@@ -36,7 +41,7 @@
     padding-bottom:1rem;
 }
 .sketches-items{
-    background-image: linear-gradient(to right, rgb(43, 26, 43) , rgb(36, 23, 36));
+    background-image: linear-gradient(to right, rgb(65, 41, 65) , rgb(65, 43, 65));
     min-height: 9rem;
     border-radius: 4px;
     margin:1rem;
@@ -54,7 +59,7 @@
 
 .task-items{
     /* background-color: rgb(25, 51, 51); */
-    background-image: linear-gradient(to right, rgb(20, 37, 37) , rgb(18, 36, 36));
+    background-image: linear-gradient(to right, rgb(32, 58, 58) , rgb(28, 54, 54));
     min-height: 17rem;
     border-radius: 3px;
     margin:1rem;
@@ -69,7 +74,7 @@
     border-radius: 3px;
     margin:1rem;
     color: rgb(185, 174, 174);
-    background-image: linear-gradient(rgb(31, 40, 51), rgb(36, 45, 54));
+    background-image: linear-gradient(rgb(44, 56, 71), rgb(50, 61, 73));
 }
 .artkit-items{
     background-color: rgb(34, 27, 58);

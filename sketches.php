@@ -14,8 +14,8 @@ include "header.php";
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row addimage no-gutters">
+  <div class="adders container-fluid">
+    <div class="row no-gutters">
       <!--add button-->
       <button class="imgbtn" data-toggle="modal" data-target="#myModal">
         <span class="add-art material-icons">
@@ -56,48 +56,33 @@ include "header.php";
     </div>
     <div class="basal row no-gutters sketches">
       <?php
-      $sql = "SELECT * FROM art;";
-      $result = mysqli_query($conn, $sql);
-      $check = mysqli_num_rows($result);
+$sql = "SELECT * FROM art;";
+$result = mysqli_query($conn, $sql);
+$check = mysqli_num_rows($result);
 
-      if ($result) {
-        while ($row = mysqli_fetch_assoc($result)) {
-      ?>
-          <div class="basal col-md-4 col-sm-12 col-xs-12  " data-aos="fade-up" id="<?php print $row['id']; ?>">
+if ($result) {
+    while ($row = mysqli_fetch_assoc($result)) {
+        ?>
+          <div class="basal col-md-4 col-sm-12 col-xs-12  " data-aos="fade-up" id="<?php print $row['id'];?>">
             <div class="pigment ">
-              <img class="artimg img-fluid" src="images/<?php print $row['image']; ?>" alt="">
+            <a href="database.php?imgdelete=<?php print $row['id']?>">
+                                    <span class="idele material-icons">delete</span>
+                                </a>
+              <img class="artimg img-fluid" src="images/<?php print $row['image'];?>" alt="">
             </div>
           </div>
-        <?php } ?>
-      <?php } ?>
+        <?php }?>
+      <?php }?>
     </div>
   </div>
-
-
-
-
-  <!--Image modal location -->
-  <div class="centre-image ">
-    <div class="card-content ">
-      <div class="image-self">
-        <img src="images/Moko .jpg" class="img-fluid" alt="">
-      </div>
-      <div class="image-details">
-        <p class="p1"> Image boy here</p>
-        <p class="p2">Lorem ipsum dolor sit amet yeah and more for more.</p>
-        <span class="close">&times;</span>
-      </div>
-    </div>
-  </div>
-
 
   <script src="vanilla.js"></script>
   <script>
     AOS.init();
   </script>
   <?php
-  include 'footer.php';
-  ?>
+include 'footer.php';
+?>
 </body>
 
 </html>

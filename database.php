@@ -26,18 +26,41 @@
     $_SESSION['message'] = "Hello user, the task has been deleted";
     header("Location: http://localhost/Vanilla/todos.php",true, 301);
   }
+
+
+  // delete an image from the Sketches
+  if(isset($_GET['imgdelete'])){
+    $id = $_GET['imgdelete'];
+    $query = "DELETE FROM art WHERE id='$id';";
+    mysqli_query($conn, $query);
+    $_SESSION['message'] = "Hello user, the task has been deleted";
+    header("Location: http://localhost/Vanilla/sketches.php",true, 301);
+  }
  
 
+
   // push a task to finished tasks already
-  // if(isset($_GET['taskpush'])){
-  //   $id = $_GET['taskpush'];
-  //   $query = "INSERT INTO finished WHERE id='$id';";
-  //   mysqli_query($conn, $query);
-  //   header("Location: http://localhost/Vanilla/todos.php",true, 301);
-  // }
+  if(isset($_GET['taskpush'])){
+    $id = $_GET['taskpush'];
+    // $stat = "SELECT FROM todos where id = '$id';";
+    // $query = "INSERT INTO finished (SELECT FROM todos where id = '$id')";
+    $query = "INSERT INTO finished ( 
+      id, 
+      task, 
+      date, 
+      status ) 
+SELECT magazine_subscription_id, 
+       subscription_name, 
+       magazine_id, 
+       '1'
+FROM tbl_magazine_subscription
+ORDER BY magazine_subscription_id ASC
+    mysqli_query($conn, $query)";
+    header("Location: http://localhost/Vanilla/todos.php",true, 301);
+  }
 
 
-  // delete all done tasks form the todos
+  // delete all done tasks from the todos
   if(isset($_GET['taskdone'])){
     $id = $_GET['taskdone'];
     $query = "DELETE FROM finished WHERE id='$id';";
