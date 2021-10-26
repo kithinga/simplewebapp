@@ -7,7 +7,6 @@
           $sql = "INSERT INTO todos(id,task,date)VALUES('$id','$task','$date');";
           mysqli_query($conn, $sql);
          
-          
     ?>
 
      <script>
