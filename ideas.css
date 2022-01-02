@@ -21,19 +21,7 @@ a {
   width: 20px;
 }
 
-@media (max-width: 797px) {
-  body {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .container-fluid {
-    margin: 0;
-    padding: 0;
-  }
-  .search {
-    display: none;
-  }
-}
+
 
 .add {
   background-color: rgb(6, 71, 77);
@@ -42,10 +30,13 @@ a {
 }
 
 .idea-head{
-    font-weight: 900;
-    font-size: 2rem;
-    letter-spacing:-1px;
+  font-family: Poppins;
+  font-weight: 600;
+  letter-spacing:-0.5;
+  font-size: 1.6rem;
+  color: #707474;
 }
+
 /*btn for submitting ide*/
 .addbtn {
   height: 3.5rem;
@@ -55,24 +46,21 @@ a {
   border: solid 3px rgb(238, 240, 241);
   margin-top: 1rem;
 }
-.adder{
-  border:1px solid rgb(55, 61, 95);
-  border-radius: 0.5rem;
+/* .adder{
+  border:1px solid rgb(196, 199, 214);
+  border-radius: 3rem;
   padding: 0.5rem;
-}
+} */
 /*btn for adding idea*/
-.ideabtn {
-  border: none;
+.ideabtn {  
+  border: 1px solid rgb(255, 255, 255);
   font-weight: 500;
-  height: 3rem;
-  width: 15rem;
-  color: rgb(221, 212, 231);
-  border-radius: 3px;
-    background-color: rgb(41, 7, 73);
+  height: 3.2rem;
+  width: 12rem;
+  color: rgb(59, 52, 66);
+  border-radius: 1px;
+  background-color: rgb(234, 233, 236);
 }
-
-
-
 
 
 .frm input {
@@ -100,18 +88,19 @@ a {
 
 } */
 .categ {
-  padding-top: 1rem;
+  padding-top: 1.8rem;
   height: 5rem;
-  color: rgb(196, 187, 204);
+  color: rgb(141, 144, 145);
   text-align: center;
-  background-image: linear-gradient( rgb(35, 3, 75),rgb(35, 3, 75));
+  background-color:rgb(255, 255, 255)
 }
 .categ p {
-  font-size: 1.2em;
-  font-weight: 400;
+  font-size: 0.8em;
+  font-weight: 300;
   margin-left: 0.5rem;
+  font-family: Poppins;
   letter-spacing: 1px;
-  border-bottom: solid 1.5px rgb(233, 238, 238);
+  border-bottom: solid 1.5px rgb(225, 230, 235);
   padding-bottom: 10px;
 }
 
@@ -158,17 +147,28 @@ a {
 
 
 .btn-delete{
-  border-radius: 30rem;
-  border: solid 1px rgb(236, 104, 104);
-  padding: 3px;
-  width:6rem;
+  border-radius:2.5px;
+  border:none;
+  padding: 3.3px;
+  font-size: 0.6rem;
+  width:8rem;
+  height:3rem;
+  font-weight: 500;
+  background-color:rgb(212, 175, 154);
+  color: white;
   
 }
+
 .btn-edit{
-  border-radius: 30rem;
-  border: solid 1px rgb(66, 129, 145);
-  padding: 3px;
-  width:6rem;
+  color:white;
+  border-radius:1.3px;
+  border:none;
+  padding: 8px;
+  font-size: 0.5rem;
+  width:8rem;
+  height:3rem;
+  font-weight: 400;
+  background-color: #f5f3f7;
 }
 
 
@@ -184,7 +184,6 @@ a {
   box-shadow: 0px 2px 6px 0px rgba(197, 201, 204, 0.692);
 }
 
-
 .spa {
   margin-left: 8rem;
 }
@@ -194,9 +193,8 @@ a {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 8em;
-  font-weight: 400;
   border: solid 1px rgb(236, 236, 236);
-  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 4px 0px rgba(184, 191, 196, 0.2);
   padding: 1em;
   color: rgb(61, 61, 61);
   transition-duration: 0.5s;
@@ -210,10 +208,10 @@ a {
 }
 
 .details {
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 400;
-  word-spacing: 2px;
-  color: rgb(107, 107, 110);
+  word-spacing: 0.6px;
+  color: rgb(132, 132, 134);
 }
 
 .id {
@@ -223,15 +221,18 @@ a {
   padding-left: 1rem;
   color: rgb(22, 132, 165);
 }
+
 .card h5::first-letter {
   text-transform: uppercase;
 }
+
 .six {
   font-weight: 400;
   margin-top: 5px;
   color: rgb(32, 34, 32);
   font-size: 0.7rem;
 }
+
 .six::first-letter {
   text-transform: uppercase;
 }
@@ -255,6 +256,7 @@ a {
   color: #959ca0;
   display: none;
 }
+
 .action-sec ul li{
   display:inline-flex;
   text-decoration: none;

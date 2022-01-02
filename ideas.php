@@ -19,15 +19,13 @@ include 'header.php';
         <!-- div for page title and adding idea button -->
         <div class="row categ no-gutters">
             <div class="col-lg-6">
-                <div class="wording"><span class="idea-head">Viewing all ideas</span></div>
+                <div class="wording"><span class="idea-head">View listed ideas</span></div>
             </div>
             <div class="col-lg-6">
                 <div class="add-idea">
                     <!--add button-->
                     <button type="button" class="ideabtn" data-toggle="modal" data-target="#myModal">
-                        <span class="material-icons adder">
-                            add arrow_drop_down
-                        </span>
+                          add idea
                     </button>
                 </div>
             </div>
@@ -85,11 +83,11 @@ if ($result) {
                         <div class="dropdown">
                                 <span class="material-icons md-24 spa">more_vert</span>
                                 <div class="dropdown-content">
-                                    <p class="btn-edit">  <a href="database.php?edit=<?php print $row['id']?>" >
-                                        Edit
+                                    <p class="btn-edit"><a href="database.php?edit=<?php print $row['id']?>" >
+                                          Edit
                                          </a>
                                     </p>
-                                    <hr>
+                                    
                                    <p  class="btn-delete"> <a href="database.php?delete=<?php print $row['id']?>">
                                         Delete
                                        </a>

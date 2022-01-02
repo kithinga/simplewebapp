@@ -19,7 +19,7 @@ include "header.php";
       <!--add button-->
       <button class="imgbtn" data-toggle="modal" data-target="#myModal">
         <span class="add-art material-icons">
-          add
+          <h4>Add</h4>
         </span>
       </button>
       <!-- The Modal -->

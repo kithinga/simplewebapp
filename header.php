@@ -15,12 +15,12 @@ session_start();
 <body>
   <div class="container-fluid ">
     <div class="head row no-gutters myhead">
-      <div class="col-lg-3">
+      <div class="col-lg-2">
            <div class="home"><a href="index.php">
           <p><span class="inov material-icons md-24">home</span></p>
         </a></div>
       </div>
-      <div class="col-lg-7">
+      <div class="col-lg-8">
         <div class="name">Manage all activities</div>
       </div>
       <div class="col-lg-2">

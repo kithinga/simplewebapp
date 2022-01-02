@@ -30,26 +30,26 @@
 .sites{
     border: none;
     padding:0.5rem;
-    background-color: rgb(229, 230, 231);
+    /* background-color: rgb(229, 230, 231); */
 }
 
 .segment{
     /* this height can be changed or done better dont make it fixed cause some div smay be bigger */
     height: 13rem;
     /* background: linear-gradient(45deg, rgb(173, 198, 206), rgb(17, 79, 114)); */
-    color: rgb(12, 111, 156);
+    color: rgb(108, 121, 128);
     border-radius:0.4rem;
-    border: 1.3px solid  rgb(217, 228, 230);
-    margin: 0.5rem; 
+    border: 1.3px solid  rgb(247, 248, 248);
+    margin: 1.5rem; 
     padding: 1.7rem ;
     transition-duration: 0.3s;
-    background-color: white;
+    background-color: rgb(248, 252, 252);
 
 }
 .segment:hover{
     background-color:white;
     cursor: pointer;
-    box-shadow: 1px 1px 5px  rgb(194, 188, 188);
+    box-shadow: 0 1px 1px -5px  rgb(194, 188, 188);
     /* transform: rotate(0.5deg); */
     transform: scale(1.02);
 }
@@ -57,9 +57,9 @@
     text-transform: uppercase;
 }
 .segment h6{
- color:rgb(51, 52, 53);
+ color:rgb(97, 105, 116);
  font-weight: 500;
- 
+    
 }
 .hd{
     font-size: 1.3em;

@@ -13,33 +13,34 @@ include 'links.php';
 
 <body class="colors">
     <?php
-    include 'header.php';
-    ?>
+include 'header.php';
+?>
     <div class="container-fluid colour-slots">
         <div class="ciana row no-gutters">
-            <div class="lipin col-lg-3 col-sm-12 col-xs-12" data-aos="fade-down">
-                <h1>Light to pink</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    nesciunt dolorem molestias laudantium ipsum consectetur.</p>
+            <div class="col-lg-3 col-sm-12 col-xs-12" data-aos="fade-down">
+              <div class="cl lipin">1</div>
             </div>
-            <div class="pinli  col-lg-3 col-sm-12 col-xs-12" data-aos="fade-up">
-                <h6>Pink to light</h6>
-                <h2>I been cutting all the snakes cutting all the loses</h2>
-                <p>Lorem ipsum dolor sit brand new ciggarates.</p>
+            <div class=" col-lg-3 col-sm-12 col-xs-12" data-aos="fade-up">
+              <div class="cl pinli">2</div>
             </div>
-            <div class="yelli  col-lg-3 col-sm-12 col-xs-12" data-aos="fade-up">
-                <h6>Pink to light</h6>
-                <h2>I been cutting all the snakes cutting all the loses</h2>
-                <p>Lorem ipsum dolor sit brand new ciggarates.</p>
+            <div class=" col-lg-3 col-sm-12 col-xs-12" data-aos="fade-up">
+              <div class="cl yelli">3</div>
             </div>
-
-            <div class="lopo">
-                <h1 contentEditable="true">Your Name</h1>
-                <div contentEditable="true">You Favorite Movie</div>
-                <p contentEditable="true">Your Comment</p>
-                <p><strong>Note:</strong> Click on the elements and type some text.</p>
+            <div class="col-lg-3 ">
+              <div class="cl lopo">4</div>
             </div>
-
+            <div class="col-lg-3 col-sm-12 col-xs-12" data-aos="fade-down">
+              <div class="cl e">1</div>
+            </div>
+            <div class=" col-lg-3 col-sm-12 col-xs-12" data-aos="fade-up">
+              <div class="cl f">2</div>
+            </div>
+            <div class=" col-lg-3 col-sm-12 col-xs-12" data-aos="fade-up">
+              <div class="cl g">3</div>
+            </div>
+            <div class="col-lg-3 ">
+              <div class="cl h">4</div>
+            </div>
         </div>
     </div>
     <script src="vanilla.js"></script>

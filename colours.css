@@ -1,3 +1,35 @@
 .colour-slots{
     min-height: 100vh;
 }
+.cl{
+margin:1.5rem;
+min-height:15rem;
+border: solid grey 1px;
+padding:2rem;
+border-radius:0.51rem;
+box-shadow: 0 0 1px rgba(163, 163, 165, 0);
+}
+.lipin{
+    background-color: brown;
+}
+.pinli{
+    background-color:rgb(8, 69, 119);
+}
+.yelli{
+    background-color:rgb(173, 173, 9);
+}
+.lopo{
+    background-color: rgb(39, 6, 66);
+}
+.e{
+    background-color: rgb(236, 20, 128);
+}
+.f{
+    background-color:rgb(88, 65, 170);
+}
+.g{
+    background-color:rgb(218, 155, 40);
+}
+.h{
+    background-color: rgb(39, 90, 156);
+}
