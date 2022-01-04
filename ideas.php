@@ -19,7 +19,13 @@ include 'header.php';
         <!-- div for page title and adding idea button -->
         <div class="row categ no-gutters">
             <div class="col-lg-6">
-                <div class="wording"><span class="idea-head">View listed ideas</span></div>
+                
+                   <!-- including the navbar -->
+                   <?php
+                    include './navbar.php';
+                   ?>
+
+                <!-- <div class="wording"><span class="idea-head">View listed ideas</span></div> -->
             </div>
             <div class="col-lg-6">
                 <div class="add-idea">

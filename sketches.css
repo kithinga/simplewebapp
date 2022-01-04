@@ -8,8 +8,8 @@
     min-height: 12rem;
     border: none;
     position: relative;
-    margin: 1rem;
-    border-radius: 2.2px;
+    margin: 0.8rem;
+    border-radius: 1px;
   }
 
 
@@ -28,15 +28,27 @@
 .imgbtn{
     outline: none;
     color:rgb(4, 87, 87);
+    font-size: 1rem;
     background-color:white;
     margin: 1rem;
-    width:12rem;
+    width:9rem;
     height:3.5rem;
-    border-radius:2rem;
-    font-weight: 500;
-    border: none;
+    border-radius:3rem;
+    font-weight: 400;
+    border: rgb(214, 218, 221) solid 1px;
     padding-bottom:5px;
 }
+
+.imgbtn:hover{
+    background-color:rgb(69, 101, 116);
+    color:white;
+    
+}
+
+
+
+
+
 .add-art{
     padding: 0.5rem;
     font-weight: bold;

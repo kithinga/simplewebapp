@@ -1,0 +1,26 @@
+
+.items{
+    background-color:rgb(255, 255, 255);
+    border: solid 0.5px rgb(240, 237, 237);
+    border-radius:2px;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color:rgb(78, 82, 85);
+    padding:1rem;
+    font-size: 0.7rem;
+    font-weight:500;
+}
+.btni{
+    background-color:rgb(229, 235, 236);
+    border: none;
+}
+.btni:hover{
+    background-color:rgb(16, 147, 180);
+    color: rgb(223, 221, 221);
+}
+li:hover{
+    color: rgb(255, 255, 255);
+}

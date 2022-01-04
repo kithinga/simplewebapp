@@ -19,9 +19,14 @@ include "header.php";
       <!--add button-->
       <button class="imgbtn" data-toggle="modal" data-target="#myModal">
         <span class="add-art material-icons">
-          <h4>Add</h4>
+          add image
         </span>
       </button>
+          <!-- including the navbar -->
+          <?php
+                    include './navbar.php';
+                   ?>
+
       <!-- The Modal -->
       <div class="modal fade" id="myModal">
         <div class="modal-dialog">

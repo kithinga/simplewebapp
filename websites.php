@@ -15,30 +15,38 @@ include 'links.php';
 
 <body>
     <?php
-    include 'header.php';
-    ?>
+include 'header.php';
+?>
     <div class="sites container-fluid">
         <div class="row rowsite no-gutters">
-            <div class="col-sm-12">
-                <button class="addsite" data-toggle="modal" data-target="#myModal">Addsite</button>
+            <div class="col-lg-12">
+                  <div>
+                  <p>
+            <button class="addsite" data-toggle="modal" data-target="#myModal">Addsite</button>
+            <!-- include the navbar -->
+            <?php include './navbar.php';?>
+            </p>
+                  </div>
+
             </div>
+
         </div>
         <div class="row no-gutters">
 
             <?php
-            $sql = "SELECT * FROM websites;";
-            $result = mysqli_query($conn, $sql);
-            $check = mysqli_num_rows($result);
+$sql = "SELECT * FROM websites;";
+$result = mysqli_query($conn, $sql);
+$check = mysqli_num_rows($result);
 
-            if ($result) {
-                while ($row = mysqli_fetch_assoc($result)) {
-            ?>
-                    <div class=" col-sm-12 col-md-3 col-lg-3 " data-aos="fade-up" id="<?php print $row['site']; ?>">
+if ($result) {
+    while ($row = mysqli_fetch_assoc($result)) {
+        ?>
+                    <div class=" col-sm-12 col-md-3 col-lg-3 " data-aos="fade-up" id="<?php print $row['site'];?>">
 
                         <div class="segment">
-                            <h6 class="hd"> <?php print $row['site']; ?></h6>
-                            <p class="mid"> <?php print $row['about']; ?></p>
-                            <a href="<?php print $row['link']; ?>" target="_blank">
+                            <h6 class="hd"> <?php print $row['site'];?></h6>
+                            <p class="mid"> <?php print $row['about'];?></p>
+                            <a href="<?php print $row['link'];?>" target="_blank">
                                 <p class="link">view site <span class="look"><span class="material-icons">
                                             chevron_right
                                         </span></span></p>
@@ -46,8 +54,8 @@ include 'links.php';
                         </div>
 
                     </div>
-                <?php } ?>
-            <?php } ?>
+                <?php }?>
+            <?php }?>
 
         </div>
 
@@ -85,8 +93,8 @@ include 'links.php';
         </div>
 
         <?php
-        include 'footer.php';
-        ?>
+include 'footer.php';
+?>
 </body>
 
 </html>

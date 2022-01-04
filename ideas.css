@@ -73,7 +73,7 @@ a {
 } */
 .categ {
   padding-top: 1.8rem;
-  height: 5rem;
+  min-height:4rem;
   color: rgb(141, 144, 145);
   text-align: center;
   background-color:rgb(255, 255, 255);
@@ -104,7 +104,7 @@ a {
   position: relative;
   cursor: pointer;
   border-radius:2.2px;
-  margin: 1rem;
+  margin: 1.101rem;
   padding: 0.70rem;
   min-height: 10rem;
   border: solid 0.65px rgb(231, 236, 236);
