@@ -12,8 +12,14 @@ console.log(last + " " + 'has been removed from the end of the list');
 var first = fruits.shift();
 console.log(first + " " + 'has been removed from the end of the list');
        
-   
 
+var txarea = document.createElementbyclassName("txarea");
+var heightLimit = 200; /* Maximum height: 200px */
+
+txarea.oninput = function() {
+  textarea.style.height = ""; /* Reset the height*/
+  txarea.style.height = Math.min(txarea.scrollHeight, heightLimit) + "px";
+};
 
 
 

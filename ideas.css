@@ -1,6 +1,11 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Poppins;
+}
+.modal{
+  padding: 0;
+  margin: 0;
 }
 button:focus {
   outline: none !important;
@@ -37,15 +42,7 @@ a {
   color: #707474;
 }
 
-/*btn for submitting ide*/
-.addbtn {
-  height: 3.5rem;
-  width: 10rem;
-  color: rgb(3, 96, 124);
-  border-radius: 3px;
-  border: solid 3px rgb(238, 240, 241);
-  margin-top: 1rem;
-}
+
 /* .adder{
   border:1px solid rgb(196, 199, 214);
   border-radius: 3rem;
@@ -59,23 +56,10 @@ a {
   width: 12rem;
   color: rgb(59, 52, 66);
   border-radius: 1px;
-  background-color: rgb(234, 233, 236);
+  background-color: rgb(240, 240, 247);
 }
 
 
-.frm input {
-  padding-left: 2rem;
-  margin-left: 2rem;
-  height: 2.8rem;
-  border-radius: 3px;
-  border: solid 1px rgb(199, 195, 195);
-}
-
-.txarea {
-  padding: 0.5rem;
-  margin-left: 2rem;
-  border: solid 1px grey;
-}
 .delinput {
   padding-left: 2rem;
   height: 3rem;
@@ -92,11 +76,12 @@ a {
   height: 5rem;
   color: rgb(141, 144, 145);
   text-align: center;
-  background-color:rgb(255, 255, 255)
+  background-color:rgb(255, 255, 255);
+  margin-bottom:1.1rem;
 }
 .categ p {
   font-size: 0.8em;
-  font-weight: 300;
+  font-weight: 200;
   margin-left: 0.5rem;
   font-family: Poppins;
   letter-spacing: 1px;
@@ -104,11 +89,6 @@ a {
   padding-bottom: 10px;
 }
 
-.exit {
-  border-radius: 30rem !important;
-  padding: 0.5rem;
-  width: 7rem;
-}
 .ima {
   height: 16rem;
   width: 100%;
@@ -123,17 +103,18 @@ a {
 .card {
   position: relative;
   cursor: pointer;
-  border-radius: 0.3rem;
+  border-radius:2.2px;
   margin: 1rem;
-  padding: 0.6rem;
+  padding: 0.70rem;
   min-height: 10rem;
-  border: solid 0.5px rgb(236, 241, 241);
+  border: solid 0.65px rgb(231, 236, 236);
   transition-duration: 0.5s;
-  /* box-shadow: 1px 1px 7px 2px #f0f5f5; */
+  background-color:rgb(255, 255, 255);
 }
+
 .card:hover {
   transform: scale(1.03);
-  box-shadow: 1px 1px 7px 2px #dee6e6;
+  box-shadow: 1px 1px 6px 2px #fafafa;
 }
 
 /*drop down section here*/
@@ -147,15 +128,17 @@ a {
 
 
 .btn-delete{
-  border-radius:2.5px;
+  color:white;
+  border-radius:1.3px;
   border:none;
-  padding: 3.3px;
-  font-size: 0.6rem;
-  width:8rem;
-  height:3rem;
-  font-weight: 500;
-  background-color:rgb(212, 175, 154);
-  color: white;
+  padding: 8px;
+  font-size: 0.5rem;
+  width:7rem;
+  height:3.2rem;
+  font-weight: 400;
+  background-color: #f5f3f7;
+  background-color:rgb(207, 178, 164);
+  color: rgb(36, 25, 25);
   
 }
 
@@ -165,8 +148,8 @@ a {
   border:none;
   padding: 8px;
   font-size: 0.5rem;
-  width:8rem;
-  height:3rem;
+  width:7rem;
+  height:3.2rem;
   font-weight: 400;
   background-color: #f5f3f7;
 }
@@ -174,37 +157,37 @@ a {
 
 .btn-delete:hover {
   color: #977365;
-  border: 1px solid rgb(201, 191, 191);
+  border: 0.8px solid rgb(201, 191, 191);
   box-shadow: 0px 2px 6px 0px rgba(197, 201, 204, 0.692);
 }
 
 .btn-edit:hover {
   border: solid 1px rgb(196, 208, 212);
-  color: rgb(99, 150, 163);
-  box-shadow: 0px 2px 6px 0px rgba(197, 201, 204, 0.692);
+  color: rgb(54, 145, 168);
 }
 
 .spa {
   margin-left: 8rem;
+  color:rgb(151, 156, 160);
+  font-size:1.5rem;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
   min-width: 8em;
-  border: solid 1px rgb(236, 236, 236);
-  box-shadow: 0px 1px 4px 0px rgba(184, 191, 196, 0.2);
-  padding: 1em;
-  color: rgb(61, 61, 61);
+  border-radius: 1.1px;
+  border: solid 0.7px rgb(233, 235, 235);
+  padding: 1rem;
   transition-duration: 0.5s;
   text-align: center;
+  height:9.5rem
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
   transition: ease-in-out;
-  background-color: #fdfdfd;
+  background-color: rgb(255, 255, 255);
 }
 
 .details {
@@ -215,22 +198,29 @@ a {
 }
 
 .id {
-  border-bottom: solid rgb(247, 242, 242) 0.5px;
-  padding-bottom: 5px;
-  font-weight: 700;
-  padding-left: 1rem;
-  color: rgb(22, 132, 165);
+  border-bottom: solid rgb(247, 245, 245) 0.5px;
+  padding-bottom: 2.2px;
+  letter-spacing:-0.1px;
+  font-family: Poppins;
+  font-weight: 600;
+  padding-left: 0.1rem;
+  color: rgb(26, 154, 185);
 }
 
-.card h5::first-letter {
+.id::first-letter {
   text-transform: uppercase;
 }
 
+/* .card h5{
+  text-transform: uppercase;
+} */
+
 .six {
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 5px;
-  color: rgb(32, 34, 32);
-  font-size: 0.7rem;
+  color: rgb(101, 106, 107);
+  font-size: 1rem;
+ 
 }
 
 .six::first-letter {
@@ -240,14 +230,16 @@ a {
 .date {
   letter-spacing: -1px;
   padding-bottom: 2px;
+  font-family:Poppins;
+  font-weight: 400;
   text-align: right;
-  font-size: 0.2em;
-  color: rgb(51, 80, 102);
+  font-size: 0.5rem;
+  color: rgb(116, 121, 122);
   margin-top: 10px;
 }
 
-
 /* The bottom area of the card */
+
 .action-sec{
   padding-top: 1rem;
   height:4rem;
@@ -269,10 +261,106 @@ a {
   border-radius:0.9rem;
 }
 
-.edit-btn{
-  margin-left: 4rem;
-  margin-right: 4rem;
 
+/*  MODEL STYLING */
+
+.modal-header{
+  border: none;
+  border-bottom: none;
+  margin:0;
 }
+
+.modal-title {
+  margin-top:3rem;
+  color: rgb(126, 130, 131);
+  font-weight: 600;
+  padding-left:7rem;
+  
+}
+
+.modal-body input{
+
+  border-radius: 1.2px solid rgb(167, 174, 177);
+  height:3.5rem;
+  width: 28rem;
+  border: solid 1.2px rgb(220, 224, 226);
+  font-size:1rem;
+  font-weight:300;
+  color:rgb(194, 190, 194);
+  text-align: left;
+  padding-left:4rem;
+  margin-left:5rem;
+  /* text-transform: uppercase; */
+}
+
+.modal-body textarea:focus {
+  outline: none !important;
+  border: #cbd1d8 1.5px solid;
+  border-radius: 2.2px;
+}
+
+.modal-body input:focus {
+  outline: none !important;
+  border: #cbd1d8 1.5px solid;
+  border-radius: 2.2px;
+}
+
+.modal-body textarea{
+  border-radius: 1.2px solid rgb(167, 174, 177);
+  height:5rem;
+  width: 28rem;
+  border: solid 1px rgb(196, 213, 221);
+  border: solid 1.2px rgb(243, 216, 217);
+  font-size:1rem;
+  font-weight:300;
+  color:rgb(194, 190, 194);
+  text-align: left;
+  padding-left:4rem;
+  margin-left:5rem;
+  padding-top:0.5rem;
+}
+
+/*btn for submitting ide*/
+.submitbtn {
+  height: 3.4rem;
+  width: 11rem;
+  color: rgb(41, 111, 121);
+  border-radius: 2.3px;
+  border: solid 1px rgb(214, 216, 218);
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size:1rem;
+  background-color:rgb(233, 241, 241);
+  /* border:solid  1px rgb(45, 143, 156); */
+  margin-left: 5rem;
+}
+
+ .modal-body{
+  margin-bottom: 5rem;
+  padding-bottom:0;
+  
+   /* height:60vh; */
+ }
+
+ .btnclose{
+   width:10rem;
+   margin-left:3.5rem;
+   border-radius: 2.3px;
+   border:solid  1px rgb(250, 248, 248);
+   background-color:rgb(182, 96, 85);
+   height: 3.3rem;
+   color:white;font-weight: 400;
+ }
+
+  label{
+   margin-left: 7rem;
+   font-size:1rem;
+   font-weight:500;
+   color:rgb(82, 84, 87);
+ }
+
+
+
+
 
 

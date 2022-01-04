@@ -17,6 +17,25 @@ include 'header.php';
 ?>
   <div class="container-fluid all-slots">
     <!-- section one -->
+    <!-- small section with watch and words -->
+    <div class="row no gutters intro">
+     <div class="col-lg-3 decoy1">
+       
+       </div>
+       <div class="col-lg-3 quotes">
+           <h5 class="quote-head">Taking care of self</h5>
+           <p class="quote">the feeling of when i meet my inner mind !</p>
+       </div>
+       <div class="col-lg-3 times">
+           <h5 class="clock-time">O 1 O O 1 1</h5>
+           <p class="clock-date">01 03 2022</p>
+       </div>
+       <div class="col-lg-3 decoy2">
+       
+       </div>
+    </div>
+
+
 
     <div class="row no-gutters">
       <div class="col-lg-3">

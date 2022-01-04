@@ -27,13 +27,14 @@ include 'header.php';
                     <button type="button" class="ideabtn" data-toggle="modal" data-target="#myModal">
                           add idea
                     </button>
+
                 </div>
             </div>
         </div>
 
         <!-- The modal area -->
         <div class="row no-gutters">
-            <br>
+            
             <!-- add data to the database -->
             <!-- The Modal -->
             <div class="modal fade" id="myModal">
@@ -42,26 +43,27 @@ include 'header.php';
                         <!-- Modal Header -->
                         <br>
                         <div class="modal-header">
-                            <h4 class="modal-title">Add some ideas</h4>
+                            <h4 class="modal-title">Glad to accumulate some ideas</h4>
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                         </div>
                         <!-- Modal body -->
                         <div class="modal-body">
                             <form class="frm" action="insert.php" method="POST" autocomplete="off">
-                                <input type="text" name="id" placeholder="identifier" required>
-                                <input type="color" name="color" placeholder="colorpicker" required>
-                                <br><br>
-                                <input type="date" name="date" placeholder="date" required><br><br>
-                                <input type="text" name="about" placeholder="about" required><br><br>
-                                <textarea name="details" cols="26" rows="2" placeholder="details" class="txarea" required></textarea><br><br>
-                                <input type="file" name="image" accept="image/*;capture=camera"><br><br>
-                                <button type="submit" class=" addbtn">submit</button>
+                                <label for="title">Title</label>
+                                <input type="text" name="id" placeholder="Title of idea" id="title" required><br>
+                                <label for="date">Date</label>
+                                <input type="date" name="date" placeholder="the date that the idea is recorded" id="date" required><br>
+                                <label for="about">About</label>
+                                <input type="text" name="about" placeholder="what is the idea about" id="about" required><br>
+                                <label for="txtarea">Details</label>
+                                <br>
+                                <textarea name="details" cols="26" rows="2" placeholder="details to describe the idea" class="txarea" id="txarea" required></textarea><br><br>
+                                <!-- <input type="file" name="image" accept="image/*;capture=camera"><br><br> -->
+                                <button type="submit" class=" submitbtn">Submit</button>
+                                <button type="button" class="btnclose exit" data-dismiss="modal">Close</button>   
                             </form>
                         </div>
                         <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger exit" data-dismiss="modal">Close</button>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -97,7 +99,7 @@ if ($result) {
 
                             <div class="texter">
                                 <p class="id" data-toggle="tooltip" data-placement="top" title="identifier"><?php print $row['id'];?></p>
-                                <p class="date">Added on <?php print $row['date'];?></p>
+                                <p class="date">Added On  <?php print $row['date'];?></p>
                                 <p class="six"><?php print $row['about'];?></p>
                                 <p class="details"><?php print $row['details'];?></p>
                             </div>
