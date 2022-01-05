@@ -99,12 +99,12 @@ if ($result) {
                                 <span class="material-icons md-24 spa">more_vert</span>
                                 <div class="dropdown-content">
                                     <p class="btn-edit"><a href="database.php?edit=<?php print $row['id']?>" >
-                                          Edit
+                                    <span class="pade">Edit</span>
                                          </a>
                                     </p>
 
                                    <p  class="btn-delete"> <a href="database.php?delete=<?php print $row['id']?>">
-                                        Delete
+                                   <span class="spad">Delete</span>
                                        </a>
                                    </p>
                                 </div>

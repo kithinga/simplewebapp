@@ -12,7 +12,21 @@
 <body>
     <div class="container-fluid footer-container">
     <div class="footer-row row no-gutters">
-        <div class="footer-column col-lg-12"><p class="fo">© KITHINGA INC. All Rights Reserved</p></div>
+        <div class="footer-column col-lg-6">
+             <div>
+                   <p class="fo">© KITHINGA INC. All Rights Reserved</p>
+             </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="allbtn">
+            <button class="footbtn"><li><p>Facebook</p></li></button>
+            <button class="footbtn"><li><p>Twitter</p></li></button>
+            <button class="footbtn"><li><p>Instagram</p></li></button>
+            <button class="footbtn"><li><p>Tiktok</p></li></button>
+            <button class="footbtn"><li><p>Linkedin</p></li></button>
+            <button class="footbtn"><li><p>Github</p></li></button>
+        </div>
+        </div>
     </div>
     </div>
 </body>

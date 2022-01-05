@@ -3,13 +3,24 @@
     margin: 0;
 }
 
+.fo{
+    margin: 3rem;
+    color: rgb(207, 204, 204);
+    margin-top:4rem !important;
+}
+.footer{
+    height: 16vh;
+}
+
 .footer-container{
    bottom: 0;
+
 }
 .footer-row{
-    background-color:rgb(9, 14, 19);
-    height:4rem;
-    color:rgb(145, 145, 146);
+    /* margin: 1rem; */
+    margin-top:5rem;
+    background-color:rgb(37, 44, 51);
+    height:25vh;
     text-align:center;
     font-weight: 400;
     letter-spacing: 1px;
@@ -18,6 +29,27 @@
 
 .footer-column{
     margin-top:0.8rem;
+}
+
+.footbtn{
+    border-radius: 2px;
+    background-color:transparent;
+    border: 1px solid rgb(82, 91, 95);
+    height:8rem;
+    padding:1rem;
+}
+
+.footbtn:hover{
+    border: solid 1px rgb(0, 195, 255);
+}
+
+li p{
+    color:rgb(7, 209, 245);  
+    font-weight: 400;
+}
+
+.allbtn{
+    margin-top:2rem;
 }
 
 
