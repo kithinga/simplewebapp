@@ -23,8 +23,8 @@ include 'header.php';
        
        </div>
        <div class="col-lg-3 quotes">
-           <h5 class="quote-head">Taking care of self</h5>
-           <p class="quote">the feeling of when i meet my inner mind !</p>
+           <h5 class="quote-head">Self Mastery</h5>
+           <p class="quote">working to tap all my potentials!</p>
        </div>
        <div class="col-lg-3 times">
            <h5 class="clock-time">O 1 O O 1 1</h5>
@@ -102,7 +102,7 @@ include 'header.php';
               <h4>Websites</h4>
             </div>
           </div>
-          <div onclick="location.href='check.php'" class="col lg-4">
+          <div onclick="location.href='design.php'" class="col lg-4">
             <div class="design-items ha">
               <span class="icon-sec material-icons">architecture</span>
               <h4>Designs</h4>

@@ -16,6 +16,7 @@ li{
 .btni{
     background-color:rgb(229, 235, 236);
     border: none;
+    height: 5rem;
 }
 .btni:hover{
     background-color:rgb(16, 147, 180);

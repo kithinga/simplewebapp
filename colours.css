@@ -2,15 +2,16 @@
     min-height: 100vh;
 }
 .cl{
-margin:1.5rem;
+margin:1rem;
 min-height:15rem;
 border: solid grey 1px;
 padding:2rem;
-border-radius:0.51rem;
+border-radius:1.5px;
 box-shadow: 0 0 1px rgba(163, 163, 165, 0);
 }
 .lipin{
     background-color: brown;
+    
 }
 .pinli{
     background-color:rgb(8, 69, 119);
@@ -32,4 +33,11 @@ box-shadow: 0 0 1px rgba(163, 163, 165, 0);
 }
 .h{
     background-color: rgb(39, 90, 156);
+}
+
+
+.luigai{
+    margin: 1rem;
+    padding: 1rem;
+    background-color:rgb(241, 236, 236);
 }

@@ -16,19 +16,16 @@
          <div class="items">
              <button class="btni" onclick="location.href='ideas.php'"><li>ideas</li></button>
              <button class="btni" onclick="location.href='sketches.php'"><li>Sketches</li></button>
-             <button class="btni" onclick="location.href='tasks.php'"><li>Tasks</li></button>
+             <button class="btni" onclick="location.href='todos.php'"><li>Tasks</li></button>
              <button class="btni" onclick="location.href='colours.php'"><li>Colours</li></button>
              <button class="btni" onclick="location.href='artkit.php'"><li>Artkit</li></button>
              <button class="btni" onclick="location.href='websites.php'"><li>Websites</li></button>
-             <button class="btni" onclick="location.href='designs.php'"><li>Designs</li></button>
-            
+             <button class="btni" onclick="location.href='design.php'"><li>Designs</li></button>
          </div>
      </div>
      <script src="vanilla.js"></script>
   <script>
     AOS.init();
   </script>
-</body>
-
-
+</body> 
 </html>

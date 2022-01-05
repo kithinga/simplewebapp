@@ -15,11 +15,22 @@ include 'links.php';
     <?php
 include 'header.php';
 ?>
+     <?php include './navbar.php';?>
     <div class="container-fluid colour-slots">
         <div class="ciana row no-gutters">
             <div class="col-lg-3 col-sm-12 col-xs-12" data-aos="fade-down">
-              <div class="cl lipin">1</div>
+                 <div>
+                 <div class="cl lipin">
+                         color
+                </div>
+                <div class="luigai">  
+                  <h5>Luigai</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, delectus!</p>
+              </div>
+                </div>
             </div>
+
+
             <div class=" col-lg-3 col-sm-12 col-xs-12" data-aos="fade-up">
               <div class="cl pinli">2</div>
             </div>

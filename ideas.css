@@ -39,7 +39,7 @@ a {
   font-weight: 600;
   letter-spacing:-0.5;
   font-size: 1.6rem;
-  color: #707474;
+  color: #909696;
 }
 
 
@@ -49,15 +49,8 @@ a {
   padding: 0.5rem;
 } */
 /*btn for adding idea*/
-.ideabtn {  
-  border: 1px solid rgb(255, 255, 255);
-  font-weight: 500;
-  height: 3.2rem;
-  width: 12rem;
-  color: rgb(59, 52, 66);
-  border-radius: 1px;
-  background-color: rgb(240, 240, 247);
-}
+
+
 
 
 .delinput {
@@ -71,23 +64,7 @@ a {
 /* .wording{
 
 } */
-.categ {
-  padding-top: 1.8rem;
-  min-height:4rem;
-  color: rgb(141, 144, 145);
-  text-align: center;
-  background-color:rgb(255, 255, 255);
-  margin-bottom:1.1rem;
-}
-.categ p {
-  font-size: 0.8em;
-  font-weight: 200;
-  margin-left: 0.5rem;
-  font-family: Poppins;
-  letter-spacing: 1px;
-  border-bottom: solid 1.5px rgb(225, 230, 235);
-  padding-bottom: 10px;
-}
+
 
 .ima {
   height: 16rem;
@@ -204,7 +181,8 @@ a {
   font-family: Poppins;
   font-weight: 600;
   padding-left: 0.1rem;
-  color: rgb(26, 154, 185);
+  color:rgb(18, 145, 161);
+ 
 }
 
 .id::first-letter {
@@ -218,8 +196,8 @@ a {
 .six {
   font-weight: 500;
   margin-top: 5px;
-  color: rgb(101, 106, 107);
-  font-size: 1rem;
+  color: rgb(98, 121, 126);
+  font-size: 0.9rem;
  
 }
 
@@ -357,6 +335,81 @@ a {
    font-size:1rem;
    font-weight:500;
    color:rgb(82, 84, 87);
+ }
+
+
+ .describer{
+   padding:4rem;
+   min-height:7rem;
+   margin:1rem;
+   color: rgb(37, 34, 34);
+   /* background-color: #f5f3f7; */
+   border-radius:2px;
+   
+   
+ }
+
+
+ .describer h5{
+   font-size:1.5rem;
+   font-weight: 500;
+   color:rgb(19, 184, 206);
+   letter-spacing:-1px;
+      
+ }
+
+ .categ {
+  border: solid 1px rgb(238, 231, 231);
+  min-height:8rem;
+  margin: 1rem;
+  color: rgb(141, 144, 145);
+  /* background-color:rgb(162, 206, 218); */
+ 
+}
+
+ .ideabutton{
+   /* background-color: red; */
+   text-align: center; 
+   padding:1rem;
+   padding-top: 4rem;
+   margin: 0.3rem;
+   margin: 1rem;
+   border-radius: 1px;
+   min-height:7rem;
+ }
+
+ .ideabtn {  
+  border: 1.5px solid rgb(200, 222, 224);
+  font-weight: 500;
+  height: 5rem;
+  width: 12rem;
+  color: rgb(65, 61, 68);
+  background-color: rgb(252, 250, 250);
+  border-radius:1.5px;
+  padding-bottom: 0.5rem;
+}
+
+
+.ideabtn:hover{
+  background-color:rgb(127, 153, 160);
+  color: white;
+  border: 1px solid rgb(247, 244, 244);
+}
+
+ .icod{
+    color: rgb(111, 81, 114);
+    font-size: 1.5rem;
+    font-weight:500;
+    margin:0.3rem;
+ }
+ .icod:hover{
+   color: white;
+ }
+
+ .navtabs{
+   /* background-color:green; */
+   margin: 1rem;min-height:7rem;
+   padding-top: 3.4rem;
  }
 
 

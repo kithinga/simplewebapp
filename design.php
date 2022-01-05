@@ -1,9 +1,5 @@
-<?php
-include 'links.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,19 +7,22 @@ include 'links.php';
     <title>Document</title>
 </head>
 
+<?php
+ include 'header.php';
+ include 'links.php';
+ ?>
 <body>
     <?php
-    include 'header.php';
+         include 'navbar.php';
     ?>
-    <?php include './navbar.php';?>
-     <div class="major">
-         <h3> soon, soon we get something great !</h3>
-     </div>
 
-    <?php
-    include 'footer.php';
-    ?>
-    <script src="vanilla.js"></script>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, rem!</p>
+    </div>
+    
 </body>
-
+ 
+<?php
+ include 'footer.php';
+ ?>
 </html>

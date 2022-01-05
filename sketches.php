@@ -23,15 +23,12 @@ include "header.php";
         </span>
       </button>
           <!-- including the navbar -->
-          <?php
-                    include './navbar.php';
-                   ?>
-
+          <?php include './navbar.php';?>
+                  
       <!-- The Modal -->
       <div class="modal fade" id="myModal">
         <div class="modal-dialog">
           <div class="modal-content">
-
             <!-- Modal Header -->
             <br>
             <div class="mdh modal-header">
@@ -39,7 +36,6 @@ include "header.php";
               <h4 class="modal-title">Adding Art Ideas</h4>
               <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
-
             <!-- Modal body -->
             <div class="modal-body">
               <form class="frm" action="insert.php" method="POST">

@@ -21,7 +21,7 @@ session_start();
         </a></div>
       </div>
       <div class="col-lg-8">
-        <div class="name">Manage all activities</div>
+        <div class="name">Manage my mind</div>
       </div>
       <div class="col-lg-2">
         <div class="search"><span class="loki material-icons md-48">perm_identity</span></div>

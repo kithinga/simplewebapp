@@ -20,7 +20,7 @@ include 'header.php';
             <div class=" col-sm-12">
                 <p>
                 <div class="tasktitle">
-                    <p class="pone">Tasks to do and already done</p>
+                    <p class="pone">Tasks to do and already done  <?php include './navbar.php';?> </p>
                 </div>
             </div>
         </div>

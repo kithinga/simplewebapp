@@ -16,31 +16,38 @@ include 'header.php';
 <body>
     <div class="view container-fluid bui">
 
-        <!-- div for page title and adding idea button -->
-        <div class="row categ no-gutters">
-            <div class="col-lg-6">
-                
-                   <!-- including the navbar -->
-                   <?php
-                    include './navbar.php';
-                   ?>
 
-                <!-- <div class="wording"><span class="idea-head">View listed ideas</span></div> -->
+     <!-- FIX THIS IS PART AND HAVE A BEAUTIFUL UI -->
+
+        <!-- new category area -->
+        <div class="row no-guttersb categ ">
+            <div class="col-lg-4">
+                   <div class="describer">
+                    <h5>This space allows you note down all your ideas and keep
+                        working on them ! </h5>
+                    <p>the feeling of mindfullness</p>
+                   </div>
             </div>
-            <div class="col-lg-6">
-                <div class="add-idea">
-                    <!--add button-->
-                    <button type="button" class="ideabtn" data-toggle="modal" data-target="#myModal">
-                          add idea
-                    </button>
-
+            <div class="col-lg-3">
+                <div class="ideabutton">
+                    <button type="button" class="ideabtn" data-toggle="modal" title="adding" data-target="#myModal">
+                        <span class="material-icons icod">add</span>
+                      <h6 > Add idea</h6>
+                   </button>
                 </div>
+            </div>
+            <div class="col-lg-5">
+                     <div class="navtabs">
+                      <?php include './navbar.php';?>
+                     </div>
             </div>
         </div>
 
+
+
         <!-- The modal area -->
         <div class="row no-gutters">
-            
+
             <!-- add data to the database -->
             <!-- The Modal -->
             <div class="modal fade" id="myModal">
@@ -66,7 +73,7 @@ include 'header.php';
                                 <textarea name="details" cols="26" rows="2" placeholder="details to describe the idea" class="txarea" id="txarea" required></textarea><br><br>
                                 <!-- <input type="file" name="image" accept="image/*;capture=camera"><br><br> -->
                                 <button type="submit" class=" submitbtn">Submit</button>
-                                <button type="button" class="btnclose exit" data-dismiss="modal">Close</button>   
+                                <button type="button" class="btnclose exit" data-dismiss="modal">Close</button>
                             </form>
                         </div>
                         <!-- Modal footer -->
@@ -95,7 +102,7 @@ if ($result) {
                                           Edit
                                          </a>
                                     </p>
-                                    
+
                                    <p  class="btn-delete"> <a href="database.php?delete=<?php print $row['id']?>">
                                         Delete
                                        </a>
