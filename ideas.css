@@ -337,8 +337,7 @@ a {
 
  .modal-body{
   margin-bottom: 5rem;
-  padding-bottom:0;
-  
+  padding-bottom:0;  
    /* height:60vh; */
  }
 
@@ -406,6 +405,7 @@ a {
    min-height:7rem;
  }
 
+ 
  .ideabtn {  
   border: 1.5px solid rgb(200, 222, 224);
   font-weight: 500;
@@ -419,13 +419,13 @@ a {
 
 
 .ideabtn:hover{
-  background-color:rgb(127, 153, 160);
+  background-color:rgb(147, 170, 175);
   color: white;
   border: 1px solid rgb(247, 244, 244);
 }
 
  .icod{
-    color: rgb(111, 81, 114);
+    color: rgb(65, 51, 66);
     font-size: 1.5rem;
     font-weight:500;
     margin:0.3rem;
@@ -439,6 +439,37 @@ a {
    margin: 1rem;min-height:7rem;
    padding-top: 3.4rem;
  }
+
+ .pleasant{
+   background-color:rgb(250, 253, 255);
+   border-radius:6px;
+   box-shadow:1px 1px 5px rgb(236, 231, 231);
+   border: solid 1.4px rgb(219, 229, 233);
+   width:20rem;
+   color: black;
+   z-index: 20000;
+   position: absolute;
+   padding:1rem;
+   padding-top: 2rem;
+   display:none;
+ }
+ 
+.cancel, .yes{
+    background-color:white;
+    width:6rem;
+  padding:0.5rem;
+  border: 1px solid rgb(214, 206, 206);
+  border-radius: 4px;
+  margin:1rem;
+}
+.cancel:hover{
+   background-color:rgb(11, 143, 167);
+   color:white;
+}
+.yes:hover{
+  background-color:rgb(163, 159, 163);
+  color:white;
+}
 
 
 

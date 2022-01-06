@@ -99,13 +99,22 @@ if ($result) {
                                 <span class="material-icons md-24 spa">more_vert</span>
                                 <div class="dropdown-content">
                                     <p class="btn-edit"><a href="database.php?edit=<?php print $row['id']?>" >
-                                    <span class="pade">Edit</span>
+                                    <span class="pade" onclick='return confirm("are you sure you want to edit");'>Edit</span>
                                          </a>
                                     </p>
 
-                                   <p  class="btn-delete"> <a href="database.php?delete=<?php print $row['id']?>">
+                                   <p  class="btn-delete">
                                    <span class="spad">Delete</span>
-                                       </a>
+                                      <div class="pleasant">
+                                          <div class="dream">
+                                              <h5>Are you sure you want to delete ?</h5>
+                                              <br>
+                                                <button class="cancel"><h5>No</h5></button>
+                                                <a href="database.php?delete=<?php print $row['id']?>">
+                                                 <button class="yes" ><h5>Yes</h5></button>
+                                               </a>
+                                          </div>
+                                      </div>
                                    </p>
                                 </div>
                             </div>
