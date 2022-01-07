@@ -78,7 +78,7 @@ a {
 }
 
 .card {
-  position: relative;
+  position:relative;
   cursor: pointer;
   border-radius:2.2px;
   margin: 1.101rem;
@@ -446,7 +446,6 @@ a {
   }
 
 
-
  .pleasant{
    background-color:rgb(255, 255, 255);
    border-radius:3px;
@@ -454,8 +453,8 @@ a {
    border: solid 1.4px rgb(205, 209, 211);
    width:24rem;
    color: black;
-   z-index: 20000;
-   position: absolute;
+   z-index: 20!important;
+   position: fixed;
    padding:1.3rem;
    padding-top: 2rem;
    display:none;
