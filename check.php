@@ -15,7 +15,7 @@ include 'header.php';
 
 <body>
     <div class="all">
-    
+       <p>pull up to your bumber</p>
     </div>
     <script src="vanilla.js"></script>
 

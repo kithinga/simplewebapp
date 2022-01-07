@@ -15,12 +15,10 @@ include 'header.php';
 
 <body>
     <div class="view container-fluid bui">
-
-
      <!-- FIX THIS IS PART AND HAVE A BEAUTIFUL UI -->
 
         <!-- new category area -->
-        <div class="row no-guttersb categ ">
+        <div class="row no-gutters categ">
             <div class="col-lg-4">
                    <div class="describer">
                     <h5>This space allows you note down all your ideas and keep
@@ -43,11 +41,8 @@ include 'header.php';
             </div>
         </div>
 
-
-
         <!-- The modal area -->
         <div class="row no-gutters">
-
             <!-- add data to the database -->
             <!-- The Modal -->
             <div class="modal fade" id="myModal">
@@ -83,11 +78,11 @@ include 'header.php';
         </div>
 
         <!-- cards for all ideas  -->
-        <div class="row no-gutters">
+        <div class="row no-gutters vin">
             <?php
-$sql = "SELECT * FROM design;";
-$result = mysqli_query($conn, $sql);
-$check = mysqli_num_rows($result);
+   $sql = "SELECT * FROM design;";
+   $result = mysqli_query($conn, $sql);
+   $check = mysqli_num_rows($result);
 
 if ($result) {
     while ($row = mysqli_fetch_assoc($result)) {
@@ -108,9 +103,9 @@ if ($result) {
                                       <div class="pleasant">
                                           <div class="dream">
                                               <h5>Are you sure you want to delete ?</h5>
-                                                <button class="cancel" onclick="return false"><h6>No</h6></button>
+                                                <button class="cancel" onclick="return false"><p>No</p></button>
                                                 <a href="database.php?delete=<?php print $row['id']?>">
-                                                 <button class="yes" ><h6>Yes</h6></button>
+                                                 <button class="yes" ><p>Yes</p></button>
                                                </a>
                                           </div>
                                       </div>
