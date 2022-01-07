@@ -12,9 +12,15 @@
     $(".custom-model-main").removeClass('model-open');
   })
 
-  $(".cancel").on("click", function(){
+  $(".cancel").on("click", function (){
     $(".custom-model-main").removeClass('model-open');
   })
+
+  $(".edit").on("click", function (){
+    $(".custom-model-main").removeClass('model-open');
+  })
+
+
 
 
 

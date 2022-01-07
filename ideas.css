@@ -138,15 +138,14 @@ a {
   width:7rem;
   height:3.2rem;
   font-weight: 400;
-  /* background-color: #f5f3f7; */
-}
-
-.pade{
   color:rgb(71, 67, 67);
   font-weight: 500;
 }
-.pade:hover{
-  color:rgb(13, 159, 179);
+
+.btn-edit:hover{
+
+  border-bottom: solid 2px rgb(6, 171, 212);
+  color: rgb(54, 145, 168);
 }
 
 .btn_delete:hover {
@@ -156,10 +155,7 @@ a {
   box-shadow: 0px 2px 6px 0px rgba(197, 201, 204, 0.692); */
 }
 
-.btn-edit:hover {
-  border-bottom: solid 1.7px rgb(6, 171, 212);
-  color: rgb(54, 145, 168);
-}
+
 
 .spa {
   margin-left: 8rem;
@@ -561,6 +557,7 @@ a {
   max-height: calc(100vh - 70px);
 	overflow-y: auto;
 }
+
 .model-open .custom-model-inner {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
@@ -568,10 +565,12 @@ a {
   position: relative;
   z-index: 999;
 }
+
 .model-open .bg-overlay {
   /* background: rgba(0, 0, 0, 0.6); */
   z-index: 99;
 }
+
 .bg-overlay {
   /* background: rgba(0, 0, 0, 0); */
   width: 100%;
@@ -585,6 +584,7 @@ a {
   -o-transition: background 0.15s linear;
   transition: background 0.15s linear;
 }
+
 .close-btn {
   position: absolute;
   right: 0;
@@ -607,6 +607,14 @@ a {
 }
 @media screen and (max-width:799px){
   .custom-model-inner{margin-top: 45px;}
+}
+
+.edit-div{
+  position:absolute;
+  background-color: rgb(244, 240, 247);
+  width:23rem;
+  height:25rem;
+  z-index: 999;
 }
 
 

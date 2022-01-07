@@ -93,12 +93,22 @@ if ($result) {
                         <div class="dropdown">
                                 <span class="material-icons md-24 spa">more_vert</span>
                                 <div class="dropdown-content">
-                                    <p class="btn-edit"><a href="database.php?edit=<?php print $row['id']?>" >
-                                    <span class="pade" onclick='return confirm("are you sure you want to edit");'>Edit</span>
-                                         </a>
+                                    <p class="btn-edit"> 
+                                    <span class="pade btn-edit">Edit</span>
                                     </p>
+                                    <!-- edit div -->
+                                    <div class="edit-div">
+                                          <form action="">
+                                              <h6>Make changes on ideas</h6>
+                                              <input type="text" name="id" placeholder="cn" required><br>
+                                              <input type="text" name="name" placeholder="hd" required><br>
+                                              <input type="text" name="email" placeholder="dj" required><br>
+                                               <button>keep</button>
+                                               <button>submit changes</button>
+                                          </form>
+                                    </div>
 
-                                  <!-- better modal popup -->
+                                  <!-- delete div -->
                                  <div class="btn_delete">Delete</div>        
                                     <div class="custom-model-main">
                                         <div class="custom-model-inner">        
