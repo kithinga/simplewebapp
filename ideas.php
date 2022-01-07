@@ -108,10 +108,9 @@ if ($result) {
                                       <div class="pleasant">
                                           <div class="dream">
                                               <h5>Are you sure you want to delete ?</h5>
-                                              <br>
-                                                <button class="cancel"><h5>No</h5></button>
+                                                <button class="cancel"><h6>No</h6></button>
                                                 <a href="database.php?delete=<?php print $row['id']?>">
-                                                 <button class="yes" ><h5>Yes</h5></button>
+                                                 <button class="yes" ><h6>Yes</h6></button>
                                                </a>
                                           </div>
                                       </div>

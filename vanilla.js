@@ -5,14 +5,20 @@ var pleasant = $(".pleasant");
 var spad = $(".spad");
 
      spad.click(function(){
-         pleasant.css({display: "block"})
+         pleasant.css({display: "inline-block"})
        
      })
 
 
-     pleasant.mousedown(function(){
-       pleasant.css({display: "none"})
-     })
+    
+     $(".dropdown").mouseleave(function(){
+      $(".pleasant").css({display: "none"});
+     
+    //   if(spad.mouseleave){
+    //     $(".pleasant").css({display: "none"})
+    // }
+    
+    });
 
 
 // var fruits = ['Apples','Kiwi','Mangoes'];

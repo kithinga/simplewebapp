@@ -86,7 +86,7 @@ a {
   min-height: 10rem;
   border: solid 0.65px rgb(231, 236, 236);
   transition-duration: 0.5s;
-  background-color:rgb(255, 255, 255);
+  background-color:rgb(255, 254, 254);
 }
 
 .card:hover {
@@ -440,16 +440,23 @@ a {
    padding-top: 3.4rem;
  }
 
+  .pleasant h5{
+      margin:1rem;
+      color:rgb(15, 154, 189);
+  }
+
+
+
  .pleasant{
-   background-color:rgb(250, 253, 255);
-   border-radius:6px;
-   box-shadow:1px 1px 5px rgb(236, 231, 231);
-   border: solid 1.4px rgb(219, 229, 233);
-   width:20rem;
+   background-color:rgb(255, 255, 255);
+   border-radius:3px;
+   /* box-shadow:0px 1px 4px rgb(221, 220, 220); */
+   border: solid 1.4px rgb(205, 209, 211);
+   width:24rem;
    color: black;
    z-index: 20000;
    position: absolute;
-   padding:1rem;
+   padding:1.3rem;
    padding-top: 2rem;
    display:none;
  }
@@ -457,10 +464,22 @@ a {
 .cancel, .yes{
     background-color:white;
     width:6rem;
-  padding:0.5rem;
+  padding:0.3rem;
+  padding-top: 0.5rem;
   border: 1px solid rgb(214, 206, 206);
-  border-radius: 4px;
-  margin:1rem;
+  border-radius: 20px;
+  margin:0.5rem;
+  font-size:0.6rem;
+}
+.cancel{
+   margin-right: 2rem;
+   background-color:rgb(227, 239, 243);
+}
+
+.yes{
+  background-color: #9c4e4e;
+  margin-left: 3rem;
+  color:rgb(238, 234, 234);
 }
 .cancel:hover{
    background-color:rgb(11, 143, 167);
