@@ -125,6 +125,15 @@ if ($result) {
                 <?php }?>
             <?php }?>
         </div>
+
+        <div class="popup" onclick="myFunction()">Click me!
+  <span class="popuptext" id="myPopup">Popup text...</span>
+</div>
+
+
+
+
+
     </div>
     <script src="vanilla.js"></script>
     <script>
