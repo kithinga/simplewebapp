@@ -511,18 +511,36 @@ a {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* popup customization 3w schools */
+
 .popup {
   position: relative;
   display: inline-block;
   cursor: pointer;
+ 
 }
 
 /* The actual popup (appears on top) */
 .popup .popuptext {
   visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
+  display: none;
+  width: 20rem;
+  background-color: rgb(230, 230, 230);
+  color: rgb(32, 53, 63);
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
@@ -530,7 +548,7 @@ a {
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -80px;
+  /* margin-left: -80px; */
 }
 
 /* Popup arrow */

@@ -80,9 +80,9 @@ include 'header.php';
         <!-- cards for all ideas  -->
         <div class="row no-gutters vin">
             <?php
-   $sql = "SELECT * FROM design;";
-   $result = mysqli_query($conn, $sql);
-   $check = mysqli_num_rows($result);
+$sql = "SELECT * FROM design;";
+$result = mysqli_query($conn, $sql);
+$check = mysqli_num_rows($result);
 
 if ($result) {
     while ($row = mysqli_fetch_assoc($result)) {
@@ -126,9 +126,15 @@ if ($result) {
             <?php }?>
         </div>
 
-        <div class="popup" onclick="myFunction()">Click me!
-  <span class="popuptext" id="myPopup">Popup text...</span>
-</div>
+      <div class="popup" onclick="myFunction()">Click me!
+       <div class="popuptext" id="myPopup">
+       <h5>Are you sure you want to delete ?</h5>
+             <button class="cancel" onclick="return false"><p>No</p></button>
+             <a href="database.php?delete=<?php print $row['id']?>">
+            <button class="yes" ><p>Yes</p></button>
+             </a>
+       </div>
+      </div>
 
 
 
