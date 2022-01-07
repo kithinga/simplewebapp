@@ -12,6 +12,12 @@
     $(".custom-model-main").removeClass('model-open');
   })
 
+  $(".cancel").on("click", function(){
+    $(".custom-model-main").removeClass('model-open');
+  })
+
+
+
 
 
 
