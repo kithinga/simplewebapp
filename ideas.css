@@ -449,51 +449,31 @@ a {
    padding-top: 3.4rem;
  }
 
-  .pleasant h5{
-      margin:1rem;
+  .hp{
+  
       color:rgb(15, 154, 189);
   }
 
- .pleasant{
-   background-color:rgb(255, 255, 255);
-   border-radius:1.5px;
-   border: solid 1.4px rgb(205, 209, 211);
-   width:24rem;
-   color: rgb(48, 45, 45);
-   position:absolute;
-   padding:1.3rem;
-   padding-top: 2rem;
-   display:none;
- }
  
 .cancel, .yes{
   background-color:white;
   width:6rem;
-  padding:0.3rem;
-  padding-top: 0.5rem;
   border: 1px solid rgb(228, 226, 226); 
   border-radius:30px;
-  height:2.5rem;
-  margin:0.5rem;
- 
+  height:2.6rem;
+  margin-top:15px;
+  text-align:center
   /* border: none; */
 }
 
 
-.pleasant p{
-  font-size:0.4rem;
-  font-weight:500;
-}
-
-
 .cancel{
-   margin-right: 2rem;
-   /* background-color:rgb(227, 239, 243); */
+   margin-left: 26px;
+   background-color:rgb(238, 244, 247);
 }
 
 .yes{
-
-  margin-left: 3rem;
+  margin-left:1rem;
   color:rgb(92, 90, 90);
 }
 
@@ -517,67 +497,121 @@ a {
 
 
 
+/* popup customization codepen */
 
-
-
-
-
-
-
-/* popup customization 3w schools */
-
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
- 
-}
-
-/* The actual popup (appears on top) */
- .popuptext {
-  visibility: hidden;
-  width: 20rem;
-  background-color: rgb(230, 230, 230);
-  color: rgb(32, 53, 63);
+.custom-model-main {
   text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; /* z-index: 1050; */
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear, z-index 0.15;
+  -o-transition: opacity 0.15s linear, z-index 0.15;
+  transition: opacity 0.15s linear, z-index 0.15;
+  z-index: -1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 2rem;
+}
+
+.model-open {
+  z-index: 99999;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.custom-model-inner {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  -o-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  display: inline-block;
+  vertical-align: middle;
+  width:21rem;
+  margin: 10px auto;
+}
+.custom-model-wrap {
+  display: block;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  /* -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5); */
+  /* box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5); */
+  height:12rem;
+  background-clip: padding-box;
+  outline: 0;
+  text-align: left;
+   padding:2rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-height: calc(100vh - 70px);
+	overflow-y: auto;
+}
+.model-open .custom-model-inner {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  position: relative;
+  z-index: 999;
+}
+.model-open .bg-overlay {
+  /* background: rgba(0, 0, 0, 0.6); */
+  z-index: 99;
+}
+.bg-overlay {
+  /* background: rgba(0, 0, 0, 0); */
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  -webkit-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
+  transition: background 0.15s linear;
+}
+.close-btn {
   position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  /* margin-left: -80px; */
+  right: 0;
+  top: -30px;
+  cursor: pointer;
+  z-index: 99;
+  font-size: 30px;
+  color: #fff;
 }
 
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+@media screen and (min-width:800px){
+	.custom-model-main:before {
+	  content: "";
+	  display: inline-block;
+	  height: auto;
+	  vertical-align: middle;
+	  margin-right: -0px;
+	  height: 100%;
+	}
+}
+@media screen and (max-width:799px){
+  .custom-model-inner{margin-top: 45px;}
 }
 
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popuptext .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
-}
 
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
 
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-}
+
 
 
 

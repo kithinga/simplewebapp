@@ -97,18 +97,30 @@ if ($result) {
                                     <span class="pade" onclick='return confirm("are you sure you want to edit");'>Edit</span>
                                          </a>
                                     </p>
-                                  <span class="btn_delete spad" onclick="myFunction()">Delete
-                                   <!-- <div class="popup"> -->
-                                     <div class="popuptext" id="myPopup">
-                                            <h5>Are you sure you want to delete ?</h5>
-                                            <button class="cancel"><p>No</p></button>
-                                            <a href="database.php?delete=<?php print $row['id']?>">
-                                            <button class="yes" ><p>Yes</p></button>
-                                            </a>
-                                        </div>
-                                    <!-- </div> -->
-                                    </span>
-                                                
+
+                                  <!-- better modal popup -->
+                                 <div class="btn_delete">Delete</div>        
+                                    <div class="custom-model-main">
+                                        <div class="custom-model-inner">        
+                                        <div class="close-btn">×</div>
+                                            <div class="custom-model-wrap">
+                                                <div class="pop-up-content-wrap">
+                                                  <h5 class="hp">Are you sure you want to delete ?</h5>
+                                                  <button class="cancel">No</button>
+                                                 <a href="database.php?delete=<?php print $row['id']?>">
+                                                 <button class="yes">Yes</button>
+                                                 </a> 
+                                                </div>
+                                            </div>  
+                                        </div>  
+                                     <div class="bg-overlay"></div>
+                                 </div> 
+
+
+
+
+
+                                          
                                 </div>
                             </div>
 
