@@ -97,19 +97,18 @@ if ($result) {
                                     <span class="pade" onclick='return confirm("are you sure you want to edit");'>Edit</span>
                                          </a>
                                     </p>
-
-                                   <p  class="btn-delete">
-                                   <span class="spad">Delete</span>
-                                      <div class="pleasant">
-                                          <div class="dream">
-                                              <h5>Are you sure you want to delete ?</h5>
-                                                <button class="cancel" onclick="return false"><p>No</p></button>
-                                                <a href="database.php?delete=<?php print $row['id']?>">
-                                                 <button class="yes" ><p>Yes</p></button>
-                                               </a>
-                                          </div>
-                                      </div>
-                                   </p>
+                                  <span class="btn_delete spad" onclick="myFunction()">Delete
+                                   <!-- <div class="popup"> -->
+                                     <div class="popuptext" id="myPopup">
+                                            <h5>Are you sure you want to delete ?</h5>
+                                            <button class="cancel"><p>No</p></button>
+                                            <a href="database.php?delete=<?php print $row['id']?>">
+                                            <button class="yes" ><p>Yes</p></button>
+                                            </a>
+                                        </div>
+                                    <!-- </div> -->
+                                    </span>
+                                                
                                 </div>
                             </div>
 
@@ -125,19 +124,6 @@ if ($result) {
                 <?php }?>
             <?php }?>
         </div>
-
-      <div class="popup" onclick="myFunction()">Click me!
-       <div class="popuptext" id="myPopup">
-       <h5>Are you sure you want to delete ?</h5>
-             <button class="cancel" onclick="return false"><p>No</p></button>
-             <a href="database.php?delete=<?php print $row['id']?>">
-            <button class="yes" ><p>Yes</p></button>
-             </a>
-       </div>
-      </div>
-
-
-
 
 
     </div>

@@ -1,8 +1,20 @@
 
-  function myFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
-  }
+
+  // function myFunction() {
+  //   var popup = document.getElementById("myPopup");
+  //   popup.classList.toggle("show");
+  // }
+
+
+
+  var btndel = $(".btn_delete");
+  var popup = $("#myPopup")
+  btndel.onclick(function() {
+       popup.css({display: "inline-block"})
+  })
+
+
+
 
 // var pleasant = $(".pleasant");
 // var spad = $(".spad");

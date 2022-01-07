@@ -113,7 +113,8 @@ a {
 }
 
 
-.btn-delete{
+.btn_delete{
+  position: relative;
   border:none;
   padding: 8px;
   font-size: 0.5rem;
@@ -121,8 +122,6 @@ a {
   height:3.2rem;
   font-weight: 500;
   /* background-color:rgb(197, 23, 23); */
-  color: rgb(240, 240, 240);
-  
 }
 
 .spad{
@@ -150,7 +149,7 @@ a {
   color:rgb(13, 159, 179);
 }
 
-.btn-delete:hover {
+.btn_delete:hover {
   color: #dd4444;
   border-bottom: 1.7px solid rgb(219, 78, 78);
   /* border: 0.8px solid rgb(201, 191, 191);
@@ -535,9 +534,8 @@ a {
 }
 
 /* The actual popup (appears on top) */
-.popup .popuptext {
+ .popuptext {
   visibility: hidden;
-  display: none;
   width: 20rem;
   background-color: rgb(230, 230, 230);
   color: rgb(32, 53, 63);
@@ -564,7 +562,7 @@ a {
 }
 
 /* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
+.popuptext .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s
