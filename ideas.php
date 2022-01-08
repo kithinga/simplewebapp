@@ -95,7 +95,6 @@ if ($result) {
                                 <div class="dropdown-content">
                                  <button class="btn-edit iop">Edit</button>
                                     <!-- edit div -->
-
                                     <div class="drpi">
                                       <div class="edit-div">
                                           <form action="database.php">
@@ -108,13 +107,13 @@ if ($result) {
                                               <button class="save">submit changes</button>
                                           </form>
                                       </div>
-                                    </div>
-                                 
+                                    </div> -->
+
                                   <!-- delete div -->
-                                 <button class="btn_delete iop">Delete</button>        
-                                
+                                 <button class="btn_delete iop">Delete</button>
+
                                   <div class="custom-model-main">
-                                        <div class="custom-model-inner">        
+                                        <div class="custom-model-inner">
                                         <div class="close-btn">×</div>
                                             <div class="custom-model-wrap">
                                                 <div class="pop-up-content-wrap">
@@ -122,19 +121,12 @@ if ($result) {
                                                   <button class="cancel">No</button>
                                                  <a href="database.php?delete=<?php print $row['id']?>">
                                                  <button class="yes">Yes</button>
-                                                 </a> 
+                                                 </a>
                                                 </div>
-                                            </div>  
-                                        </div>  
+                                            </div>
+                                        </div>
                                      <div class="bg-overlay"></div>
-                                 </div> 
-                               
-
-
-
-
-
-                                          
+                                 </div>
                                 </div>
                             </div>
 
@@ -144,12 +136,45 @@ if ($result) {
                                 <p class="six"><?php print $row['about'];?></p>
                                 <p class="details"><?php print $row['details'];?></p>
                             </div>
-
                         </div>
+
                     </div>
                 <?php }?>
             <?php }?>
         </div>
+
+
+
+        
+<button class="btnn">Open Modal Nigga</button>
+<!-- The Modal -->
+<div class="modes">
+  <!-- Modal content -->
+  <div class="modes-content">
+  <span class="close">X</span>
+      <br>
+      <div class="drpi">
+                  <div class="edit-div">
+                      <form action="database.php" autocomplete="off">
+                       <br>
+                        <h6>Make changes on ideas</h6>
+                        <input type="text" name="id" placeholder="Fight To Keep Them Alive" required />
+                        <br>
+                        <input type="text" name="date" placeholder="I Will Live Every Single Talent" required />
+                        <br>
+                        <input type="text" name="about" placeholder="The Risk Which Is Worth" required ><br>
+                        <input type="text" name="details" placeholder="The Risk Which Is Worth" required />
+                        <br>
+
+                         <button class="keep">keep</button>
+                         <button class="save"  type="submit" name="submit">submit changes</button>
+                      </form>
+                  </div>
+             </div>
+ <span class="close">&times;</span>     
+  </div>
+</div>
+
 
 
     </div>
@@ -165,15 +190,3 @@ include 'footer.php';
 </html>
 
 
-
-<button id="myBtn">Open Modal</button>
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
-
-</div>

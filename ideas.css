@@ -604,15 +604,15 @@ a {
 .edit-div{
   z-index: 200000;
   position:absolute;
-  background-color: rgb(244, 240, 247);
+  background-color: rgb(253, 252, 253);
   width:29rem;
-  height:25rem;
+  height:30rem;
   border-radius: 3px;
   z-index: 999;
   padding: 2rem;
   display:inline-block;
-  box-shadow: 0px 1px 3px rgb(224, 223, 223);
-  visibility: hidden;
+  box-shadow: 0px 1px 3px rgb(216, 216, 216);
+  /* visibility: hidden; */
 }
 
 .edit-div input{
@@ -642,9 +642,10 @@ a {
 
 
 
-/* jjjjjjjj */
-modal {
-  display: none; /* Hidden by default */
+/* New popup*/
+
+.modes{
+  display:none;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
@@ -657,17 +658,21 @@ modal {
 }
 
 /* Modal Content/Box */
-.modal-content {
+.modes-content {
+  text-align: center;
+  border-radius: 4px;
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 25% auto; /* 25% from the top and centered */
   padding: 20px;
+  padding-right: 25%;
+  height:37rem;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 55%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: rgb(97, 28, 28);
   float: right;
   font-size: 28px;
   font-weight: bold;
