@@ -94,7 +94,6 @@ a {
   border: solid 0.65px rgb(231, 236, 236);  
   transition-duration: 0.5s;
   background:white;
-  z-index: inherit;
 }
 
 .card:hover {
@@ -109,14 +108,13 @@ a {
   margin-left: 60%;
   position: absolute;
   display: inline-block;
+
   /* transition:1s; */
 }
 
 
 .btn_delete{
-  position: relative;
   border:none;
-  padding: 8px;
   font-size: 0.5rem;
   width:7rem;
   height:3.2rem;
@@ -124,27 +122,24 @@ a {
   /* background-color:rgb(197, 23, 23); */
 }
 
-.spad{
-  color:rgb(88, 76, 76);
-}
 .spad:hover{
   color:rgb(207, 53, 53);
 }
 
 .btn-edit{
+  margin-top: 0.5rem;
   border:none;
-  padding: 8px;
   font-size: 0.5rem;
   width:7rem;
   height:3.2rem;
-  font-weight: 400;
-  color:rgb(71, 67, 67);
+  font-weight: 500;
+  color:rgb(29, 27, 27);
   font-weight: 500;
 }
 
 .btn-edit:hover{
 
-  border-bottom: solid 2px rgb(6, 171, 212);
+  border-bottom: solid 1.6px rgb(6, 171, 212);
   color: rgb(54, 145, 168);
 }
 
@@ -156,7 +151,6 @@ a {
 }
 
 
-
 .spa {
   margin-left: 8rem;
   color:rgb(151, 156, 160);
@@ -166,7 +160,7 @@ a {
 .dropdown-content {
   display: none;
   position: relative;
-  min-width: 8em;
+  width: 9rem;
   border-radius: 1.1px;
   border: solid 0.7px rgb(233, 235, 235);
   padding: 1rem;
@@ -174,7 +168,9 @@ a {
   text-align: center;
   height:9.5rem;
   z-index:30!important;
+
 }
+
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -486,13 +482,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
 /* popup customization codepen */
 
 .custom-model-main {
@@ -544,8 +533,6 @@ a {
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 3px;
-  /* -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5); */
-  /* box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5); */
   height:12rem;
   background-clip: padding-box;
   outline: 0;
@@ -609,13 +596,90 @@ a {
   .custom-model-inner{margin-top: 45px;}
 }
 
+
+.drpi{
+  position: relative;
+}
+
 .edit-div{
+  z-index: 200000;
   position:absolute;
   background-color: rgb(244, 240, 247);
-  width:23rem;
+  width:29rem;
   height:25rem;
+  border-radius: 3px;
   z-index: 999;
+  padding: 2rem;
+  display:inline-block;
+  box-shadow: 0px 1px 3px rgb(224, 223, 223);
+  visibility: hidden;
 }
+
+.edit-div input{
+  height:3rem;
+  width:23rem;
+  padding-left: 2rem;
+  border: 1px solid rgb(218, 218, 218);
+  margin:6px;
+}
+
+.edit-div button{
+  background-color:rgb(255, 253, 253);
+  border: solid 1px rgb(126, 206, 226);
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+
+
+.iop{
+  background-color:white;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+/* jjjjjjjj */
+modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 
 

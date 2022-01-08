@@ -93,24 +93,27 @@ if ($result) {
                         <div class="dropdown">
                                 <span class="material-icons md-24 spa">more_vert</span>
                                 <div class="dropdown-content">
-                                    <p class="btn-edit"> 
-                                    <span class="pade btn-edit">Edit</span>
-                                    </p>
+                                 <button class="btn-edit iop">Edit</button>
                                     <!-- edit div -->
-                                    <div class="edit-div">
-                                          <form action="">
-                                              <h6>Make changes on ideas</h6>
-                                              <input type="text" name="id" placeholder="cn" required><br>
-                                              <input type="text" name="name" placeholder="hd" required><br>
-                                              <input type="text" name="email" placeholder="dj" required><br>
-                                               <button>keep</button>
-                                               <button>submit changes</button>
-                                          </form>
-                                    </div>
 
+                                    <div class="drpi">
+                                      <div class="edit-div">
+                                          <form action="database.php">
+                                              <br>
+                                              <h6>Make changes on ideas</h6>
+                                              <input type="text" name="id" placeholder="Fight To Keep Them Alive" required><br>
+                                              <input type="text" name="name" placeholder="I Will Live Every Single Talent" required><br>
+                                              <input type="text" name="email" placeholder="The Risk Which Is Worth" required><br>
+                                              <button class="keep">keep</button>
+                                              <button class="save">submit changes</button>
+                                          </form>
+                                      </div>
+                                    </div>
+                                 
                                   <!-- delete div -->
-                                 <div class="btn_delete">Delete</div>        
-                                    <div class="custom-model-main">
+                                 <button class="btn_delete iop">Delete</button>        
+                                
+                                  <div class="custom-model-main">
                                         <div class="custom-model-inner">        
                                         <div class="close-btn">×</div>
                                             <div class="custom-model-wrap">
@@ -125,6 +128,7 @@ if ($result) {
                                         </div>  
                                      <div class="bg-overlay"></div>
                                  </div> 
+                               
 
 
 
@@ -159,3 +163,17 @@ include 'footer.php';
 ?>
 
 </html>
+
+
+
+<button id="myBtn">Open Modal</button>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
