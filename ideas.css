@@ -662,12 +662,13 @@ a {
   text-align: center;
   border-radius: 4px;
   background-color: #fefefe;
-  margin: 25% auto; /* 25% from the top and centered */
+  /* margin: 25% auto;  */
+  z-index: 5;
   padding: 20px;
   padding-right: 25%;
   height:37rem;
   border: 1px solid #888;
-  width: 55%; /* Could be more or less, depending on screen size */
+  width: 80vw; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */

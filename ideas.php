@@ -93,21 +93,33 @@ if ($result) {
                         <div class="dropdown">
                                 <span class="material-icons md-24 spa">more_vert</span>
                                 <div class="dropdown-content">
-                                 <button class="btn-edit iop">Edit</button>
+                                 <button class="btn-edit btnn iop">Edit</button>
                                     <!-- edit div -->
+                             <div class="modes">
+                                <!-- Modal content -->
+                                <div class="modes-content">
+                                <span class="close">X</span>
+                                    <br>
                                     <div class="drpi">
-                                      <div class="edit-div">
-                                          <form action="database.php">
-                                              <br>
-                                              <h6>Make changes on ideas</h6>
-                                              <input type="text" name="id" placeholder="Fight To Keep Them Alive" required><br>
-                                              <input type="text" name="name" placeholder="I Will Live Every Single Talent" required><br>
-                                              <input type="text" name="email" placeholder="The Risk Which Is Worth" required><br>
-                                              <button class="keep">keep</button>
-                                              <button class="save">submit changes</button>
-                                          </form>
-                                      </div>
-                                    </div> -->
+                                                <div class="edit-div">
+                                                    <form action="database.php" autocomplete="off">
+                                                    <br>
+                                                        <h6>Make changes on ideas</h6>
+                                                        <input type="text" name="id" placeholder="Fight To Keep Them Alive" required />
+                                                        <br>
+                                                        <input type="text" name="date" placeholder="I Will Live Every Single Talent" required />
+                                                        <br>
+                                                        <input type="text" name="about" placeholder="The Risk Which Is Worth" required ><br>
+                                                        <input type="text" name="details" placeholder="The Risk Which Is Worth" required />
+                                                        <br>
+                                                        <button class="keep">keep</button>
+                                                        <button class="save"  type="submit" name="submit">submit changes</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                <span class="close">&times;</span>     
+                                </div>
+                                </div>
 
                                   <!-- delete div -->
                                  <button class="btn_delete iop">Delete</button>
@@ -142,40 +154,6 @@ if ($result) {
                 <?php }?>
             <?php }?>
         </div>
-
-
-
-        
-<button class="btnn">Open Modal Nigga</button>
-<!-- The Modal -->
-<div class="modes">
-  <!-- Modal content -->
-  <div class="modes-content">
-  <span class="close">X</span>
-      <br>
-      <div class="drpi">
-                  <div class="edit-div">
-                      <form action="database.php" autocomplete="off">
-                       <br>
-                        <h6>Make changes on ideas</h6>
-                        <input type="text" name="id" placeholder="Fight To Keep Them Alive" required />
-                        <br>
-                        <input type="text" name="date" placeholder="I Will Live Every Single Talent" required />
-                        <br>
-                        <input type="text" name="about" placeholder="The Risk Which Is Worth" required ><br>
-                        <input type="text" name="details" placeholder="The Risk Which Is Worth" required />
-                        <br>
-
-                         <button class="keep">keep</button>
-                         <button class="save"  type="submit" name="submit">submit changes</button>
-                      </form>
-                  </div>
-             </div>
- <span class="close">&times;</span>     
-  </div>
-</div>
-
-
 
     </div>
     <script src="vanilla.js"></script>
