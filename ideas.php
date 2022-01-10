@@ -15,6 +15,33 @@ include 'header.php';
 
 <body>
     <div class="view container-fluid bui">
+
+                  <div class="modes">
+                                <!-- Modal content -->
+                                <div class="modes-content">
+                                <span class="close">X</span>
+                                    <br>
+                                    <div class="drpi">
+                                                <div class="edit-div">
+                                                    <form action="database.php" autocomplete="off">
+                                                    <br>
+                                                        <h6>Make changes on ideas</h6>
+                                                        <input type="text" name="id" placeholder="Fight To Keep Them Alive" required />
+                                                        <br>
+                                                        <input type="text" name="date" placeholder="I Will Live Every Single Talent" required />
+                                                        <br>
+                                                        <input type="text" name="about" placeholder="The Risk Which Is Worth" required ><br>
+                                                        <input type="text" name="details" placeholder="The Risk Which Is Worth" required />
+                                                        <br>
+                                                        <button class="keep">keep</button>
+                                                        <button class="save"  type="submit" name="submit">submit changes</button>
+                                                        <p class="id" data-toggle="tooltip" data-placement="top" title="identifier"><?php print $row['id'];?></p>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                <span class="close">&times;</span>
+                                </div>
+                                </div>
      <!-- FIX THIS IS PART AND HAVE A BEAUTIFUL UI -->
 
         <!-- new category area -->
@@ -95,9 +122,9 @@ if ($result) {
                                 <div class="dropdown-content">
                                  <button class="btn-edit btnn iop">Edit</button>
                                     <!-- edit div -->
-                             <div class="modes">
+                             <!-- <div class="modes"> -->
                                 <!-- Modal content -->
-                                <div class="modes-content">
+                                <!-- <div class="modes-content">
                                 <span class="close">X</span>
                                     <br>
                                     <div class="drpi">
@@ -117,9 +144,9 @@ if ($result) {
                                                     </form>
                                                 </div>
                                             </div>
-                                <span class="close">&times;</span>     
+                                <span class="close">&times;</span>
                                 </div>
-                                </div>
+                                </div> -->
 
                                   <!-- delete div -->
                                  <button class="btn_delete iop">Delete</button>

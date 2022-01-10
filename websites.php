@@ -20,6 +20,12 @@ include 'header.php';
     <div class="sites container-fluid">
         <div class="row rowsite no-gutters">
             <div class="col-lg-6">
+                 <div class="wor">
+                     <h5>Here because its important</h5>
+                      <p>we keep these close to us</p>
+                 </div>
+            </div>
+            <div class="col-lg-6">
             <div>
                   <p>
                   <button class="addsite" data-toggle="modal" data-target="#myModal">Addsite</button>  

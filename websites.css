@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Poppins,Roboto;
 }
 
 
@@ -15,11 +16,11 @@
 .addsite{
     border: none;
     color:rgb(238, 241, 245);
-    background-color:rgb(48, 116, 148);
-    height:3.3rem;
+    background-color:rgb(13, 136, 167);
+    height:5rem;
     width:10rem;
     font-weight: 500;
-    border-radius:2rem;
+    border-radius:3px;
     margin: 16px 0px 0px 16px;
     transition-duration: 0.3s;
 }
@@ -45,7 +46,7 @@
     margin: 1.5rem; 
     padding: 1.7rem ;
     transition-duration: 0.3s;
-    background-color: rgb(248, 252, 252);
+    background-color: rgb(255, 255, 255);
 
 }
 .segment:hover{
@@ -59,7 +60,7 @@
     text-transform: uppercase;
 }
 .segment h6{
- color:rgb(97, 105, 116);
+ color:rgb(94, 99, 105);
  font-weight: 500;
     
 }
@@ -73,7 +74,7 @@
      /* color: rgb(255, 255, 255); */
 }
 .link{
-    color: rgb(65, 62, 107);
+    color: rgb(14, 177, 206);
     margin-left: 60%;
     margin-right:5%;
     border-radius:3px;
