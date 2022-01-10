@@ -22,7 +22,6 @@
   });
 
 
-  
   $(".close").click(function(){
     $(".modes").css({display:"none"})
   })
