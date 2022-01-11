@@ -39,7 +39,8 @@
     box-shadow: 1px 1px 2px  rgb(192, 189, 189);
     transform: scale(1.1);
     border: white 1px solid;
-    background-color:rgb(15, 158, 177);
+    background-color:rgb(85, 18, 99);
+
 }
 .sites{
     border: none;
@@ -53,7 +54,7 @@
     /* background: linear-gradient(45deg, rgb(173, 198, 206), rgb(17, 79, 114)); */
     color: rgb(108, 121, 128);
     border-radius:2px;
-    border: 1.3px solid  rgb(225, 235, 235);
+    border: 1.3px solid  rgb(222, 217, 226);
     margin: 1.5rem; 
     padding: 1.7rem ;
     transition-duration: 0.3s;
