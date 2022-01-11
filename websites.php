@@ -31,7 +31,6 @@ include 'header.php';
                   <button class="addsite" data-toggle="modal" data-target="#myModal">Addsite</button>  
                 <!-- include the navbar -->
                   <button class="kula"><?php include './navbar.php';?></button>
-                  <span>important sites more elaborated</span>
                 </p>
               </div>
             </div>
