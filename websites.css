@@ -5,6 +5,17 @@
 }
 
 
+.wordi{
+    color: rgb(43, 40, 40);
+    padding:2rem;
+}
+.wordi h5{
+     font-weight: 600;
+     font-size:21px;
+     color: rgb(93, 51, 133);
+     font-family: Poppins;
+}
+
 .rowsite{
     
     padding:0.1rem;
@@ -16,7 +27,7 @@
 .addsite{
     border: none;
     color:rgb(238, 241, 245);
-    background-color:rgb(13, 136, 167);
+    background-color:rgb(115, 82, 138);
     height:5rem;
     width:10rem;
     font-weight: 500;
@@ -74,7 +85,7 @@
      /* color: rgb(255, 255, 255); */
 }
 .link{
-    color: rgb(14, 177, 206);
+    color: rgb(133, 7, 206);
     margin-left: 60%;
     margin-right:5%;
     border-radius:3px;
@@ -83,7 +94,7 @@
     padding-left: 2rem;
 }
 .link:hover{
-    border: solid 1px rgb(217, 199, 226);
+    border: solid 1px rgb(171, 8, 253);
 }
 .look{
 

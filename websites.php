@@ -16,13 +16,13 @@ include 'links.php';
 <body>
     <?php
 include 'header.php';
-?>
+   ?>
     <div class="sites container-fluid">
         <div class="row rowsite no-gutters">
             <div class="col-lg-6">
-                 <div class="wor">
+                 <div class="wordi">
                      <h5>Here because its important</h5>
-                      <p>we keep these close to us</p>
+                      <p>we keep these close to us !</p>
                  </div>
             </div>
             <div class="col-lg-6">
@@ -39,7 +39,7 @@ include 'header.php';
         </div>
         <div class="row no-gutters">
 
-            <?php
+        <?php
 $sql = "SELECT * FROM websites;";
 $result = mysqli_query($conn, $sql);
 $check = mysqli_num_rows($result);
