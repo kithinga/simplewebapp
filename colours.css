@@ -1,11 +1,32 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Poppins;
+    
+}
+    
+.ciana{
+   padding:1rem;
+}
+
+
 .colour-slots{
-    min-height: 100vh;
+    min-height:100vh;
+    padding: 1rem;
 }
 
 .coolea{
     padding:1rem;
     margin: 1rem;
 }
+
+.coolea h5{
+    font-size:2rem;
+    font-weight:300;
+    color: rgb(115, 126, 122);
+    letter-spacing:4px;
+}
+
 .coolea p{
     font-size:18px;
     font-weight:600;
@@ -41,50 +62,51 @@
 }
 
 
-
-
-
-
-
-
-
 .cl{
 margin:1rem;
 min-height:15rem;
-border: solid grey 1px;
 padding:2rem;
 border-radius:1.5px;
-box-shadow: 0 0 1px rgba(163, 163, 165, 0);
 }
-.lipin{
-    background-color: brown;
-    
+
+.cmac{
+    background-color: rgb(211, 198, 16);
+    border-radius: 0.5rem;
 }
-.pinli{
-    background-color:rgb(8, 69, 119);
+
+.pis{
+    padding:1px;
+    margin: 1px;
+    font-Weight:400;
 }
-.yelli{
-    background-color:rgb(173, 173, 9);
-}
-.lopo{
-    background-color: rgb(39, 6, 66);
-}
-.e{
-    background-color: rgb(236, 20, 128);
-}
-.f{
-    background-color:rgb(88, 65, 170);
-}
-.g{
-    background-color:rgb(218, 155, 40);
-}
-.h{
-    background-color: rgb(39, 90, 156);
+
+.cmact{
+    font-weight:700;
+    margin-bottom:10px;
 }
 
 
-.luigai{
-    margin: 1rem;
-    padding: 1rem;
-    background-color:rgb(241, 236, 236);
+.cmac2{
+    background-color: rgb(157, 207, 162);
+    border-radius: 0.5rem;
 }
+
+.cmac3{
+    background-color: rgb(131, 138, 127);
+    border-radius: 0.5rem;
+}
+.cmac4{
+    background-color: rgb(167, 149, 172);
+    border-radius: 0.5rem;
+}
+.cmac5{
+    background-color: rgb(202, 159, 118);
+    border-radius: 0.5rem;
+}
+.cmac6{
+    background-color: rgb(126, 179, 206);
+    border-radius: 0.5rem;
+}
+
+
+

@@ -15,18 +15,19 @@ include 'links.php';
     <?php
 include 'header.php';
 ?>
-
+    <br>
+    <br>
     <div class="container-fluid colour-slots">
         <div class="row no-gutters">
             <div class="col-lg-5">
                 <div class="coolea">
+                    <h5>COLOURS </h5>
                     <p>Recording colours for projects</p>
-                    <text>Descriptions can be made about the colour use!</text>
+                    <text>harmoniously!</text>
                 </div>
             </div>
             <div class="col-lg-2">
-                <button class="addcl">Add Colour <span class="material-icons coli"
-                        <?php printf("#%06X\n", mt_rand(0, 0xFFFFFF));?>>
+                <button class="addcl">Add Colour <span class="material-icons coli">
                         format_color_fill
                     </span></button>
             </div>
@@ -37,51 +38,79 @@ include 'header.php';
             </div>
         </div>
 
+        <br>
+        <br>
 
         <div class="ciana row no-gutters">
-            <div class="col-lg-3 col-sm-12 col-xs-12" data-aos="fade-down">
-                <div>
-                    <div class="cl lipin">
-                        color
-                    </div>
-                    <div class="luigai">
-                        <h5>Luigai</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, delectus!</p>
-                    </div>
+            <div class="col-lg-2 col-sm-12 col-xs-12" data-aos="fade-down">
+                <div class="cl cmac">
+                    <p class="cmact">Black</p>
+                    <P class="pis">Hex colours: #1f2020</P>
+                    <p class="pis">RGB (31,32,32)</p>
+                    <p class="pis">CMYK ( 73,66, 65,74 )</p>
+                    <p class="pis">project</p>
                 </div>
             </div>
 
+            <div class=" col-lg-2 col-sm-12 col-xs-12" data-aos="fade-up">
+                <div class="cl cmac2">
+                    <p class="cmact">Light Green</p>
+                    <P class="pis">Hex colours: #1f2020</P>
+                    <p class="pis">RGB (31,32,32)</p>
+                    <p class="pis">CMYK ( 73,66, 65,74 )</p>
+                    <p class="pis">project</p>
+                </div>
+            </div>
 
-            <div class=" col-lg-3 col-sm-12 col-xs-12" data-aos="fade-up">
-                <div class="cl pinli">2</div>
+            <div class=" col-lg-2 col-sm-12 col-xs-12" data-aos="fade-up">
+                <div class="cl cmac3">
+                    <p class="cmact">Midnight Green</p>
+                    <P class="pis">Hex colours: #1f2020</P>
+                    <p class="pis">RGB (31,32,32)</p>
+                    <p class="pis">CMYK ( 73,66, 65,74 )</p>
+                    <p class="pis">project</p>
+                </div>
             </div>
-            <div class=" col-lg-3 col-sm-12 col-xs-12" data-aos="fade-up">
-                <div class="cl yelli">3</div>
+
+            <div class=" col-lg-2 col-sm-12 col-xs-12" data-aos="fade-up">
+                <div class="cl cmac4">
+                    <p class="cmact">indigo shade</p>
+                    <P class="pis">Hex colours: #1f2020</P>
+                    <p class="pis">RGB (31,32,32)</p>
+                    <p class="pis">CMYK ( 73,66, 65,74 )</p>
+                    <p class="pis">project</p>
+                </div>
             </div>
-            <div class="col-lg-3 ">
-                <div class="cl lopo">4</div>
+
+            <div class=" col-lg-2 col-sm-12 col-xs-12" data-aos="fade-up">
+                <div class="cl cmac5">
+                    <p class="cmact">Orange shade</p>
+                    <P class="pis">Hex colours: #1f2020</P>
+                    <p class="pis">RGB (31,32,32)</p>
+                    <p class="pis">CMYK ( 73,66, 65,74 )</p>
+                    <p class="pis">project</p>
+                </div>
             </div>
-            <div class="col-lg-3 col-sm-12 col-xs-12" data-aos="fade-down">
-                <div class="cl e">1</div>
-            </div>
-            <div class=" col-lg-3 col-sm-12 col-xs-12" data-aos="fade-up">
-                <div class="cl f">2</div>
-            </div>
-            <div class=" col-lg-3 col-sm-12 col-xs-12" data-aos="fade-up">
-                <div class="cl g">3</div>
-            </div>
-            <div class="col-lg-3 ">
-                <div class="cl h">4</div>
+
+            <div class=" col-lg-2 col-sm-12 col-xs-12" data-aos="fade-up">
+                <div class="cl cmac6">
+                    <p class="cmact">Blue shade</p>
+                    <P class="pis">Hex colours: #1f2020</P>
+                    <p class="pis">RGB (31,32,32)</p>
+                    <p class="pis">CMYK ( 73,66, 65,74 )</p>
+                    <p class="pis">project</p>
+                </div>
             </div>
         </div>
+
     </div>
+    <?php include 'footer.php';?>
+
+
     <script src="vanilla.js"></script>
     <script>
     AOS.init();
     </script>
 </body>
-<?php
-include 'footer.php';
-?>
 
 </html>

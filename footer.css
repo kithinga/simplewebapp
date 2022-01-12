@@ -1,21 +1,20 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:Poppins, Roboto;
+    
 }
 
 .fo{
-    margin: 3rem;
+    /* margin: 3rem; */
     color: rgb(207, 204, 204);
     margin-top:4rem !important;
 }
 .footer{
-    height: 16vh;
+    min-height: 16vh;
 }
 
-.footer-container{
-   bottom: 0;
 
-}
 .footer-row{
     /* margin: 1rem; */
     margin-top:5rem;
@@ -24,7 +23,6 @@
     text-align:center;
     font-weight: 400;
     letter-spacing: 1px;
-    font-family: 'Calibre-Bold',"Meiryo",Osaka; 
 }
 
 .footer-column{

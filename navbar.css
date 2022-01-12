@@ -5,10 +5,14 @@
 }
 .items{
     background-color:rgb(255, 255, 255);
-    border: solid 0.5px rgb(240, 237, 237);
+    text-align:right;
+    margin-right: 2rem;
+    padding-right:2px;
     border-radius:2px;
+
 }
 li{
+
     list-style: none;
     text-decoration: none;
     display: inline-block;
@@ -19,9 +23,11 @@ li{
 }
 .btni{
     background-color:rgb(229, 235, 236);
+    border-radius:5px;
     border: none;
     height: 5rem;
 }
+
 .btni:hover{
     background-color:rgb(16, 147, 180);
     color: rgb(223, 221, 221);
