@@ -12,12 +12,15 @@
   .ha{
     color: rgb(7, 7, 7);
     margin:1.5rem;
-    border:1.4px solid rgb(223, 223, 223);
+    border:1.6px solid rgb(237, 236, 238);
     background-color:rgb(255, 255, 255);
-    border-radius:6px;
+    border-radius:7px;
     transition:1s;
   }
+
+  
   .ha:hover{
+      transform: translate(1%, 1%);
       color: rgb(20, 20, 20);
       background-color: rgb(241, 235, 247);
       cursor: pointer;
@@ -110,6 +113,13 @@
     min-height: 12rem;
     border-radius: 4px;
 }
+
+/* .website-items:hover{
+    border: solid 1.7px rgb(227, 210, 245);
+    background-color:rgb(251, 249, 252);
+    font-size:24px;
+    color: rgb(117, 13, 236);
+} */
 
 
 /* top section after the header */
