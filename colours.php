@@ -17,8 +17,8 @@ include 'header.php';
 ?>
     <br>
     <br>
-    <div class="container-fluid colour-slots">
-        <div class="row no-gutters">
+    <div class="container-fluid ncont">
+        <div class="row no-gutters nrow">
             <div class="col-lg-5">
                 <div class="coolea">
                     <h5>COLOURS </h5>
@@ -26,21 +26,27 @@ include 'header.php';
                     <text>harmoniously!</text>
                 </div>
             </div>
+
             <div class="col-lg-2">
-                <button class="addcl">Add Colour <span class="material-icons coli">
-                        format_color_fill
-                    </span></button>
-            </div>
-            <div class="col-lg-5">
-                <div>
-                    <?php include './navbar.php';?>
+                <div class="acls">
+                    <button class="addcl">Add Colour
+                        <span class="material-icons coli">
+                            format_color_fill
+                        </span>
+                    </button>
                 </div>
             </div>
+
+            <div class="col-lg-5">
+                <!-- Web navbar  -->
+                <?php include 'navbar.php'   ?>
+            </div>
         </div>
+    </div>
 
-        <br>
-        <br>
 
+    <div class="container-fluid colour-slots">
+        <br>
         <div class="ciana row no-gutters">
             <div class="col-lg-2 col-sm-12 col-xs-12" data-aos="fade-down">
                 <div class="cl cmac">
@@ -72,7 +78,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <div class=" col-lg-2 col-sm-12 col-xs-12" data-aos="fade-up">
+            <div class="col-lg-2 col-sm-12 col-xs-12" data-aos="fade-up">
                 <div class="cl cmac4">
                     <p class="cmact">indigo shade</p>
                     <P class="pis">Hex colours: #1f2020</P>

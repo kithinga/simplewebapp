@@ -4,11 +4,10 @@
   font-family: Poppins;
 }
 
-
-/* .vin{
-  background-color:rgb(250, 250, 250);
-  padding:1rem;
-} */
+.allcs{
+  /* background-color:rgb(105, 89, 89); */
+  margin:1rem;
+}
 
 .modal{
   padding: 0;
@@ -52,12 +51,6 @@ a {
 }
 
 
-/* .adder{
-  border:1px solid rgb(196, 199, 214);
-  border-radius: 3rem;
-  padding: 0.5rem;
-} */
-/*btn for adding idea*/
 
 
 
@@ -86,11 +79,10 @@ a {
 }
 
 .card {
-  position:relative;
   cursor: pointer;
-  border-radius:2.2px;
-  margin: 1.101rem;
-  padding: 0.70rem;
+  border-radius:3px;
+  margin:1rem;
+  padding:18px 9px 9px 9px ;
   min-height: 10rem;
   border: solid 0.65px rgb(231, 236, 236);  
   transition-duration: 0.5s;
@@ -368,55 +360,40 @@ a {
 
 
  .describer{
-   padding:4rem;
-   min-height:7rem;
-   margin:1rem;
+   padding:3rem;
+   min-height:5rem;
    color: rgb(37, 34, 34);
    /* background-color: #f5f3f7; */
    border-radius:2px;
-   
- 
  }
 
 
  .describer h5{
-   font-size:1.5rem;
-   font-weight: 500;
-   color:rgb(19, 184, 206);
+   font-size:19px;
+   font-weight: 600;
+   color:rgb(30, 158, 175);
    letter-spacing:-1px;
       
  }
 
- .categ {
-  border: solid 1px rgb(238, 231, 231);
-  min-height:8rem;
-  margin: 1rem;
-  color: rgb(141, 144, 145);
-  /* background-color:rgb(162, 206, 218); */
- 
-}
 
  .ideabutton{
    /* background-color: red; */
    text-align: center; 
    padding:1rem;
-   padding-top: 4rem;
-   margin: 0.3rem;
-   margin: 1rem;
    border-radius: 1px;
-   min-height:7rem;
  }
 
  
  .ideabtn {  
+  margin-top:8px;
   border: 1.5px solid rgb(200, 222, 224);
   font-weight: 500;
   height: 5rem;
-  width: 12rem;
+  width:12rem;
   color: rgb(65, 61, 68);
   background-color: rgb(252, 250, 250);
-  border-radius:1.5px;
-  padding-bottom: 0.5rem;
+  border-radius:2px;
 }
 
 
@@ -583,20 +560,6 @@ a {
   color: #fff;
 }
 
-@media screen and (min-width:800px){
-	.custom-model-main:before {
-	  content: "";
-	  display: inline-block;
-	  height: auto;
-	  vertical-align: middle;
-	  margin-right: -0px;
-	  height: 100%;
-	}
-}
-@media screen and (max-width:799px){
-  .custom-model-inner{margin-top: 45px;}
-}
-
 
 .drpi{
   position: relative;
@@ -615,6 +578,7 @@ a {
   background-color:green;
   
 }
+
 
 .edit-div input{
   height:3rem;
@@ -687,7 +651,39 @@ a {
   cursor: pointer;
 }
 
+.items{
+  padding-right: 1rem;
+}
 
+
+
+
+
+/* MOBILE RESPONSIVE SECTION */
+
+@media only screen and (max-width: 600px) {
+
+  .bui{
+      padding:1rem;
+  }
+
+  .items{
+      text-align:left;
+  }
+
+    .btni{
+        width:24%;
+        min-height: 3rem;
+    }
+
+    .ideabtn{
+       width:100%;
+    }
+
+    .allcs{
+      margin:0;
+    }
+  }
 
 
 

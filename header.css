@@ -4,6 +4,7 @@
   font-family: Poppins, Roboto;
 }
 
+
 .head{
   background-color:white;
   color:black;
@@ -103,5 +104,28 @@
 
 /* MOBILE DEVICE CSS */
 
+@media only screen and (max-width: 600px) {
+
+  
+  body{
+    margin: 1rem;
+  }
+
+
+  .items{
+      text-align:left;
+  }
+
+    .btni{
+        width:24%;
+        min-height: 3rem;
+    }
+
+    .addcl{
+       width:100%;
+    }
+}
+
+ 
 
 

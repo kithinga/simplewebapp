@@ -2,17 +2,18 @@
 *{
     padding:0;
     margin: 0;
+    font-family:Poppins;
 }
+
 .items{
     background-color:rgb(255, 255, 255);
-    text-align:right;
-    margin-right: 2rem;
-    padding-right:2px;
     border-radius:2px;
-
+    margin: 1rem;
+    text-align:right;
 }
-li{
 
+
+li{
     list-style: none;
     text-decoration: none;
     display: inline-block;
@@ -21,13 +22,14 @@ li{
     font-size: 0.7rem;
     font-weight:500;
 }
+
+
 .btni{
     background-color:rgb(229, 235, 236);
     border-radius:3px;
     border: none;
     height: 5rem;
     margin-top: 8px;
-    max-width: 24rem;
 }
 
 .btni:hover{
@@ -40,87 +42,29 @@ li:hover{
 }
 
 
-
-
-
-
-
 /* AFTER KEYFRAME SIZE EQUIVALENT TO SIZE OF PHONE SCREEN */
 /* collapsible nav */
 
+    @media only screen and (max-width: 600px) {
+
+        .head{
+            display:none;
+        }
+
+        .items{
+            text-align:left;
+        }
+
+          .btni{
+              width:24%;
+              min-height: 3rem;
+          }
+
+          .addcl{
+             width:100%;
+          }
+    }
 
 
-blockquote {
-    font-family: Arial;
-    background-color: #F8EFBE;
-    border-left-color: #F4B514;
-  }
   
-  #contactme {
-    background-color: black;
-    color: white;
-    height: 180px;
-  }
-  
-  
-  #navbar {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-  }
-  
-  .top-nav {
-    background-color: #671100;
-  }
-  
-  .top-nav a {
-    color: #d3e316;
-  }
-  
-  h1.headingStatement {
-    font-family: Monospace;
-    font-size: 2em;
-  }
-  
-  
-  /* bootstrap override */
-  
-  a.btn-primary:hover {
-    text-decoration: none;
-  }
-  
-  .navbar-nav li a:hover {
-      background-color: #FF0000;
-      border-radius: 10px;
-  }
-  .navbar-toggle .icon-bar {
-    display: block;
-    width: 22px;
-    height: 2px;
-    background-color: #cccccc;
-    border-radius: 1px;
-  }
 
-  .navbar-toggle{
-      border: solid 1px rgb(184, 180, 180);
-      border-radius:3px;
-      background-color:rgb(251, 247, 255);
-      padding:8px;
-      font-size:2rem;
-      font-weight: 500;
-  }
-
-
-  .bars{
-      font-size:2rem;
-      font-weight: 500;
-  }
-
-  .nav{
-      padding: 1rem;
-  }
-
-  .navabar-collapse{
-      text-align:center;
-  }

@@ -1,5 +1,5 @@
 <?php
-   include 'links.php';
+include 'links.php';
 ?>
 
 <!DOCTYPE html>
@@ -14,56 +14,7 @@
 
 <body>
 
-
-    <!--collapsible navbar -->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="material-icons bars">
-                        list
-                    </span>
-                </button>
-            </div>
-
-            <div class="navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <button class="btni" onclick="location.href=' ideas.php'">
-                        <li>ideas</li>
-                    </button>
-                    <button class="btni" onclick="location.href='sketches.php'">
-                        <li>Sketches</li>
-                    </button>
-                    <button class="btni" onclick="location.href='todos.php'">
-                        <li>Tasks</li>
-                    </button>
-                    <button class="btni" onclick="location.href='colours.php'">
-                        <li>Colours</li>
-                    </button>
-                    <button class="btni" onclick="location.href='artkit.php'">
-                        <li>Artkit</li>
-                    </button>
-                    <button class="btni" onclick="location.href='websites.php'">
-                        <li>Websites</li>
-                    </button>
-                    <button class="btni" onclick="location.href='design.php'">
-                        <li>Designs</li>
-                    </button>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
-
-
-
-
-
     <!-- Web navbar  -->
-
-
     <div class="navb">
         <div class="items">
             <button class="btni" onclick="location.href=' ideas.php'">
@@ -91,8 +42,8 @@
     </div>
 
 
-
-    <script src="vanilla.js"></script>
+    <script src=" vanilla.js">
+    </script>
     <script>
     AOS.init();
     </script>

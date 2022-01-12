@@ -8,13 +8,10 @@
 .pigment {
   min-height: 6rem;
   border: none;
-  position: relative;
-  margin: 0.8rem;
-  border-radius: 1px;
+  margin:1rem;
+  border-radius:4px;
   transition-duration: 0.3s;
 }
-
-
 
 .pigment:hover {
   opacity: 0.7;
@@ -27,20 +24,27 @@
 
 .imgbtn {
   outline: none;
-  color: rgb(126, 110, 77);
-  font-size: 1rem;
+  color: rgb(145, 117, 62);
+  font-size: 1.2rem;
   background-color: white;
-  width: 9rem;
+  border-radius:3px;
+  width:12rem;
   height: 5rem;
-  border-radius: 2px;
-  font-weight: 400;
-  border: rgb(214, 218, 221) solid 1px;
+  font-weight: 600;
+  border: rgb(214, 218, 221) solid 2px;
   text-align: center;
   transition-duration: 0.3s;
 }
 
+.navbc{
+    padding:1rem;
+    min-height:4rem;
+    text-align: center;
+    margin-top:8px;
+}
+
 .imgbtn:hover {
-  background-color: rgb(114, 94, 54);
+  background-color: rgb(85, 66, 28);
   color: white;
   transform: scale(1.1);
   border: white 1px solid;
@@ -48,32 +52,17 @@
 }
 
 
-
-.add-art {
-  padding: 0.5rem;
-  font-weight: bold;
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-
-
-
 .artimg {
   z-index: 10000;
   width: 100%;
   height: 20vh;
-  border-radius: 1px;
+  border-radius: 3px;
   opacity: 0.7 black;
 }
 
-
 .imagine{
-    margin:1rem;
-    padding:1rem;
-    text-align:center;
+    padding:2rem;
 }
-
-
 
 .imagine p{
     font-size:20px;
@@ -85,7 +74,6 @@
     font-size:2rem;
     letter-spacing:3px;
     font-weight:100;
-    margin: 1rem;
     color: rgb(131, 100, 58);
 }
 
@@ -95,9 +83,15 @@
     text-align: center;
 }
 
-.navbc{
-    /* background-color:red; */
-    padding:0;
-    height:4rem;
-    text-align: center;
+.sketches{
+    padding:1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .imgbtn{
+     width:100%;
+    }
+    
+
 }
