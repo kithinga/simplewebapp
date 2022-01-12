@@ -6,21 +6,23 @@
 
 .all-slots {
     background-color:rgb(255, 255, 255);
-    min-height: 100vh;
+    min-height: 70vh;
+ }
 
-  }
   .ha{
-    color: rgb(240, 234, 234);
+    color: rgb(7, 7, 7);
     margin:1.5rem;
     border:1.4px solid rgb(223, 223, 223);
     background-color:rgb(255, 255, 255);
-    border-radius:7px;
+    border-radius:6px;
+    transition:1s;
   }
   .ha:hover{
-      color: black;
-      background-color: rgb(252, 246, 253);
+      color: rgb(20, 20, 20);
+      background-color: rgb(241, 235, 247);
       cursor: pointer;
-      border: 1px solid rgb(165, 235, 240);
+      border: 1.5px solid rgb(235, 238, 238);
+
   }
 
   .all-slots h4{
@@ -37,7 +39,7 @@
 }
 
 .idea-items{
-    background-color: rgb(2, 47, 65);
+    /* background-color: rgb(126, 128, 129); */
     min-height: 9rem;
     border-radius:3px;
 }
@@ -55,7 +57,7 @@
 
 .sketches-items{
     min-height: 9rem;
-    background-color: rgb(51, 43, 36);
+    /* background-color: rgb(51, 43, 36); */
     border-radius: 6px;
 }
 
@@ -71,18 +73,18 @@
     min-height: 17rem;
     border-radius: 3px;
     padding-top: 3rem;
-    background-color: rgb(5, 54, 50);
+    /* background-color: rgb(5, 54, 50); */
 }
 
 .colour-items{
-    background-color: rgb(49, 49, 4);
+    /* background-color: rgb(49, 49, 4); */
     padding-top: 3rem;
     min-height: 17rem;
     border-radius: 3px;
 }
 
 .artkit-items{
-    background-color:rgb(21, 28, 41);
+    /* background-color:rgb(21, 28, 41); */
     min-height: 17rem;
     padding-top: 3rem;
     border-radius: 4px;
@@ -98,13 +100,13 @@
 }
 
 .design-items{
-    background-color: rgb(78, 21, 4);
+    /* background-color: rgb(78, 21, 4); */
     min-height: 12rem;
     border-radius: 4px;
 }
 
 .website-items{
-    background-color: rgb(37, 29, 46);
+    /* background-color: rgb(37, 29, 46); */
     min-height: 12rem;
     border-radius: 4px;
 }
@@ -118,23 +120,23 @@
     margin-top: 2rem;
     font-family: Poppins;
     /* background-color: antiquewhite; */
-
 }
 
+
 .quotes{
-      background-color:rgb(253, 252, 253);
+      background-color:rgb(255, 254, 255);
       min-height:10rem;
       border-right: none;
       padding: 2rem;
       border-top-left-radius:2.3px;
       border-bottom-left-radius:2.3px;
-      border:solid 1px rgb(200, 197, 202);
+      border:solid 1px rgb(238, 235, 240);
       border-right: none;
 }
 
 
 .times{
-    background-color:rgb(253, 252, 253);
+
     border-left: none !important;
     min-height:11rem;
     padding: 2rem;
@@ -149,6 +151,7 @@
     color:rgb(41, 183, 226);
     font-weight: 600;
 }
+
 
 .quote{
        font-weight: 400;

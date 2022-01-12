@@ -12,6 +12,8 @@
   border-radius: 1px;
 }
 
+
+
 .idele {
   display: none;
   transition: transform 0.3s ease-out;
@@ -19,9 +21,13 @@
   padding: 25 90% 45px;
 }
 
+
+
+
 .pigment:hover {
   opacity: 0.7;
 }
+
 
 .imgbtn {
   outline: none;
@@ -43,12 +49,16 @@
   color: white;
 }
 
+
+
 .add-art {
   padding: 0.5rem;
   font-weight: bold;
   font-size: 2.5rem;
   font-weight: 900;
 }
+
+
 
 .artimg {
   z-index: 10000;
@@ -57,6 +67,8 @@
   border-radius: 2.2px;
   opacity: 0.7 black;
 }
+
+
 
 .centre-image {
   width: 100%;
@@ -67,6 +79,8 @@
   display: none;
   position: fixed;
 }
+
+
 
 .card-content {
   opacity: 1;
@@ -95,6 +109,8 @@
     padding:1rem;
     text-align:center;
 }
+
+
 
 .imagine p{
     font-size:20px;
