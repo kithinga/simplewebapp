@@ -18,24 +18,22 @@ include "header.php";
     <div class="adders container-fluid">
         <div class="row no-gutters">
 
-            <div class="col-lg-6">
+            <div class="col-lg-5">
                 <div class="imagine">
-                    <p>The visual intelligence !</p>
-                    <text>depuis to the things we wish to understand.</text>
+                    <h6>SKETCHES</h6>
+                    <p> intelligence !</p>
+                    <text>depuis to the things.</text>
                 </div>
             </div>
 
-            <div class="col-lg-6">
-                <div>
-                    <p>
-                        <!--add button-->
-                        <button class="imgbtn" data-toggle="modal" data-target="#myModal">
-                            <span class="add-art material-icons">
-                                add image
-                            </span>
-                        </button>
-                        <button> <?php include './navbar.php';?></button>
-                    </p>
+            <div class="col-lg-2">
+                <div class="navbc">
+                    <!--add button-->
+                    <button class="imgbtn" data-toggle="modal" data-target="#myModal">
+                        <span class="add-art material-icons" data-toggle="tooltip" title="Adding an image">
+                            add image
+                        </span>
+                    </button>
                 </div>
                 <!-- The Modal -->
                 <div class="modal fade" id="myModal">
@@ -69,6 +67,9 @@ include "header.php";
                 <!-- including the navbar -->
 
             </div>
+            <div class="col-lg-5">
+                <button class="checkbt"> <?php include './navbar.php';?></button>
+            </div>
         </div>
 
 
@@ -81,11 +82,11 @@ $check = mysqli_num_rows($result);
 if ($result) {
     while ($row = mysqli_fetch_assoc($result)) {
         ?>
-            <div class="basal col-md-4 col-sm-12 col-xs-12  " data-aos="fade-up" id="<?php print $row['id'];?>">
+            <div class="col-md-2 col-sm-12 col-xs-12  " data-aos="fade-up" id="<?php print $row['id'];?>">
                 <div class="pigment ">
-                    <a href="database.php?imgdelete=<?php print $row['id']?>">
+                    <!-- <a href="database.php?imgdelete=<?php print $row['id']?>">
                         <span class="idele material-icons">delete</span>
-                    </a>
+                    </a> -->
                     <img class="artimg img-fluid" src="images/<?php print $row['image'];?>" alt="">
                 </div>
             </div>

@@ -31,6 +31,27 @@
   $(".modes-content").mouseleave(function(){
     $(".modes").css({display:"none"})
   })
+
+
+
+// // colour change//
+
+
+// const setBg = () => {
+//   const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+//   var
+//   document.body.style.backgroundColor = "#" + randomColor;
+//   color.innerHTML = "#" + randomColor;
+// }
+
+// genNew.addEventListener("click", setBg);
+// setBg();
+
+
+// body.mouseover(function () {
+//   var randomColor = Math.floor(Math.random() * 16777215).toString(16);
+//   coli.style.color = randomColor;
+// })
   
 
 

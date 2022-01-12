@@ -1,4 +1,8 @@
 
+*{
+    padding:0;
+    margin: 0;
+}
 .items{
     background-color:rgb(255, 255, 255);
     border: solid 0.5px rgb(240, 237, 237);

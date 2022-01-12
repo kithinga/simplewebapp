@@ -16,15 +16,33 @@ include 'header.php';
 
 <body>
     <div class="container-fluid">
+        
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
         <div class="row no-gutters iconrow">
-            <div class=" col-sm-12">
-                <p>
-                <div class="tasktitle">
-                    <p class="pone">Tasks to do and already done  <?php include './navbar.php';?> </p>
-                </div>
+
+                    <div class="col-lg-5">
+                    <div class="tasktitle">
+                              <p>Notes to Tasks</p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                         <div>
+                             
+                         </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                         <div> <?php include './navbar.php';?> </p></div>
+                    </div>
             </div>
-        </div>
+
     </div>
+
+
     <div class="row no-gutters tasks">
         <div class="col-sm-12  col-lg-6 ">
             <div class="column_1">
@@ -63,28 +81,28 @@ include 'header.php';
             <div class="row no-gutters todo_row ">
 
                 <?php
-                $sql = "SELECT * FROM todos;";
-                $result = mysqli_query($conn, $sql);
-                $check = mysqli_num_rows($result);
+$sql = "SELECT * FROM todos;";
+$result = mysqli_query($conn, $sql);
+$check = mysqli_num_rows($result);
 
-                if ($result) {
-                    while ($row = mysqli_fetch_assoc($result)) {
-                ?>
-                        <div class="col-sm-12 col-md-4" data-aos="fade-up" id="<?php print $row['id']; ?>">
+if ($result) {
+    while ($row = mysqli_fetch_assoc($result)) {
+        ?>
+                        <div class="col-sm-12 col-md-4" data-aos="fade-up" id="<?php print $row['id'];?>">
                             <div class="todo_item">
-                                <a href="database.php?taskdelete=<?php print $row['id'] ?>">
+                                <a href="database.php?taskdelete=<?php print $row['id']?>">
                                     <span class=" material-icons">delete</span>
                                 </a>
-                                <a href="database.php?taskpush=<?php print $row['id'] ?>">
+                                <a href="database.php?taskpush=<?php print $row['id']?>">
                                     <span class=" material-icons">move_to_inbox</span>
                                 </a>
-                                <p class="type"><?php print $row['id']; ?></p>
-                                <p class="task"><?php print $row['task']; ?></p>
-                                <p class="dat"><?php print $row['date']; ?></p>
+                                <p class="type"><?php print $row['id'];?></p>
+                                <p class="task"><?php print $row['task'];?></p>
+                                <p class="dat"><?php print $row['date'];?></p>
                             </div>
                         </div>
-                    <?php } ?>
-                <?php } ?>
+                    <?php }?>
+                <?php }?>
 
             </div>
         </div>
@@ -130,24 +148,24 @@ include 'header.php';
 
             <div class="row no-gutters done_row">
                 <?php
-                $sql = "SELECT * FROM finished;";
-                $result = mysqli_query($conn, $sql);
-                $check = mysqli_num_rows($result);
+$sql = "SELECT * FROM finished;";
+$result = mysqli_query($conn, $sql);
+$check = mysqli_num_rows($result);
 
-                if ($result) {
-                    while ($row = mysqli_fetch_assoc($result)) {
-                ?>
-                        <div class="col-sm-12 col-md-4" data-aos="fade-up" id="<?php print $row['id']; ?>">
+if ($result) {
+    while ($row = mysqli_fetch_assoc($result)) {
+        ?>
+                        <div class="col-sm-12 col-md-4" data-aos="fade-up" id="<?php print $row['id'];?>">
                             <div class="done_item">
-                                <p class="type2"><?php print $row['id']; ?> <a href="database.php?taskdone=<?php print $row['id'] ?>">
+                                <p class="type2"><?php print $row['id'];?> <a href="database.php?taskdone=<?php print $row['id']?>">
                                         <span class="tdicon material-icons">done</span>
                                     </a> </p>
-                                <p class="task2"><?php print $row['task']; ?></p>
-                                <p class="dat"><?php print $row['date']; ?></p>
+                                <p class="task2"><?php print $row['task'];?></p>
+                                <p class="dat"><?php print $row['date'];?></p>
                             </div>
                         </div>
-                    <?php } ?>
-                <?php } ?>
+                    <?php }?>
+                <?php }?>
             </div>
         </div>
     </div>
