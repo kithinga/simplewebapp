@@ -187,6 +187,43 @@
     display:none;
 }
 
+.rga{
+    display:grid;
+    background:rgb(81, 81, 243);
+    padding:1rem;
+    width: 100%;
+    grid-template-areas: "idea sketch"
+                         "task  colour"
+                         "website design";
+    grid-template-columns:1fr,1fr;
+
+}
+.ga{
+    background-color:rgb(240, 237, 243);
+    min-width:3rem;
+    margin:0.5rem;
+    height:9rem;
+    padding:1rem;
+    /* padding-top: 3rem; */
+    font-weight: 500;
+    border-radius: 4px;
+    font-size:1.3rem;
+    text-align:center;
+    border: solid 2px rgb(236, 234, 234);
+
+}
+.ga h4{
+    padding-top:0;
+    margin-top:0;
+    font-size:1.2rem;
+    font-weight: 500;
+}
+.ics{
+    padding-top:1rem;
+    font-size:1.5rem;
+    color: rgb(115, 113, 117);
+}
+
 
 /* MOBILE RESPONSIVE SECTION */
 
@@ -197,12 +234,8 @@
        /* background-color: red; */
        color: red;
     }
-
-    .moblr{
-        display:inline-block;
-    }
-    .webresp{
-         display:none;
+    .col-sm-6{
+        width:10rem;
     }
 
 }
