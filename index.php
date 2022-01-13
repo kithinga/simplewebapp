@@ -16,6 +16,7 @@ include 'database.php';
 include 'links.php';
 include 'header.php';
 ?>
+
     <div class="container-fluid all-slots">
         <!-- section one -->
         <!-- small section with watch and words -->
@@ -37,7 +38,11 @@ include 'header.php';
         </div>
 
 
-        <div class="row no-gutters">
+
+
+        <!-- web, pc responsive -->
+
+        <div class="row no-gutters webresp">
             <div class="col-lg-3">
 
             </div>
@@ -118,27 +123,28 @@ include 'header.php';
 
         <!--  by kithinga-->
         <!-- Mobile responsive section -->
-        <div class="row no-gutters">
-            <div class="col-lg-3">
 
-            </div>
-            <div class="col-lg-8">
-                <div class="row no-gutters sec-one" data-aos="fade-down" data-aos-duration="2000">
-                    <div onclick="location.href='ideas.php'" class="col-lg-3 ">
-                        <div class="idea-items ha">
-                            <span class="icon-sec material-icons">batch_prediction</span>
-                            <h4>Ideas</h4>
-                        </div>
-                    </div>
-                    <div onclick="location.href='sketches.php'" class="col-lg-6 col-xs-6">
-                        <div class="sketches-items ha">
-                            <span class="icon-sec material-icons">draw</span>
-                            <h4>Sketches</h4>
-                        </div>
+
+
+
+        <div class="row no-gutters sec-one">
+            <div class="col-lg-6">
+                <div onclick="location.href='ideas.php'" data-aos="fade-down" data-aos-duration="1500">
+                    <div class="idea-items ha">
+                        <span class="icon-sec material-icons">batch_prediction</span>
+                        <h4>Ideas</h4>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3"></div>
+
+            <div class="col-lg-6">
+                <div onclick="location.href='ideas.php'" data-aos="fade-down" data-aos-duration="1500">
+                    <div class="sketches-items ha">
+                        <span class="icon-sec material-icons">draw</span>
+                        <h4>Sketches</h4>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
@@ -193,7 +199,15 @@ include 'header.php';
             </div>
             <div class="col-lg-3"></div>
         </div>
+    </div>
 
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <text>Nudges wher</text>
+            </div>
+        </div>
     </div>
 
     <script src="vanilla.js"></script>

@@ -8,7 +8,6 @@
     background-color:rgb(255, 255, 255);
     min-height: 70vh;
     background-color:rgb(241, 241, 248);
-    /* margin:2rem; */
  }
 
   .ha{
@@ -42,6 +41,7 @@
     font-size:2rem;
     font-weight: 500;
     cursor: pointer;
+    background-color: indigo;
 }
 
 .idea-items{
@@ -183,6 +183,10 @@
     font-size:0.5rem;
     color: rgb(49, 31, 212);
 }
+.moblr{
+    display:none;
+}
+
 
 /* MOBILE RESPONSIVE SECTION */
 
@@ -191,6 +195,14 @@
     .ha{
        margin:8px;
        /* background-color: red; */
+       color: red;
+    }
+
+    .moblr{
+        display:inline-block;
+    }
+    .webresp{
+         display:none;
     }
 
 }
