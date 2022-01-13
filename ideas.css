@@ -368,11 +368,11 @@ a {
  }
 
 
- .describer h5{
-   font-size:19px;
-   font-weight: 600;
+ .describer h6{
+   font-size:18px;
+   font-weight: 500;
    color:rgb(30, 158, 175);
-   letter-spacing:-1px;
+   letter-spacing:-0.8px;
       
  }
 
@@ -653,6 +653,13 @@ a {
 
 .items{
   padding-right: 1rem;
+}
+
+.describer h5{
+  font-size:2rem;
+  font-weight:300;
+  color: rgb(115, 126, 122);
+  letter-spacing:4px;
 }
 
 

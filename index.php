@@ -19,38 +19,39 @@ include 'header.php';
 
 
     <!--  grid for mobile responsive -->
+    <div class="container-fluid daio">
+        <div class="crga row no-gutters" data-aos="fade-up" data-aos-duration="1500">
+            <div class=" rga">
+                <div class="ga ideas" onclick="location.href='ideas.php'">
+                    <span class="ics material-icons">batch_prediction</span>
+                    <h4>Ideas</h4>
+                </div>
+                <div class="ga sketch" onclick="location.href='sketches.php'"> <span
+                        class="ics material-icons">draw</span>
+                    <h4>Sketches</h4>
+                </div>
+                <div class="ga task" onclick="location.href='todos.php'">
+                    <span class="ics material-icons">task</span>
+                    <h4>Tasks</h4>
+                </div>
+                <div class="ga colour">
+                    <span class="ics material-icons">palette</span>
+                    <h4>Colours</h4>
+                </div>
+                <div class="ga artkit"><span class="ics material-icons">weekend</span>
+                    <h4>Artkit</h4>
+                </div>
+                <div class="ga website">
+                    <span class="ics material-icons">web</span>
+                    <h4>Websites</h4>
+                </div>
+                <div class="ga design">
+                    <span class="ics material-icons">architecture</span>
+                    <h4>Designs</h4>
+                </div>
+            </div>
 
-
-    <div class="crga">
-        <div class="rga">
-            <div class="ga ideas">
-                <span class="ics material-icons">batch_prediction</span>
-                <h4>Ideas</h4>
-            </div>
-            <div class="ga sketch"> <span class="ics material-icons">draw</span>
-                <h4>Sketches</h4>
-            </div>
-            <div class="ga task">
-                <span class="ics material-icons">task</span>
-                <h4>Tasks</h4>
-            </div>
-            <div class="ga colour">
-                <span class="ics material-icons">palette</span>
-                <h4>Colours</h4>
-            </div>
-            <div class="ga artkit"><span class="ics material-icons">weekend</span>
-                <h4>Artkit</h4>
-            </div>
-            <div class="ga website">
-                <span class="ics material-icons">web</span>
-                <h4>Websites</h4>
-            </div>
-            <div class="ga design">
-                <span class="ics material-icons">architecture</span>
-                <h4>Designs</h4>
-            </div>
         </div>
-
     </div>
 
 
@@ -85,13 +86,13 @@ include 'header.php';
             <!-- section one -->
             <div class="col-lg-8">
                 <div class="row no-gutters sec-one" data-aos="fade-down" data-aos-duration="2000">
-                    <div onclick="location.href='ideas.php'" class="col-lg-3, col-sm">
+                    <div onclick="location.href='ideas.php'" class="col-lg-3">
                         <div class="idea-items ha">
                             <span class="icon-sec material-icons">batch_prediction</span>
                             <h4>Ideas</h4>
                         </div>
                     </div>
-                    <div onclick="location.href='sketches.php'" class="col-lg-6 col-sm">
+                    <div onclick="location.href='sketches.php'" class="col-lg-6">
                         <div class="sketches-items ha">
                             <span class="icon-sec material-icons">draw</span>
                             <h4>Sketches</h4>
@@ -153,11 +154,6 @@ include 'header.php';
             <div class="col-lg-3"></div>
         </div>
     </div>
-
-
-
-
-
 
 
     <script src="vanilla.js"></script>

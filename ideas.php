@@ -20,8 +20,9 @@ include 'header.php';
         <div class="row no-gutters nrow">
             <div class="col-lg-5">
                 <div class="describer">
-                    <h5>This space allows you note down all your ideas and keep
-                        working on them ! </h5>
+                    <h5>IDEAS</h5>
+                    <h6>This space allows you note down all your ideas and keep
+                        working on them ! </h6>
                     <p>the feeling of mindfullness</p>
                 </div>
             </div>

@@ -17,28 +17,31 @@ include 'links.php';
     <?php
 include 'header.php';
    ?>
+    <br><br>
     <div class="sites container-fluid">
-        <div class="row rowsite no-gutters">
-            <div class="col-lg-6">
-                 <div class="wordi">
-                     <h5>Here because its important</h5>
-                      <p>we keep these close to us !</p>
-                 </div>
+        <div class="row no-gutters nrow">
+            <div class="col-lg-5">
+                <div class="wordi">
+                    <h5>Here because its important</h5>
+                    <p>we keep these close to us !</p>
+                </div>
             </div>
-            <div class="col-lg-6">
-            <div>
-                  <p>
-                  <button class="addsite" data-toggle="modal" data-target="#myModal">Addsite</button>  
-                <!-- include the navbar -->
-                  <button class="kula"><?php include './navbar.php';?></button>
-                </p>
-              </div>
+            <div class="col-lg-2">
+                <div class="addnav">
+                    <button class=" addsite" data-toggle="modal" data-target="#myModal">Addsite</button>
+                </div>
             </div>
-
+            <div class="col-lg-5">
+                <?php include 'navbar.php'?>
+            </div>
         </div>
+
+        <br>
+        <br>
+
         <div class="row no-gutters">
 
-        <?php
+            <?php
 $sql = "SELECT * FROM websites;";
 $result = mysqli_query($conn, $sql);
 $check = mysqli_num_rows($result);
@@ -46,20 +49,20 @@ $check = mysqli_num_rows($result);
 if ($result) {
     while ($row = mysqli_fetch_assoc($result)) {
         ?>
-                    <div class=" col-sm-12 col-md-3 col-lg-3 " data-aos="fade-up" id="<?php print $row['site'];?>">
+            <div class=" col-sm-12 col-md-3 col-lg-3 " data-aos="fade-up" id="<?php print $row['site'];?>">
 
-                        <div class="segment">
-                            <h6 class="hd"> <?php print $row['site'];?></h6>
-                            <p class="mid"> <?php print $row['about'];?></p>
-                            <a href="<?php print $row['link'];?>" target="_blank">
-                                <p class="link">view site <span class="look"><span class="material-icons">
-                                            chevron_right
-                                        </span></span></p>
-                            </a>
-                        </div>
+                <div class="segment">
+                    <h6 class="hd"> <?php print $row['site'];?></h6>
+                    <p class="mid"> <?php print $row['about'];?></p>
+                    <a href="<?php print $row['link'];?>" target="_blank">
+                        <p class="link">view site <span class="look"><span class="material-icons">
+                                    chevron_right
+                                </span></span></p>
+                    </a>
+                </div>
 
-                    </div>
-                <?php }?>
+            </div>
+            <?php }?>
             <?php }?>
 
         </div>
@@ -83,7 +86,8 @@ if ($result) {
                         <form class="frm" action="addsites.php" method="POST">
                             <input type="text" name="site" placeholder="site id" required>
                             <br><br>
-                            <textarea name="about" cols="26" rows="2" placeholder="about site" class="txarea" required></textarea><br><br>
+                            <textarea name="about" cols="26" rows="2" placeholder="about site" class="txarea"
+                                required></textarea><br><br>
                             <input type="text" name="link" placeholder="site link" required>
                             <button type="submit" class="btn addbtn">submit</button>
                         </form>
@@ -100,4 +104,5 @@ if ($result) {
 include 'footer.php';
 ?>
 </body>
+
 </html>
