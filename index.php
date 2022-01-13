@@ -113,6 +113,87 @@ include 'header.php';
             <div class="col-lg-3"></div>
         </div>
 
+
+
+
+        <!--  by kithinga-->
+        <!-- Mobile responsive section -->
+        <div class="row no-gutters">
+            <div class="col-lg-3">
+
+            </div>
+            <div class="col-lg-8">
+                <div class="row no-gutters sec-one" data-aos="fade-down" data-aos-duration="2000">
+                    <div onclick="location.href='ideas.php'" class="col-lg-3 ">
+                        <div class="idea-items ha">
+                            <span class="icon-sec material-icons">batch_prediction</span>
+                            <h4>Ideas</h4>
+                        </div>
+                    </div>
+                    <div onclick="location.href='sketches.php'" class="col-lg-6 col-xs-6">
+                        <div class="sketches-items ha">
+                            <span class="icon-sec material-icons">draw</span>
+                            <h4>Sketches</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+
+
+
+        <!-- section two-->
+        <div class="row no-gutters">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <div class="row sec-two no-gutters">
+                    <div onclick="location.href='todos.php'" class="col-lg-4">
+                        <div class="task-items ha" data-aos="fade-up" data-aos-duration="1500">
+                            <span class="icon-sec material-icons">task</span>
+                            <h4>Tasks</h4>
+                        </div>
+                    </div>
+                    <div onclick="location.href='colours.php'" class="col-lg-4">
+                        <div class="colour-items ha" data-aos="fade-up" data-aos-duration="1500">
+                            <span class="icon-sec material-icons">palette</span>
+                            <h4>Colours</h4>
+                        </div>
+                    </div>
+                    <div onclick="location.href='artkit.php'" class="col-lg-4">
+                        <div class="artkit-items ha" data-aos="fade-up" data-aos-duration="1500">
+                            <span class="icon-sec material-icons">weekend</span>
+                            <h4>Artkit</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+
+
+        <!--section  three-->
+        <div class="row no-gutters">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <div class="row sec-three no-gutters" data-aos="fade-up" data-aos-duration="1500">
+                    <div onclick="location.href='websites.php'" class="col-lg-8">
+                        <div class="website-items ha">
+                            <span class="icon-sec material-icons">language</span>
+                            <h4>Websites</h4>
+                        </div>
+                    </div>
+                    <div onclick="location.href='design.php'" class="col lg-4">
+                        <div class="design-items ha">
+                            <span class="icon-sec material-icons">architecture</span>
+                            <h4>Designs</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+
     </div>
 
     <script src="vanilla.js"></script>

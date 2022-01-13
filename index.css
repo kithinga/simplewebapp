@@ -7,6 +7,8 @@
 .all-slots {
     background-color:rgb(255, 255, 255);
     min-height: 70vh;
+    background-color:rgb(241, 241, 248);
+    /* margin:2rem; */
  }
 
   .ha{
@@ -33,6 +35,7 @@
       letter-spacing:2px;
       font-weight:700;
   }
+
 .sec-one{
     min-height: 10rem;
     text-align: center;
@@ -179,4 +182,15 @@
     font-weight:200;
     font-size:0.5rem;
     color: rgb(49, 31, 212);
+}
+
+/* MOBILE RESPONSIVE SECTION */
+
+@media only screen and (max-width: 600px) {
+
+    .ha{
+       margin:8px;
+       /* background-color: red; */
+    }
+
 }
