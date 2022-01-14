@@ -36,6 +36,7 @@
     min-height: 6rem;
     color:rgb(100, 103, 105);
     cursor: pointer;
+    background-color:red;
 }
 
 .inov{
@@ -62,10 +63,12 @@
   padding-top: 4rem;
   padding-left: 60%;
   min-height: 6rem;
+  background-color: yellow;
 }
 
 
 .name {
+  background-color:green;
   min-height:6rem;
   color: rgb(0, 0, 0);
   font-size: 2.2em;
@@ -106,7 +109,7 @@
 
 @media only screen and (max-width: 600px) {
 
-  
+
   body{
     margin: 1rem;
   }
