@@ -237,7 +237,6 @@
     min-height: 80vh;
 }
 
-
 /* MOBILE RESPONSIVE SECTION */
 
 @media only screen and (max-width: 600px) {
@@ -247,4 +246,16 @@
          .daio{
              display:block;
          }
+         .decoy1, .decoy2{
+         display:none;
+         }
+
+         .intro{
+             display:grid;
+             margin: 0;
+             grid-template-columns: 1fr 1fr;
+             grid-template-areas: "quotes time";
+         }
 }
+
+

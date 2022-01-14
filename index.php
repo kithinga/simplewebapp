@@ -19,6 +19,24 @@ include 'header.php';
 
 
     <!--  grid for mobile responsive -->
+    <div class="container-fluid">
+        <div class="row no gutters intro">
+            <div class="col-lg-3 decoy1">
+
+            </div>
+            <div class="col-lg-3 quotes">
+                <h5 class="quote-head">Self Mastery</h5>
+                <p class="quote">working to tap all my potentials!</p>
+            </div>
+            <div class="col-lg-3 times">
+                <h5 class="clock-time">O 1 O O 1 1</h5>
+                <p class="clock-date">01 03 2022</p>
+            </div>
+            <div class="col-lg-3 decoy2">
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid daio">
         <div class="crga row no-gutters" data-aos="fade-up" data-aos-duration="1500">
             <div class=" rga">
@@ -50,35 +68,14 @@ include 'header.php';
                     <h4>Designs</h4>
                 </div>
             </div>
-
         </div>
     </div>
-
-
 
     <div class="container-fluid all-slots">
         <!-- this is the intro part-->
         <!-- small section with watch and words -->
 
-        <div class="container-fluid">
-            <div class="row no gutters intro">
-                <div class="col-lg-3 decoy1">
 
-                </div>
-                <div class="col-lg-3 quotes">
-                    <h5 class="quote-head">Self Mastery</h5>
-                    <p class="quote">working to tap all my potentials!</p>
-                </div>
-                <div class="col-lg-3 times">
-                    <h5 class="clock-time">O 1 O O 1 1</h5>
-                    <p class="clock-date">01 03 2022</p>
-                </div>
-                <div class="col-lg-3 decoy2">
-
-                </div>
-            </div>
-
-        </div>
         <div class="row no-gutters webresp">
             <div class="col-lg-3">
 

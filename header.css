@@ -5,24 +5,22 @@
 }
 
 .myhead{
-  background-color:rgb(70, 49, 143);
+  /* background-color:rgb(70, 49, 143); */
   color:black;
   min-height: 11rem;
   top: 0;
   width: 100%;
 }
 
-.hr{
-  color:rgb(173, 18, 18);
-  
-}
+
 
 .wb{
-  background-color:red;
+  background-color:rgb(240, 240, 240);
   height:2px;
   margin-left:6rem;
   margin-right:6rem;
   width: 100%;
+  border-radius:1rem;
 }
 
 
@@ -44,9 +42,10 @@
     min-height: 3rem;
     color:rgb(221, 228, 233);
     cursor: pointer;
-    background-color:red; 
+    /* background-color:red;  */
     padding-top:4rem;
-    text-align: center;
+    text-align:left;
+    margin-left:2rem;
 }
 
 .md-48{
@@ -72,13 +71,15 @@
 
 
 .search {
-  padding-top: 2rem;
-  background-color: rgb(10, 10, 10);
+  padding-top: 3.5rem;
+  text-align:right;
+  margin-right:2rem;
+  /* background-color: rgb(10, 10, 10); */
 }
 
 
 .name {
-  background-color:green;
+  /* background-color:green; */
   color: rgb(0, 0, 0);
   font-size: 2.2em;
   font-family: poppins;;
@@ -122,6 +123,50 @@
   color: rgb(80, 78, 78);
 }
 
+/* MOBILE RESPONSIVE */
+.mbres{
+  display:none;
+}
+.mbgrid{
+  background-color:rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-areas: "mbhome dcv mbacc";
+  /* background-image: linear-gradient(rgb(216, 216, 216), rgb(224, 224, 224)); */
+  width:100%;
+  padding:1rem;
+  
+}
+.mbgrid div{
+  text-align:center;
+  margin:1rem;
+
+}
+
+.mbhome{
+  color: rgb(255, 255, 255);
+  padding:1rem;   
+  width:6rem;
+  font-weight: 500;
+  min-height: 3.5rem; 
+  border-radius:2rem;
+  background-color:rgb(34, 34, 34);
+}
+.mbacc{
+  margin-left:12vw;
+  text-align:right;
+  color: rgb(0, 86, 104);
+  padding:1rem;   
+  width:10rem;
+  font-weight: 500;
+  min-height: 3.5rem;
+  border-radius:2rem;
+  background-color:rgb(245, 243, 243);
+}
+
+
+
+
 
 /* MOBILE DEVICE CSS */
 
@@ -131,7 +176,13 @@
   body{
     margin: 1rem;
   }
-
+ 
+  .myhead{
+    display: none;
+  }
+  .mbres{
+    display:inline;
+  }
 
   .items{
       text-align:left;

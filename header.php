@@ -10,6 +10,20 @@
 
 <body>
     <div class="container-fluid">
+
+        <!-- mobile responsive header -->
+
+        <div class="row no-gutters mbres">
+            <div class="mbgrid">
+                <div class="mbhome material-icons" onclick="location.href='index.php'">home</div>
+                <div class="dcv"></div>
+                <div class="mbacc material-icons"> perm_identity</div>
+            </div>
+        </div>
+
+
+        <!-- web responsive  -->
+
         <div class="row no-gutters myhead">
             <div class="col-lg-2">
                 <div class="home">
@@ -29,7 +43,7 @@
                     </button>
                 </div>
             </div>
-            <div class="wb">hfhfh</div>
+            <div class="wb"></div>
         </div>
     </div>
     </div>
