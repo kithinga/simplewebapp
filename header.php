@@ -9,22 +9,32 @@
 </head>
 
 <body>
-    <div class="container-fluid ">
-        <div class="head row no-gutters myhead">
+    <div class="container-fluid">
+        <div class="row no-gutters myhead">
             <div class="col-lg-2">
                 <div class="home">
-                    <p onclick="location.href='index.php'"><span class="inov material-icons md-24">home</span></p>
+                    <button class="material-icons inov md-24" onclick="location.href='index.php'">home</button>
                 </div>
             </div>
+
             <div class="col-lg-8">
                 <div class="name">Manage my mind</div>
             </div>
+
             <div class="col-lg-2">
-                <div class="search"><span type="button" class="loki material-icons md-48">perm_identity</span></div>
+                <div class="search">
+                    <button class="loki">
+                        <p class="material-icons md-48 ">perm_identity</p>
+                        <p class="kai">kithinga</p>
+                    </button>
+                </div>
             </div>
+            <div class="wb">hfhfh</div>
         </div>
     </div>
-    <script src="vanilla.js"></script>
+    </div>
+    <script src=" vanilla.js">
+    </script>
 </body>
 
 </html>

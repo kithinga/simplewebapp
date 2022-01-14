@@ -4,52 +4,65 @@
   font-family: Poppins, Roboto;
 }
 
-
-.head{
-  background-color:white;
+.myhead{
+  background-color:rgb(70, 49, 143);
   color:black;
-  min-height: 12rem;
+  min-height: 11rem;
   top: 0;
   width: 100%;
-  z-index: 1000;
-  border-top: 4px solid rgb(207, 211, 218);
-  margin-top:0.3px;
 }
 
+.hr{
+  color:rgb(173, 18, 18);
+  
+}
+
+.wb{
+  background-color:red;
+  height:2px;
+  margin-left:6rem;
+  margin-right:6rem;
+  width: 100%;
+}
 
 
 .loki{
-    padding:0.6rem;
-    width:6rem;
-    margin-right: 2rem;
-    height:3.3rem;
+  margin-left:2rem;
+  padding-left:3rem;
+  padding-right:3rem;
+  padding:6px 36px 6px 36px;
+    min-width:5rem;
+    min-height:4rem;
     text-align:center;
     border: solid 1.5px rgb(187, 182, 182);
-    background-color:rgb(255, 255, 255);
-    border-radius:2rem;
-    color: rgb(5, 4, 4);
+    background-color:rgb(247, 243, 250);
+    border-radius:3px;
+    color: rgb(47, 55, 56);
 }
 
-
 .home{
-    padding-top: 5rem;
-    min-height: 6rem;
-    color:rgb(100, 103, 105);
+    min-height: 3rem;
+    color:rgb(221, 228, 233);
     cursor: pointer;
-    background-color:red;
+    background-color:red; 
+    padding-top:4rem;
+    text-align: center;
+}
+
+.md-48{
+  color:rgb(7, 143, 177);
 }
 
 .inov{
-  margin-left: 6rem;
+  padding:14px 32px 13px 32px;
   background-color: rgb(2, 2, 3);
   color: rgb(255, 255, 255);
-  padding: 0.6rem;
-  width:7rem;
-  height: 3.3rem;
+  min-width:7rem;
+  min-height: 3.3rem;
   text-align: center;
   border: none;
   /* border: solid 1.5px rgb(94, 90, 90); */
-  border-radius:4rem;
+  border-radius:4px;
 }
 
 
@@ -59,27 +72,33 @@
 
 
 .search {
-  color: rgb(173, 163, 173);
-  padding-top: 4rem;
-  padding-left: 60%;
-  min-height: 6rem;
-  background-color: yellow;
+  padding-top: 2rem;
+  background-color: rgb(10, 10, 10);
 }
 
 
 .name {
   background-color:green;
-  min-height:6rem;
   color: rgb(0, 0, 0);
   font-size: 2.2em;
-  /* font-family: "Calibre-Bold"; */
   font-family: poppins;;
   font-weight: 600;
-  padding-left: 3.3rem;
   letter-spacing:-1px;
-  padding-top: 6rem;
-  padding-bottom: 0.5rem;
+  padding-left:5rem;
+  padding-top: 5.8rem;
 }
+
+
+
+.kai{
+  font-size:1rem;
+  font-weight:500;
+}
+.search p{
+  padding:0;
+  margin:0;
+}
+
 
 .nav-item {
   color: rgb(2, 37, 41);
@@ -102,7 +121,6 @@
 .toggs {
   color: rgb(80, 78, 78);
 }
-
 
 
 /* MOBILE DEVICE CSS */
