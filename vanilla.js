@@ -40,7 +40,8 @@ $(".addcl").click(function () {
   
 // // Active link
 $(".btni").click(function () {
-  $(".btni").css({color:red})
+  $('.btni').css('background-color', 'blue');
+  $(".btni").addClass("active");
 })
 
 // $(document).ready(function () {

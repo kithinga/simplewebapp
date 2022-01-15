@@ -38,7 +38,7 @@ li{
 }
 
 .active{
-    background-color:rgb(16, 147, 180);
+    background-color:rgb(180, 90, 16);
     color: rgb(223, 221, 221);
 }
 
@@ -58,7 +58,10 @@ li:hover{
 
         .items{
             text-align:left;
+        
         }
+       
+
 
           .btni{
               width:24%;

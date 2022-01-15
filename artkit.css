@@ -2,235 +2,72 @@
     padding: 0;
     margin: 0;
 }
-.container-fluid{
-    padding: 0;
-    margin: 0;
-}
-body{
-    padding:0;
-    margin: 0;
-}
-body::-webkit-scrollbar {
-    width: 1px;
-    color: red;
-    background-color:grey;
-  }
-  
 
-.slider{
-    background-color: rgb(1, 22, 22);
-    height: 90vh;
-    width:100%;
-    transition-duration:0.5s;
-    text-shadow: 2px 2px 15px rgb(0, 0, 0);
-    /* background-image: url(images/funi.jpg); */
-}
-.slider:hover{
-    background-color:rgb(4, 45, 53);
-    font-size: large;
-    height:90vh;
+.artk{
+    padding:2rem;
 }
 
-.text1{
+.artk p{
+    font-size:24px;
+    font-weight: 600;
+    color: rgb(202, 74, 0);
+}
 
-    color: #ccdbd9;
-    font-size: 1.3em;
-     font-family: 'Calibre-Bold',"Meiryo",Osaka; 
-    font-weight:bold;
-    letter-spacing: 0.3em;
-    text-align: center;
-     padding-top:13em;
+.ar{
+    font-size:2rem;
+    letter-spacing:3px;
+    font-weight:100;
+    color: rgb(131, 100, 58);
 }
-.text2{
-    color: #ccdbd9;
-    font-size: 4em;
-     font-family: 'Calibre-Bold',"Meiryo",Osaka; 
-    font-weight:bold;
-    text-align: center;
-    padding-top: 2em;
+.artk p{
+    letter-spacing:1px;
 }
-.text3{
-    color: #ccdbd9;
-    font-size: 1.3em;
-    font-family: 'Calibre-Bold',"Meiryo",Osaka; 
-    font-weight:bold;
-    letter-spacing: 0.3em;
+text{
+    font-weight: 200;
+    letter-spacing:1px;
+}
+
+
+
+.bounce {
+    position:fixed;
+    left:50%;
+    margin-top:-25px;
+    margin-left:-25px;
+    height:30rem;
+    border-radius:100rem;
+    width:30rem;
+    background:rgb(241, 211, 156);
+    -webkit-animation:bounce 1s infinite;
+    }
+
+    @-webkit-keyframes bounce {
+    0% { bottom:10px; }
+    25%, 75% { bottom:23px; }
+    50% { bottom:34px; }
+    100% {bottom:30;}
+    }
+
     
-}
-
-.ping{
-    background-color: rgb(234, 230, 238);
-    height:90vh;
-    color: black;
-    transition-duration: 0.5s;
-    border-bottom: 0.5px solid rgb(203, 209, 211);
-}
-.ping:hover{
-   background-color: white;
-   font-size: large;
-}
-.pini{
-        font-size: 2em;
-         font-family: 'Calibre-Bold',"Meiryo",Osaka; 
-        font-weight:400;
-        text-align: center;
-        letter-spacing:1px;
-        padding-top: 2em;
-}
-.sm{
-    color:rgb(9, 102, 121);
-    padding-left: 7rem;
-    font-weight: 500;
-}
-.div{
-    padding-top: 15em;
-    height: 60vh;
-    text-align: center;
-    color:rgb(128, 122, 122);
-}
-
-#landing{
-    border-radius: 10rem;
-    height: 2.5rem;
-    border: solid grey 1px;
-    font-weight:500;
-    outline: none;
-    width: 15rem;
-    margin-left: 3rem;
-   
-    background-repeat: no-repeat;
-}
-
-.tiny{
-    padding:2em;
-    color:rgb(84, 186, 218);
-    height:6rem;
-    font-size:1em;
-    font-weight:bold;
-    border:rgb(32, 32, 32) solid 0.5px;
-    background-color: black;
-}
-
-@media (max-width: 797px) {
-    body { 
-        padding-left: 0px;
-        padding-right: 0px;
+.bounce2 {
+    position:fixed;
+    left:50%;
+    margin-top:-25px;
+    margin-left:15px;
+    height:28rem;
+    border-radius:100rem;
+    width:28rem;
+    background:rgb(5, 58, 88);
+    -webkit-animation:bounce2 1s infinite;
     }
-    .container-fluid {
-        margin:0;
-        padding:0;
-    }
-    .slider {
-        height:40vh;
-        width:100%;
-        font-size:0.5em;
-      }
-      .ping{
-        height: 40vh;
-        font-size: 0.5em;
-    }
-}
 
-
-
-  /* @media only screen and (min-width:576px){
-      .slider {
-        height:40vh;
-        width:100%
-        font-size:0.5em;
-      }
-      .ping{
-        height: 40vh;
-        font-size: 0.5em;
+    @-webkit-keyframes bounce2 {
+    0% { bottom:17px; }
+    25%, 75% { bottom:20px; }
+    50% { bottom:31px; }
+    100% {bottom:10;}
     }
-  } */
-
-/* @media only screen and (max-width:720px){
-    .slider{
-        height: 50vh;
-        font-size: .6em;
+    .nip
+    {
+     background-image:url(https://images.immediate.co.uk/production/volatile/sites/25/2020/05/Mars-Saturn-Jupiter-3bd67e3-e1591182300998.jpg?quality=90&resize=620,413)
     }
-    .slider:hover{
-        background-color: rgb(4, 76, 82);
-        font-size: 0.5em;
-    }
-    .ping{
-        height: 50vh;
-        font-size: 0.5em;
-    }
-    .head{
-        display: grid;
-        grid-template-columns: 1fr 0fr 1fr;
-    }
-    .name{
-        display: none;
-    }
-    .search{
-        margin-left: 5em;
-    }
-} */ */
-
-.morning{
-    color: rgb(17, 206, 206);
-    font-size:2.2em;
-    /* letter-spacing:2px; */
-    font-weight: bold;
-
-}
-
-.nature{
-    font-size:1em;
-    margin-top: 1.2em;
-    color:rgb(131, 132, 133);
-}
-.flut{
-    margin-top:3em;
-    background-color:rgb(244, 248, 248);
-    border-radius: 30px;
-    width:30vw;
-    height:25vh;
-    padding: 2rem;
-    margin-left: 10em;
-}
-.flot{
-    background-color:rgb(17, 206, 206);
-    float: right;
-    color:white;
-    border-radius: 100rem;
-    width: 4rem;
-    height: 4rem;
-    padding-top: 1em;
-}
-.fool{
-    margin-top:3em;
-    border-radius: 30px;
-    width:30vw;
-    height:25vh;
-    padding: 3rem;
-    margin-left: 10em;
-    background-color:orangered;
-    color:white;
-    box-shadow: 1px 1px 10px rgb(158, 43, 1);
-}
-.buto{
-    height:3rem;
-    width: 12rem;
-    color:orangered;
-    background-color: white;
-    border-radius:30rem;
-    text-align:center;
-    padding-top:0.7em;
-}
-.royal{
-    margin-bottom:20rem;
-}
-.imani{
-    height:6rem;
-    width: 10rem;
-    border-radius: 30rem;
-    float: right;
-}
-.select{
-    width:20rem;
-    height:3rem;
-}

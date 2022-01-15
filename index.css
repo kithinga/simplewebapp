@@ -217,7 +217,7 @@
 }
 
 
-.ga h4{
+.ga h5{
     padding-top:0;
     margin-top:0;
     font-size:1.2rem;
@@ -243,6 +243,13 @@
          .all-slots{
              display: none;
          }
+       
+         .ga h5{
+        
+            font-size:0.5rem;
+            font-weight: 500;
+        }
+        
          .daio{
              display:block;
          }

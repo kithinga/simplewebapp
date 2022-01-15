@@ -42,30 +42,30 @@ include 'header.php';
             <div class=" rga">
                 <div class="ga ideas" onclick="location.href='ideas.php'">
                     <span class="ics material-icons">batch_prediction</span>
-                    <h4>Ideas</h4>
+                    <h5>Ideas</h5>
                 </div>
                 <div class="ga sketch" onclick="location.href='sketches.php'"> <span
                         class="ics material-icons">draw</span>
-                    <h4>Sketches</h4>
+                    <h5>Sketches</h5>
                 </div>
                 <div class="ga task" onclick="location.href='todos.php'">
                     <span class="ics material-icons">task</span>
-                    <h4>Notes to tasks</h4>
+                    <h5>Notes to tasks</h5>
                 </div>
                 <div class="ga colour">
                     <span class="ics material-icons">palette</span>
-                    <h4>Colours</h4>
+                    <h5>Colours</h5>
                 </div>
                 <div class="ga artkit"><span class="ics material-icons">weekend</span>
-                    <h4>Artkit</h4>
+                    <h5>Artkit</h5>
                 </div>
                 <div class="ga website">
                     <span class="ics material-icons">web</span>
-                    <h4>Websites</h4>
+                    <h5>Websites</h5>
                 </div>
                 <div class="ga design">
                     <span class="ics material-icons">architecture</span>
-                    <h4>Designs</h4>
+                    <h5>Designs</h5>
                 </div>
             </div>
         </div>

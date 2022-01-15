@@ -12,6 +12,7 @@
 }
 .footer{
     min-height: 16vh;
+    bottom: 0;
 }
 
 
@@ -23,6 +24,9 @@
     text-align:center;
     font-weight: 400;
     letter-spacing: 1px;
+}
+.footer-container{
+    bottom: 0;
 }
 
 .footer-column{
