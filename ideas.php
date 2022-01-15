@@ -101,9 +101,6 @@ if ($result) {
                             <button class="btn-edit btnn iop">Edit</button>
 
                             <!-- the edit section, i will be working on it after some time  -->
-
-
-
                             <button class="btn_delete iop">Delete</button>
                             <div class="custom-model-main">
                                 <div class="custom-model-inner">
@@ -141,9 +138,6 @@ if ($result) {
     <script>
     AOS.init();
     </script>
-    <?php
-include 'footer.php';
-?>
 </body>
 
 </html>

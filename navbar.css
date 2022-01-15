@@ -37,16 +37,10 @@ li{
     color: rgb(223, 221, 221);
 }
 
-.active{
-    background-color:rgb(180, 90, 16);
-    color: rgb(223, 221, 221);
-}
 
 li:hover{
     color: rgb(255, 255, 255);
 }
-
-
 
 
 /* AFTER KEYFRAME SIZE EQUIVALENT TO SIZE OF PHONE SCREEN */
@@ -54,15 +48,11 @@ li:hover{
 
     @media only screen and (max-width: 600px) {
 
-        
-
         .items{
             text-align:left;
         
         }
        
-
-
           .btni{
               width:24%;
               min-height: 3rem;

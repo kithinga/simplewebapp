@@ -13,7 +13,6 @@ include 'links.php';
 </head>
 
 <body>
-
     <!-- Web navbar  -->
     <div class="navb">
         <div class="items">

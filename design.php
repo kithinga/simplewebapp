@@ -15,23 +15,7 @@
 
 
 <body>
-
+    hhf
 </body>
-<div class="container-fluid">
-    <div class="row no-gutters">
-        <?php
-         include 'navbar.php';
-    ?>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, rem!</p>
-        </div>
-    </div>
-</div>
-
-</body>
-
-<?php
- include 'footer.php';
- ?>
 
 </html>

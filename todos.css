@@ -4,15 +4,15 @@
     /* padding-top: 1rem; */
     /* padding:2rem; */
     /* text-align:center; */
-   
+       /* background-color: green; */
 }
 .tasktitle{
     padding:1.8rem;
+    /* background-color: red; */
 }
 
 .tasktitle p{
    padding-top:0;
-
 
 }
 .tsk{
@@ -79,7 +79,6 @@
     border-radius:3px;
     margin: 1rem;
     transition-duration: 0.5s;
-    /* background-color: white; */
     background-color: rgb(243, 252, 251);
     border-bottom-right-radius: 12px;
     
@@ -95,9 +94,9 @@
 
 .todo_row{
     padding: 8px 1px 8px 1px;
-    margin-left: 1.5rem;
+    /* margin-left: 1.5rem; */
     /* background-color: rgb(250, 253, 252); */
-    /* background-color: rgb(240, 248, 247); */
+    background-color: rgb(240, 248, 247);
 }
 .column_1{
     /* background-color: rgb(245, 249, 252); */
@@ -148,7 +147,7 @@
 }
 
 .yah2{
-    margin-left: 92%;
+     margin-left: 92%; 
     transition-duration: 0.5s;
     font-weight: 900;
     border: solid 2px rgb(210, 212, 212);
@@ -186,7 +185,7 @@
 
 .tdicon{
     color: rgb(181, 191, 194);
-    float:right;
+    /* float:right; */
     border: solid 0.5px rgb(196, 202, 204);
     border-radius:0.8rem;
 }
@@ -203,7 +202,5 @@
         margin:0;
         padding:0;
     }
-   
-    
-  
+
     }

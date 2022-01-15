@@ -63,7 +63,6 @@ if ($result) {
         </div>
     </div>
 
-
     <script src="vanilla.js">
     </script>
     <script>
