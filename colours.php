@@ -110,7 +110,6 @@ include 'header.php';
         </div>
 
     </div>
-    <?php include 'footer.php';?>
 
 
     <script src="vanilla.js"></script>

@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: Poppins, Roboto;
+ 
 }
 
 .myhead{
@@ -11,16 +12,7 @@
   top: 0;
 }
 
-/* 
 
-.wb{
-  background-color:rgb(240, 240, 240);
-  height:2px;
-  margin-left:6rem;
-  margin-right:6rem;
-  width: 100%;
-  border-radius:1rem;
-} */
 
 
 .loki{
@@ -47,6 +39,7 @@
     margin-left:2rem;
 }
 
+
 .md-48{
   color:rgb(7, 143, 177);
 }
@@ -72,7 +65,7 @@
 .search {
   padding-top: 3.5rem;
   text-align:right;
-  margin-right:2rem;
+  padding-right:2rem;
   /* background-color: rgb(10, 10, 10); */
 }
 
@@ -99,33 +92,34 @@
   margin:0;
 }
 
+  /* 
+  .nav-item {
+    color: rgb(2, 37, 41);
+    transition-duration: 0.3s;
+    font-weight: 500;
+    margin-right: 2rem;
+  } */
 
-.nav-item {
-  color: rgb(2, 37, 41);
-  transition-duration: 0.3s;
-  font-weight: 500;
-  margin-right: 2rem;
-}
-
-.nav-item:hover {
+/* .nav-item:hover {
   color: rgb(6, 79, 97);
   transition: ease-in-out;
   transform: scale(1.03);
   font-size: 1.5;
-}
+} */
 
-.navbar-toggler {
+/* .navbar-toggler {
   color: rgb(92, 89, 89);
-}
+} */
 
-.toggs {
+/* .toggs {
   color: rgb(80, 78, 78);
-}
+} */
 
 /* MOBILE RESPONSIVE */
 .mbres{
   display:none;
 }
+
 .mbgrid{
   background-color:rgb(255, 255, 255);
   display: grid;
@@ -138,7 +132,7 @@
 }
 .mbgrid div{
   text-align:center;
-  margin:1rem;
+  /* margin:1rem; */
 
 }
 
@@ -167,20 +161,17 @@
 
 
 
+
 /* MOBILE DEVICE CSS */
 
 @media only screen and (max-width: 600px) {
 
-
-  body{
-    margin: 1rem;
-  }
  
   .myhead{
     display: none;
   }
   .mbres{
-    display:inline;
+    display:block;
   }
 
   .items{

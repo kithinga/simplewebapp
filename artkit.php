@@ -16,38 +16,17 @@ include 'links.php';
     include 'header.php';
     ?>
     <br><br>
-
-    <div class="major container-fluid">
-        <div class="row no-gutters nrow">
-
-            <div class="col-lg-5">
-                <div class="artk">
-                    <h6 class="ar">DESIGNS<h6>
-                            <p>Parametric designs</p>
-                            <text>depuis to the things.</text>
-                </div>
-            </div>
-
-            <div class="col-lg-2">
-                <div class="navbc">
-                    <button class="imgbtn" data-toggle="modal" data-target="#myModal">
-                        <span class="add-art material-icons">
-                            add love
-                        </span>
-                    </button>
-                </div>
-            </div>
-
-            <div class="col-lg-5">
-                <?php include 'navbar.php'?>
-            </div>
-        </div>
-        <div class="row no-gutters nip">
-
+    <div class="container-fluid">
+        <div class="row no-gutters dode">
+            <p>mwalimu</p>
         </div>
     </div>
 
     <script src="vanilla.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
 </body>
 
 </html>

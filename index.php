@@ -1,5 +1,9 @@
 <!--adding php to my code -->
-
+<?php
+include 'database.php';
+include 'links.php';
+include 'header.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,32 +15,7 @@
 </head>
 
 <body>
-    <?php
-include 'database.php';
-include 'links.php';
-include 'header.php';
-?>
-
-
     <!--  grid for mobile responsive -->
-    <div class="container-fluid">
-        <div class="row no gutters intro">
-            <div class="col-lg-3 decoy1">
-
-            </div>
-            <div class="col-lg-3 quotes">
-                <h5 class="quote-head">Self Mastery</h5>
-                <p class="quote">working to tap all my potentials!</p>
-            </div>
-            <div class="col-lg-3 times">
-                <h5 class="clock-time">O 1 O O 1 1</h5>
-                <p class="clock-date">01 03 2022</p>
-            </div>
-            <div class="col-lg-3 decoy2">
-            </div>
-        </div>
-    </div>
-
     <div class="container-fluid daio">
         <div class="crga row no-gutters" data-aos="fade-up" data-aos-duration="1500">
             <div class=" rga">
@@ -71,25 +50,23 @@ include 'header.php';
         </div>
     </div>
 
+
+
     <div class="container-fluid all-slots">
-        <!-- this is the intro part-->
-        <!-- small section with watch and words -->
 
-
+        <!-- web responsive -->
         <div class="row no-gutters webresp">
-            <div class="col-lg-3">
-
-            </div>
+            <div class="col-lg-3"></div>
             <!-- section one -->
-            <div class="col-lg-8">
+            <div class="col-lg-6">
                 <div class="row no-gutters sec-one" data-aos="fade-down" data-aos-duration="2000">
-                    <div onclick="location.href='ideas.php'" class="col-lg-3">
+                    <div onclick="location.href='ideas.php'" class="col-lg-4">
                         <div class="idea-items ha">
                             <span class="icon-sec material-icons">batch_prediction</span>
                             <h4>Ideas</h4>
                         </div>
                     </div>
-                    <div onclick="location.href='sketches.php'" class="col-lg-6">
+                    <div onclick="location.href='sketches.php'" class="col-lg-8">
                         <div class="sketches-items ha">
                             <span class="icon-sec material-icons">draw</span>
                             <h4>Sketches</h4>
@@ -97,7 +74,7 @@ include 'header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3"></div>
+            <div class="col-lg-2"></div>
         </div>
 
 
@@ -151,8 +128,6 @@ include 'header.php';
             <div class="col-lg-3"></div>
         </div>
     </div>
-
-
     <script src="vanilla.js"></script>
     <script>
     AOS.init();

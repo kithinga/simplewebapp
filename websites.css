@@ -43,12 +43,12 @@
     height: 13rem;
     /* background: linear-gradient(45deg, rgb(173, 198, 206), rgb(17, 79, 114)); */
     color: rgb(108, 121, 128);
-    border-radius:2px;
-    border: 1.3px solid  rgb(222, 217, 226);
-    margin: 1.5rem; 
+    border-radius:3px;
+    border: 1.3px solid  rgb(233, 229, 236);
+    margin: 0.7rem; 
     padding: 1.7rem ;
     transition-duration: 0.3s;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(254, 253, 255);
 
 }
 .segment:hover{
@@ -79,7 +79,7 @@
     color: rgb(133, 7, 206);
     margin-left: 60%;
     margin-right:5%;
-    border-radius:3px;
+    /* border-radius:3px; */
     border: solid 1px rgb(255, 255, 255);
     padding-bottom: 0.7rem;
     padding-left: 2rem;

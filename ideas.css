@@ -19,6 +19,8 @@ button:focus {
 }
 
 
+
+
 .modal-content {
   background-color: white;
 }
@@ -663,15 +665,13 @@ a {
 }
 
 
-
-
-
 /* MOBILE RESPONSIVE SECTION */
 
 @media only screen and (max-width: 600px) {
 
   .bui{
-      padding:1rem;
+      padding:0.1px;
+
   }
 
   .items{

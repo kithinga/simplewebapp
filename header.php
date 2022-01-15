@@ -10,9 +10,7 @@
 
 <body>
     <div class="container-fluid">
-
         <!-- mobile responsive header -->
-
         <div class="row no-gutters mbres">
             <div class="mbgrid">
                 <div class="mbhome material-icons" onclick="location.href='index.php'">home</div>
@@ -20,7 +18,6 @@
                 <div class="mbacc material-icons"> perm_identity</div>
             </div>
         </div>
-
 
         <!-- web responsive  -->
 
@@ -43,12 +40,10 @@
                     </button>
                 </div>
             </div>
-            <!-- <div class="wb"> </div> -->
         </div>
-    </div>
-    </div>
-    <script src=" vanilla.js">
-    </script>
+
+        <script src=" vanilla.js">
+        </script>
 </body>
 
 </html>

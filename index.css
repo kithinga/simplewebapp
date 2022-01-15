@@ -4,11 +4,12 @@
     font-family: Poppins, Roboto;
 }
 
+
 .all-slots {
-    min-height: 70vh;
+    min-height: 80vh;
     background-color:rgb(243, 243, 245);
     background-image: linear-gradient(180deg, rgb(253, 253, 254) , rgb(237, 233, 240));
-
+    /* width: 100%; */
  }
 
   .ha{
@@ -42,7 +43,6 @@
     font-size:2rem;
     font-weight: 500;
     cursor: pointer;
-    background-color: indigo;
 }
 
 .idea-items{
@@ -65,7 +65,7 @@
 .sketches-items{
     min-height: 9rem;
     /* background-color: rgb(51, 43, 36); */
-    border-radius: 6px;
+    border-radius: 3px;
 }
 
 /* section 2 */
@@ -125,65 +125,6 @@
     color: rgb(117, 13, 236);
 } */
 
-
-/* top section after the header */
-.intro{
-
-    padding:2rem;
-    margin: 1rem;
-    margin-top: 2rem;
-    font-family: Poppins;
-    /* background-color: antiquewhite; */
-}
-
-
-.quotes{
-      background-color:rgb(255, 254, 255);
-      min-height:10rem;
-      border-right: none;
-      padding: 2rem;
-      border-top-left-radius:2.3px;
-      border-bottom-left-radius:2.3px;
-      border:solid 1px rgb(238, 235, 240);
-      border-right: none;
-}
-
-
-.times{
-    background-color:rgb(255,254,255);
-    border-left: none !important;
-    min-height:11rem;
-    padding: 2rem;
-    text-align:right;
-    border:solid 1px rgb(227, 224, 230);
-    border-top-right-radius:2.3px;
-    border-bottom-right-radius:2.3px;   
-}
-
-
-.quote-head{
-    color:rgb(41, 183, 226);
-    font-weight: 600;
-}
-
-
-.quote{
-       font-weight: 400;
-       font-size:1rem;
-       color:rgb(70, 75, 77);
-}
-
-
-.clock-time{
-     color: rgb(95, 60, 95);
-}
-
-
-.clock-date{
-    font-weight:200;
-    font-size:0.5rem;
-    color: rgb(49, 31, 212);
-}
 .moblr{
     display:none;
 }
@@ -191,7 +132,6 @@
 .rga{
     display:grid;
     background:rgb(235, 235, 235);
-   
     padding:1rem;
     width: 100%;
     grid-template-areas: "idea sketch"
@@ -216,7 +156,6 @@
     
 }
 
-
 .ga h5{
     padding-top:0;
     margin-top:0;
@@ -224,35 +163,71 @@
     font-weight: 500;
 }
 
-
 .ics{
     padding-top:1rem;
     font-size:1.5rem;
     color: rgb(115, 113, 117);
 }
 
-
 .daio{
     display:none;
     min-height: 80vh;
 }
 
+
+/* A VERY IMPORTANT SECTION*/
+/* .container-fluid{
+    margin:0;
+    padding: 0;
+    background-color:rgb(109, 109, 7);
+     width: 100%; 
+    height: 100%;
+    overflow-x: hidden; 
+} 
+
+
+body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    left: 0; 
+    background-color: red;
+}
+
+html{
+    padding: 0;
+    margin:0;
+} */
+
+
 /* MOBILE RESPONSIVE SECTION */
 
 @media only screen and (max-width: 600px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
          .all-slots{
              display: none;
          }
        
          .ga h5{
-        
             font-size:0.5rem;
             font-weight: 500;
         }
         
          .daio{
-             display:block;
+             display:inline-block;
          }
+
          .decoy1, .decoy2{
          display:none;
          }
