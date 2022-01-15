@@ -50,7 +50,7 @@ include 'header.php';
                 </div>
                 <div class="ga task" onclick="location.href='todos.php'">
                     <span class="ics material-icons">task</span>
-                    <h4>Tasks</h4>
+                    <h4>Notes to tasks</h4>
                 </div>
                 <div class="ga colour">
                     <span class="ics material-icons">palette</span>
@@ -109,7 +109,7 @@ include 'header.php';
                     <div onclick="location.href='todos.php'" class="col-lg-4">
                         <div class="task-items ha" data-aos="fade-up" data-aos-duration="1500">
                             <span class="icon-sec material-icons">task</span>
-                            <h4>Tasks</h4>
+                            <h4>Notes to tasks</h4>
                         </div>
                     </div>
                     <div onclick="location.href='colours.php'" class="col-lg-4">

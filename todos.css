@@ -1,14 +1,30 @@
 
 
 .iconrow{
-    padding-top: 1rem;
-    text-align:center;
+    /* padding-top: 1rem; */
+    /* padding:2rem; */
+    /* text-align:center; */
    
 }
 .tasktitle{
-    color: rgb(7, 32, 58);
+    padding:1.8rem;
+}
+
+.tasktitle p{
+   padding-top:0;
+
 
 }
+.tsk{
+
+    font-size:2rem;
+    letter-spacing:3px;
+    font-weight:100;
+    color: rgb(13, 135, 139);
+    margin-bottom: 1rem;
+}
+
+
 .pone{
     color: rgb(194, 145, 22);
     font-weight:600;
@@ -23,75 +39,96 @@
 .tasks{
     min-height: 10rem;
 }
-.todo_row{
+
+.note_row{
     padding: 8px 1px 8px 1px;
     margin-right: 1.5rem;
 }
-.todo_item{
+
+.note_item{
     min-height:6rem;
-    padding:1rem;
+    padding:20px;
     border-radius:3px;
-    margin: 0.5rem;
+    margin: 1rem;
     /* font-weight: 500; */
+    background-color:rgb(250, 250, 250);
     border: solid 1px rgb(229, 234, 236);
-    box-shadow: 1px 1px 10px rgb(241, 243, 245);
     color:rgb(7, 32, 58);
     transition-duration: 0.5s;
-    border-bottom-left-radius: 12px;
+    border-bottom-left-radius: 9px;
 }
-.done_item{
-    /* background-color:rgb(7, 32, 58); */
-    box-shadow: 1px 1px 10px rgb(241, 243, 245);
-    color:rgb(20, 150, 74);
-    /* font-weight:300; */
-    border: solid 1px rgb(227, 243, 233);
-    min-height:6rem;
-    padding:1rem;
-    border-radius:3px;
-    margin: 0.5rem;
-    transition-duration: 0.5s;
-    background-color: white;
-    border-bottom-right-radius: 12px;
-    
-}
-.done_item:hover{
-    transform: scale(1.05);
-    cursor: pointer;
-    box-shadow: 1px 1px 10px rgb(187, 190, 194);
-
-}
-.todo_item:hover{
+.note_item:hover{
     transform: scale(1.05);
     cursor: pointer;
     box-shadow: 1px 1px 10px rgb(198, 203, 206);
      color:rgb(7, 32, 58);
 }
-.done_row{
+
+
+
+
+/* tasks todo section */
+.todo_item{
+    /* background-color:rgb(7, 32, 58); */
+    /* box-shadow: 1px 1px 10px rgb(241, 243, 245); */
+    color:rgb(0, 0, 0);
+    /* font-weight:300; */
+    border: solid 1px rgb(217, 233, 223);
+    min-height:6rem;
+    padding:1rem;
+    border-radius:3px;
+    margin: 1rem;
+    transition-duration: 0.5s;
+    /* background-color: white; */
+    background-color: rgb(243, 252, 251);
+    border-bottom-right-radius: 12px;
+    
+}
+.todo_item:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(187, 190, 194);
+
+}
+
+
+
+.todo_row{
     padding: 8px 1px 8px 1px;
     margin-left: 1.5rem;
-    background-color: rgb(250, 252, 253);
+    /* background-color: rgb(250, 253, 252); */
+    /* background-color: rgb(240, 248, 247); */
 }
 .column_1{
-    background-color: rgb(245, 249, 252);
+    /* background-color: rgb(245, 249, 252); */
     color: rgb(30, 35, 43);
     padding-left: 5rem;
     min-height: 5rem;
     margin: 10px 7px 0px 7px;
     border-radius: 3px;
     margin-right: 2rem;
-    border: rgb(235, 238, 241) solid 2px;
+    /* border: rgb(235, 238, 241) solid 2px; */
 }
+.column_1 h5{
+    color: rgb(0, 63, 238);
+}
+
 .column_2{
-    background-color: rgb(240, 248, 247);
-    color: rgb(15, 141, 43);
-    padding-top: 0.5rem;;
-    padding-left: 5rem;
+    /* background-color: rgb(240, 248, 247); */
+    color: rgb(7, 180, 45);
+    padding-left: 5px;
+    padding-top: 0.5rem;
     min-height: 5rem;
     margin: 10px 7px 0px 7px;
     border-radius: 3px;
     margin-left: 2rem;
-    border: rgb(230, 238, 230) 2px solid;
+    /* border: rgb(230, 238, 230) 2px solid; */
 }
+.column_2 h5{
+    font-size:1.5rem;
+
+}
+
 
 .yah{
     float: right;
@@ -99,23 +136,27 @@
 }
 .yah1{
     margin-top: 1rem;
-    margin-left: 30%;
+    margin-left: 92%;
     transition-duration: 0.5s;
     font-weight: 900;
-    border: solid 2px rgb(191, 205, 206);
-    padding:3px;
-    border-radius: 2px;
-    border-bottom-left-radius: 10px;
+    border: solid 1.5px rgb(210, 218, 218);
+    padding:9px;
+    border-radius: 20px;
+    background-color: rgb(246, 250, 252);
+    border-bottom-right-radius: 10px;
 }
 .yah2{
-    margin-left: 30%;
+    margin-left: 92%;
     transition-duration: 0.5s;
     font-weight: 900;
-    border: solid 2px rgb(224, 232, 233);
-    padding:3px;
-    border-radius: 2px;
+    border: solid 2px rgb(210, 212, 212);
+    padding:9px;
+    color: rgb(6, 180, 50);
+    border-radius: 20px;
     border-bottom-left-radius: 10px;
+    background-color:rgb(245, 255, 252);
 }
+
 .yah1:hover{
     color:green;
     transform: scale(1.15);
@@ -147,3 +188,20 @@
     border: solid 0.5px rgb(196, 202, 204);
     border-radius:0.8rem;
 }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .yah1, .yah2{
+        margin-left:84%;
+    }
+    .iconrow{
+        margin:0;
+        padding:0;
+    }
+   
+    
+  
+    }

@@ -37,9 +37,16 @@ li{
     color: rgb(223, 221, 221);
 }
 
+.active{
+    background-color:rgb(16, 147, 180);
+    color: rgb(223, 221, 221);
+}
+
 li:hover{
     color: rgb(255, 255, 255);
 }
+
+
 
 
 /* AFTER KEYFRAME SIZE EQUIVALENT TO SIZE OF PHONE SCREEN */

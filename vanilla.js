@@ -37,6 +37,22 @@ $(".addcl").click(function () {
 })
 
   
+  
+// // Active link
+$(".btni").click(function () {
+  $(".btni").css({color:red})
+})
+
+// $(document).ready(function () {
+//   ("[href]").each(function () {
+//     if (this.href == window.location.href)
+//       $(this).addClass("active");
+//     });
+//   });
+
+
+
+  
 
 
 
