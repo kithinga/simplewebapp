@@ -141,9 +141,9 @@ if ($result) {
     <script>
     AOS.init();
     </script>
-</body>
-<?php
+    <?php
 include 'footer.php';
 ?>
+</body>
 
 </html>

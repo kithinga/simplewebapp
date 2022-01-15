@@ -37,13 +37,7 @@ $(".addcl").click(function () {
 })
 
   
-  
-// // Active link
-$(".btni").click(function () {
-  $('.btni').css('background-color', 'blue');
-  $(".btni").addClass("active");
-})
-
+ 
 // $(document).ready(function () {
 //   ("[href]").each(function () {
 //     if (this.href == window.location.href)

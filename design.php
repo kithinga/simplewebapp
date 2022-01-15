@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,19 +11,27 @@
 <?php
  include 'header.php';
  include 'links.php';
- ?>
+?>
+
+
 <body>
-    <?php
+
+</body>
+<div class="container-fluid">
+    <div class="row no-gutters">
+        <?php
          include 'navbar.php';
     ?>
-
-    <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, rem!</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, rem!</p>
+        </div>
     </div>
-    
+</div>
+
 </body>
- 
+
 <?php
  include 'footer.php';
  ?>
+
 </html>

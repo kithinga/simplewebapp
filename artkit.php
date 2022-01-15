@@ -43,10 +43,7 @@ include 'links.php';
             </div>
         </div>
         <div class="row no-gutters nip">
-            <div class="bounce">
 
-            </div>
-            <div class="bounce2"></div>
         </div>
     </div>
 
