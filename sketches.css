@@ -8,7 +8,7 @@
 .pigment {
   min-height: 6rem;
   border: none;
-  margin:1rem;
+  margin:0.5rem;
   border-radius:4px;
   transition-duration: 0.3s;
 }
@@ -37,7 +37,7 @@
 }
 
 .navbc{
-    padding:1rem;
+    padding:0.5rem;
     min-height:4rem;
     text-align: center;
     margin-top:8px;
@@ -84,7 +84,7 @@
 }
 
 .sketches{
-    padding:1rem;
+    padding:0.4rem;
 }
 
 
