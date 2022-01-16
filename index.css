@@ -12,6 +12,69 @@
     /* width: 100%; */
  }
 
+
+ .intro{
+
+    padding:2rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    font-family: Poppins;
+    /* background-color: antiquewhite; */
+}
+
+
+.quotes{
+      background-color:rgb(255, 254, 255);
+      min-height:10rem;
+      border-right: none;
+      padding: 2rem;
+      border-top-left-radius:2.3px;
+      border-bottom-left-radius:2.3px;
+      border:solid 1px rgb(238, 235, 240);
+      border-right: none;
+}
+
+
+.times{
+
+    border-left: none !important;
+    min-height:11rem;
+    padding: 2rem;
+    text-align:right;
+    border:solid 1px rgb(227, 224, 230);
+    border-top-right-radius:2.3px;
+    border-bottom-right-radius:2.3px;   
+}
+
+
+.quote-head{
+    color:rgb(41, 183, 226);
+    font-weight: 600;
+}
+
+
+.quote{
+       font-weight: 400;
+       font-size:1rem;
+       color:rgb(70, 75, 77);
+}
+
+
+.clock-time{
+     color: rgb(95, 60, 95);
+}
+
+
+.clock-date{
+    font-weight:200;
+    font-size:0.5rem;
+    color: rgb(49, 31, 212);
+}
+
+
+
+
+
   .ha{
     color: rgb(7, 7, 7);
     margin:1.5rem;
@@ -147,12 +210,14 @@
     min-width:3rem;
     height:9rem;
     padding:1rem;
+    padding-top: 2.6rem;
     margin:0.5rem;
     font-weight: 500;
     border-radius: 4px;
     font-size:1.3rem;
     text-align:center;
     border:solid 2px rgb(255, 255, 255);
+    color: rgb(105, 104, 104);
     
 }
 
@@ -164,7 +229,7 @@
 }
 
 .ics{
-    padding-top:1rem;
+    margin-bottom:0.5rem;
     font-size:1.5rem;
     color: rgb(115, 113, 117);
 }
@@ -185,18 +250,13 @@
     overflow-x: hidden; 
 } 
 
-
-
-
-
-
 /* MOBILE RESPONSIVE SECTION */
 
 @media only screen and (max-width: 600px) {
 
 
     .container-fluid{
-        padding:0.25rem;
+        padding:0.1rem;
     }
 
     *{
@@ -217,20 +277,33 @@
             font-weight: 500;
         }
         
+        .ga{
+            border: solid 1px rgb(228, 228, 228);
+        }
+        
          .daio{
              display:inline-block;
+             padding: 0;
+             margin: 0;
          }
 
          .decoy1, .decoy2{
          display:none;
          }
-
+      
          .intro{
              display:grid;
-             margin: 0;
+             background-color:rgb(251, 248, 255);
+             padding:1rem;
+             margin:1.3rem;
              grid-template-columns: 1fr 1fr;
              grid-template-areas: "quotes time";
          }
+         .quotes, .times{
+            background-color:inherit;
+            border: inherit;
+        }
+
 }
 
 
