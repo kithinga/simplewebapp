@@ -22,7 +22,10 @@ include 'header.php';
         <div class="row no-gutters nrow">
             <div class="col-lg-5">
                 <div class="wordi">
-                    <h5>Here because its important</h5>
+                    <h5>
+                        WEBSITES
+                    </h5>
+                    <h6>Here because its important</h6>
                     <p>we keep these close to us !</p>
                 </div>
             </div>

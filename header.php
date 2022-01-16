@@ -14,7 +14,9 @@
         <div class="row no-gutters mbres">
             <div class="mbgrid">
                 <div class="mbhome material-icons" onclick="location.href='index.php'">home</div>
-                <div class="dcv"></div>
+                <div class="dcv">
+                    <div class="">Milife</div>
+                </div>
                 <div class="mbacc material-icons"> perm_identity</div>
             </div>
         </div>
@@ -29,7 +31,7 @@
             </div>
 
             <div class="col-lg-8">
-                <div class="name">Manage my mind</div>
+                <div class="name">Mylife</div>
             </div>
 
             <div class="col-lg-2">

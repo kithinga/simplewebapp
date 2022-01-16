@@ -73,9 +73,9 @@
 .name {
   /* background-color:green; */
   color: rgb(0, 0, 0);
-  font-size: 2.2em;
+  font-size: 2rem;
   font-family: poppins;;
-  font-weight: 600;
+  font-weight: 900;
   letter-spacing:-1px;
   padding-left:5rem;
   padding-top: 5.8rem;
@@ -145,6 +145,7 @@
   border-radius:2rem;
   background-color:rgb(34, 34, 34);
 }
+
 .mbacc{
   margin-left:12vw;
   text-align:right;
@@ -168,6 +169,8 @@
   }
   .mbres{
     display:block;
+    width:100%;
+    top: 0;
   }
     .btni{
         width:24%;

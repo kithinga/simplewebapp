@@ -5,25 +5,47 @@
 }
 
 
+.nrow{
+    padding:0;
+    margin: 0;
+}
+
+.items{
+    margin: 0;
+}
+
 .wordi{
     color: rgb(43, 40, 40);
-    padding:2rem;
+    padding:1rem;
 }
-.wordi h5{
-     font-weight: 600;
-     font-size:21px;
-     color: rgb(134, 29, 231);
+
+.wordi h6{
+     font-weight:500;
+     font-size:18px;
+     color: rgb(130, 37, 216);
      font-family: Poppins;
 }
 
+
+
+.wordi h5 {
+    font-size: 2rem;
+    margin-bottom:0.7rem;
+    font-weight: 300;
+    color: rgb(119, 85, 148);
+    letter-spacing:4px;
+  }
+  
+
 .addsite{
     border: none;
-    color:rgb(238, 241, 245);
-    background-color:rgb(115, 82, 138);
-    height:5rem;
+    border: solid 1px rgb(221, 216, 224);
+    color:rgb(49, 48, 48);
+    background-color:rgb(239, 233, 243);
+    height:4.8rem;
     min-width:12rem;
     font-weight: 500;
-    border-radius:3px;
+    border-radius:2px;
     transition-duration: 0.3s;
 }
 
@@ -58,6 +80,7 @@
     /* transform: rotate(0.5deg); */
     transform: scale(1.02);
 }
+
 .segment::first-letter{
     text-transform: uppercase;
 }
@@ -79,7 +102,7 @@
     color: rgb(133, 7, 206);
     margin-left: 60%;
     margin-right:5%;
-    /* border-radius:3px; */
+    border-radius:2px;
     border: solid 1px rgb(255, 255, 255);
     padding-bottom: 0.7rem;
     padding-left: 2rem;
@@ -100,23 +123,45 @@
 }
 
 .addnav{
-    padding:1rem;
+    padding-top:7px;
     min-height:4rem;
     text-align: center;
     margin-top:8px;
+    /* background-color: red; */
 }
 
 
 @media only screen and (max-width: 600px) {
     .addsite{
      width:100%;
+     height:4.6rem;
     }
     .addnav{
-        padding:1.4rem;
+        margin:1rem;
     }
     .items{
         padding:0.5rem;
     }
+
+    .segment{
+        /* this height can be changed or done better dont make it fixed cause some div smay be bigger */
+        min-height: 13rem;
+        /* background: linear-gradient(45deg, rgb(173, 198, 206), rgb(17, 79, 114)); */
+        color: rgb(108, 121, 128);
+        border-radius:3px;
+        border: 1.3px solid  rgb(233, 229, 236);
+        margin-top: 0.6rem; 
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 1.7rem ;
+        transition-duration: 0.3s;
+        background-color: rgb(254, 253, 255);
+    
+    }
+
+
+
+
     
 
 }
