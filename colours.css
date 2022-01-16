@@ -122,6 +122,16 @@ border-radius:1.5px;
         margin:0;
         padding:7px;
     }
+    .addcl{
+        height: 4rem;
+        border-radius:2px;
+        border: none;
+        background-color:rgb(241, 252, 244);
+            /* border-bottom-right-radius:0.1px;
+            border-bottom-left-radius:0.1px; */
+        border: solid 1px rgb(230, 230, 230);
+        color: rgb(4, 14, 6);
+     }
   
     }
 

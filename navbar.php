@@ -22,7 +22,7 @@ include 'links.php';
             <button class="btni" onclick="location.href='sketches.php'">
                 <li>Sketches</li>
             </button>
-            <button class="btni" onclick="location.href='todos.php'">
+            <button class="btni" onclick="location.href='notes.php'">
                 <li>Tasks</li>
             </button>
             <button class="btni" onclick="location.href='colours.php'">

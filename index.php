@@ -37,7 +37,7 @@ include 'header.php';
     <!--  grid for mobile responsive -->
     <div class="container-fluid daio">
         <div class="crga row no-gutters" data-aos="fade-up" data-aos-duration="1500">
-            <div class=" rga">
+            <div class="rga">
                 <div class="ga ideas" onclick="location.href='ideas.php'">
                     <span class="ics material-icons">batch_prediction</span>
                     <h5>Ideas</h5>
@@ -46,22 +46,23 @@ include 'header.php';
                         class="ics material-icons">draw</span>
                     <h5>Sketches</h5>
                 </div>
-                <div class="ga task" onclick="location.href='todos.php'">
+                <div class="ga task" onclick="location.href='notes.php'">
                     <span class="ics material-icons">task</span>
                     <h5>Notes to tasks</h5>
                 </div>
-                <div class="ga colour">
-                    <span class="ics material-icons">palette</span>
+                <div class="ga colour" onclick="location.href='colours.php'">
+                    <span class=" ics material-icons">palette</span>
                     <h5>Colours</h5>
                 </div>
-                <div class="ga artkit"><span class="ics material-icons">weekend</span>
+                <div class="ga artkit" onclick="location.href='artkit.php'"><span
+                        class="ics material-icons">weekend</span>
                     <h5>Artkit</h5>
                 </div>
-                <div class="ga website">
+                <div class="ga website" onclick="location.href='websites.php'">
                     <span class="ics material-icons">web</span>
                     <h5>Websites</h5>
                 </div>
-                <div class="ga design">
+                <div class="ga design" onclick="location.href='design.php'">
                     <span class="ics material-icons">architecture</span>
                     <h5>Designs</h5>
                 </div>

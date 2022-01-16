@@ -132,7 +132,7 @@
 }
 .mbgrid div{
   text-align:center;
-  /* margin:1rem; */
+  margin:1rem;
 
 }
 
@@ -173,19 +173,13 @@
   .mbres{
     display:block;
   }
-
-  .items{
-      text-align:left;
-  }
-
     .btni{
         width:24%;
         min-height: 3rem;
     }
+  
 
-    .addcl{
-       width:100%;
-    }
+    
 }
 
  
