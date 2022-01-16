@@ -4,22 +4,18 @@
   font-family: Poppins;
 }
 
-.allcs{
-  background-color: rgb(2, 165, 84);
+.allcs {
+  /* background-color: rgb(2, 165, 84); */
 }
 
-.modal{
+.modal {
   padding: 0;
   margin: 0;
 }
 
-
 button:focus {
   outline: none !important;
 }
-
-
-
 
 .modal-content {
   background-color: white;
@@ -33,11 +29,9 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width:1px;
+  width: 1px;
   background-color: rgb(255, 255, 255);
 }
-
-
 
 .add {
   background-color: rgb(6, 71, 77);
@@ -45,18 +39,13 @@ a {
   text-align: center;
 }
 
-.idea-head{
+.idea-head {
   font-family: Poppins;
   font-weight: 600;
-  letter-spacing:-0.5;
+  letter-spacing: -0.5;
   font-size: 1.6rem;
   color: #909696;
 }
-
-
-
-
-
 
 .delinput {
   padding-left: 2rem;
@@ -70,7 +59,6 @@ a {
 
 } */
 
-
 .ima {
   height: 16rem;
   width: 100%;
@@ -83,19 +71,19 @@ a {
 
 .card {
   cursor: pointer;
-  border-radius:3px;
-  margin:1rem;
-  padding:18px 9px 9px 9px ;
+  border-radius: 3px;
+  margin: 1rem;
+  padding: 18px 9px 9px 9px;
   min-height: 10rem;
-  border: solid 0.65px rgb(231, 236, 236);  
+  border: solid 0.65px rgb(231, 236, 236);
   transition-duration: 0.5s;
-  background:white;
+  background: white;
 }
 
 .card:hover {
   transform: scale(1.03);
   box-shadow: 1px 1px 6px 2px #fafafa;
-  z-index:-20;
+  z-index: -20;
 }
 
 /*drop down section here*/
@@ -108,33 +96,31 @@ a {
   /* transition:1s; */
 }
 
-
-.btn_delete{
-  border:none;
+.btn_delete {
+  border: none;
   font-size: 0.5rem;
-  width:7rem;
-  height:3.2rem;
+  width: 7rem;
+  height: 3.2rem;
   font-weight: 500;
   /* background-color:rgb(197, 23, 23); */
 }
 
-.spad:hover{
-  color:rgb(207, 53, 53);
+.spad:hover {
+  color: rgb(207, 53, 53);
 }
 
-.btn-edit{
+.btn-edit {
   margin-top: 0.5rem;
-  border:none;
+  border: none;
   font-size: 0.5rem;
-  width:7rem;
-  height:3.2rem;
+  width: 7rem;
+  height: 3.2rem;
   font-weight: 500;
-  color:rgb(29, 27, 27);
+  color: rgb(29, 27, 27);
   font-weight: 500;
 }
 
-.btn-edit:hover{
-
+.btn-edit:hover {
   border-bottom: solid 1.6px rgb(6, 171, 212);
   color: rgb(54, 145, 168);
 }
@@ -146,11 +132,10 @@ a {
   box-shadow: 0px 2px 6px 0px rgba(197, 201, 204, 0.692); */
 }
 
-
 .spa {
   margin-left: 8rem;
-  color:rgb(151, 156, 160);
-  font-size:1.5rem;
+  color: rgb(151, 156, 160);
+  font-size: 1.5rem;
 }
 
 .dropdown-content {
@@ -162,11 +147,9 @@ a {
   padding: 1rem;
   transition-duration: 0.5s;
   text-align: center;
-  height:9.5rem;
-  z-index:30!important;
-
+  height: 9.5rem;
+  z-index: 30 !important;
 }
-
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -186,12 +169,11 @@ a {
 .id {
   border-bottom: solid rgb(247, 245, 245) 0.5px;
   padding-bottom: 2.2px;
-  letter-spacing:-0.1px;
+  letter-spacing: -0.1px;
   font-family: Poppins;
   font-weight: 600;
   padding-left: 0.1rem;
-  color:rgb(18, 145, 161);
- 
+  color: rgb(18, 145, 161);
 }
 
 .id::first-letter {
@@ -207,7 +189,6 @@ a {
   margin-top: 5px;
   color: rgb(98, 121, 126);
   font-size: 0.9rem;
- 
 }
 
 .six::first-letter {
@@ -217,7 +198,7 @@ a {
 .date {
   letter-spacing: -1px;
   padding-bottom: 2px;
-  font-family:Poppins;
+  font-family: Poppins;
   font-weight: 400;
   text-align: right;
   font-size: 0.5rem;
@@ -227,61 +208,58 @@ a {
 
 /* The bottom area of the card */
 
-.action-sec{
+.action-sec {
   padding-top: 1rem;
-  height:4rem;
+  height: 4rem;
   border-top: 1px solid rgb(240, 243, 245);
   text-align: center;
   color: #959ca0;
   display: none;
 }
 
-.action-sec ul li{
-  display:inline-flex;
+.action-sec ul li {
+  display: inline-flex;
   text-decoration: none;
   list-style: none;
 }
 
-.action-sec span{
+.action-sec span {
   border: 1px solid rgb(213, 218, 224);
-  padding:1.3px;
-  border-radius:0.9rem;
+  padding: 1.3px;
+  border-radius: 0.9rem;
 }
-
 
 /*  MODEL STYLING */
 
-.modal-header{
+.modal-header {
   border: none;
   border-bottom: none;
-  margin:0;
+  margin: 0;
 }
 
 .modal-title {
-  margin-top:3rem;
+  margin-top: 3rem;
   color: rgb(12, 153, 189);
   font-weight: 600;
-  padding-left:5rem;
-  
+  padding-left: 5rem;
 }
 
-.modal-body input{
-
+.modal-body input {
   border-radius: 1.2px solid rgb(167, 174, 177);
-  height:3.5rem;
+  height: 3.5rem;
   width: 28rem;
   border: solid 1.2px rgb(220, 224, 226);
-  font-size:1rem;
-  font-weight:400;
-  color:rgb(58, 55, 58);
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(58, 55, 58);
   text-align: left;
-  padding-left:4rem;
-  margin-left:5rem;
+  padding-left: 4rem;
+  margin-left: 5rem;
   /* text-transform: uppercase; */
 }
 
-::placeholder{
-  color:rgb(152, 141, 153);
+::placeholder {
+  color: rgb(152, 141, 153);
   font-weight: 400;
 }
 
@@ -297,19 +275,19 @@ a {
   border-radius: 2.2px;
 }
 
-.modal-body textarea{
+.modal-body textarea {
   border-radius: 1.2px solid rgb(167, 174, 177);
-  height:5rem;
+  height: 5rem;
   width: 28rem;
   border: solid 1px rgb(196, 213, 221);
   border: solid 1.2px rgb(243, 216, 217);
-  font-size:1rem;
-  font-weight:300;
-  color:rgb(194, 190, 194);
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(194, 190, 194);
   text-align: left;
-  padding-left:4rem;
-  margin-left:5rem;
-  padding-top:0.5rem;
+  padding-left: 4rem;
+  margin-left: 5rem;
+  padding-top: 0.5rem;
 }
 
 /*btn for submitting ide*/
@@ -321,147 +299,142 @@ a {
   border: solid 1px rgb(214, 216, 218);
   margin-top: 1rem;
   font-weight: 500;
-  font-size:1rem;
+  font-size: 1rem;
   /* background-color:rgb(233, 241, 241); */
-  border:solid  1.2px rgb(215, 221, 223);
-  background:transparent;
+  border: solid 1.2px rgb(215, 221, 223);
+  background: transparent;
   margin-left: 5rem;
 }
-.submitbtn:hover{
-  border:rgb(107, 207, 214) solid 2px;
-  color:rgb(7, 124, 139);
+.submitbtn:hover {
+  border: rgb(107, 207, 214) solid 2px;
+  color: rgb(7, 124, 139);
 }
 
- .modal-body{
+.modal-body {
   margin-bottom: 5rem;
-  padding-bottom:0;  
-   /* height:60vh; */
- }
-
- .btnclose{
-   width:12rem;
-   margin-left:4rem;
-   border-radius: 2.3px;
-   border:solid  1.3px rgb(219, 209, 209);
-   background: transparent;
-   height: 3.3rem;
-   color:rgb(216, 90, 90);
-   font-weight: 500;
- }
- .btnclose:hover{
-   border: solid rgb(250, 166, 166) 2px;
-   color:rgb(187, 93, 93);
- }
-
-  label{
-    margin-top: 1rem;
-   margin-left: 5rem;
-   font-size:0.9rem;
-   font-weight:500;
-   color:rgb(68, 69, 73);
- }
-
-
- .describer{
-   padding:3rem;
-   min-height:5rem;
-   color: rgb(37, 34, 34);
-   /* background-color: #f5f3f7; */
-   border-radius:2px;
- }
-
-
- .describer h6{
-   font-size:18px;
-   font-weight: 500;
-   color:rgb(30, 158, 175);
-   letter-spacing:-0.8px;
-      
- }
-
-
- .ideabutton{
-   /* background-color: red; */
-   text-align: center; 
-   padding:1rem;
-   border-radius: 1px;
- }
-
- 
- .ideabtn {  
-  margin-top:8px;
-  border: 1.5px solid rgb(200, 222, 224);
-  font-weight: 500;
-  height: 5rem;
-  width:12rem;
-  color: rgb(65, 61, 68);
-  background-color: rgb(252, 250, 250);
-  border-radius:2px;
+  padding-bottom: 0;
+  /* height:60vh; */
 }
 
+.btnclose {
+  width: 12rem;
+  margin-left: 4rem;
+  border-radius: 2.3px;
+  border: solid 1.3px rgb(219, 209, 209);
+  background: transparent;
+  height: 3.3rem;
+  color: rgb(216, 90, 90);
+  font-weight: 500;
+}
+.btnclose:hover {
+  border: solid rgb(250, 166, 166) 2px;
+  color: rgb(187, 93, 93);
+}
 
-.ideabtn:hover{
-  background-color:rgb(147, 170, 175);
+label {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(68, 69, 73);
+}
+
+.describer {
+  padding: 3rem;
+  min-height: 5rem;
+  color: rgb(37, 34, 34);
+  /* background-color: #f5f3f7; */
+  border-radius: 2px;
+}
+
+.describer h6 {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(30, 158, 175);
+  letter-spacing: -0.8px;
+}
+
+.ideabutton {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1px;
+  transition-duration: 1s;
+}
+
+.ideabtn {
+  margin-top: 7px;
+  transform: scale(1.1);
+  border: none;
+  border: 1.5px solid rgb(202, 230, 235);
+  font-weight: 500;
+  height:4.5rem;
+  width: 12rem;
+  color: rgb(65, 61, 68);
+  background-color: rgb(229, 245, 245);
+  border-radius:2px;
+  /* box-shadow:-0.02px 1px 3px rgb(240, 239, 239); */
+}
+
+.ideabtn:hover {
+  background-color: rgb(147, 170, 175);
   color: white;
   border: 1px solid rgb(247, 244, 244);
 }
 
- .icod{
-    color: rgb(65, 51, 66);
-    font-size: 1.5rem;
-    font-weight:500;
-    margin:0.3rem;
- }
- .icod:hover{
-   color: white;
- }
+.icod {
+  color: rgb(65, 51, 66);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0.3rem;
+}
+.icod:hover {
+  color: white;
+}
 
- .navtabs{
-   /* background-color:green; */
-   margin: 1rem;min-height:7rem;
-   padding-top: 3.4rem;
- }
+.navtabs {
+  /* background-color:green; */
+  margin: 1rem;
+  min-height: 7rem;
+  padding-top: 3.4rem;
+}
 
-  .hp{
-  
-      color:rgb(15, 154, 189);
-  }
+.hp {
+  color: rgb(15, 154, 189);
+}
 
- 
-.cancel, .yes{
-  background-color:white;
-  width:6rem;
-  border: 1px solid rgb(228, 226, 226); 
-  border-radius:30px;
-  height:2.6rem;
-  margin-top:15px;
-  text-align:center
+.cancel,
+.yes {
+  background-color: white;
+  width: 6rem;
+  border: 1px solid rgb(228, 226, 226);
+  border-radius: 30px;
+  height: 2.6rem;
+  margin-top: 15px;
+  text-align: center;
   /* border: none; */
 }
 
-
-.cancel{
-   margin-left: 26px;
-   background-color:rgb(238, 244, 247);
+.cancel {
+  margin-left: 26px;
+  background-color: rgb(238, 244, 247);
 }
 
-.yes{
-  margin-left:1rem;
-  color:rgb(92, 90, 90);
+.yes {
+  margin-left: 1rem;
+  color: rgb(92, 90, 90);
 }
 
-.cancel:hover{
-   /* background-color: #69aeb3; */
-   border: 1px solid rgb(26, 160, 194);
-   color:rgb(8, 171, 212); 
+.cancel:hover {
+  /* background-color: #69aeb3; */
+  border: 1px solid rgb(26, 160, 194);
+  color: rgb(8, 171, 212);
 }
 
-.yes:hover{
+.yes:hover {
   border: 1px solid rgb(243, 107, 118);
-  color:rgb(233, 93, 93);
+  color: rgb(233, 93, 93);
   /* background-color:rgb(185, 143, 143); */
 }
-
 
 /* popup customization codepen */
 
@@ -503,7 +476,7 @@ a {
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
   display: inline-block;
   vertical-align: middle;
-  width:21rem;
+  width: 21rem;
   margin: 10px auto;
 }
 .custom-model-wrap {
@@ -514,16 +487,16 @@ a {
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 3px;
-  height:12rem;
+  height: 12rem;
   background-clip: padding-box;
   outline: 0;
   text-align: left;
-   padding:2rem;
+  padding: 2rem;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   max-height: calc(100vh - 70px);
-	overflow-y: auto;
+  overflow-y: auto;
 }
 
 .model-open .custom-model-inner {
@@ -563,57 +536,50 @@ a {
   color: #fff;
 }
 
-
-.drpi{
+.drpi {
   position: relative;
 }
 
-.edit-div{
+.edit-div {
   z-index: 200000;
-  position:absolute;
+  position: absolute;
   background-color: rgb(253, 252, 253);
-  width:29rem;
-  height:30rem;
+  width: 29rem;
+  height: 30rem;
   border-radius: 3px;
   padding: 2rem;
-  display:block;
+  display: block;
   box-shadow: 0px 1px 3px rgb(216, 216, 216);
-  background-color:green;
-  
+  /* background-color:green; */
 }
 
-
-.edit-div input{
-  height:3rem;
-  width:23rem;
+.edit-div input {
+  height: 3rem;
+  width: 23rem;
   padding-left: 2rem;
   border: 1px solid rgb(218, 218, 218);
-  margin:6px;
+  margin: 6px;
 }
 
-.edit-div button{
-  background-color:rgb(255, 253, 253);
+.edit-div button {
+  background-color: rgb(255, 253, 253);
   border: solid 1px rgb(126, 206, 226);
   border-radius: 6px;
   padding: 1rem;
   margin: 1rem;
 }
 
-
-
-.iop{
-  background-color:white;
+.iop {
+  background-color: white;
   top: 0;
   right: 0;
   bottom: 0;
 }
 
-
-
 /* New popup*/
 
-.modes{
-  display:none;
+.modes {
+  display: none;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
@@ -621,8 +587,8 @@ a {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
@@ -634,7 +600,7 @@ a {
   z-index: 5;
   padding: 20px;
   padding-right: 25%;
-  height:37rem;
+  height: 37rem;
   border: 1px solid #888;
   width: 80vw; /* Could be more or less, depending on screen size */
 }
@@ -654,45 +620,50 @@ a {
   cursor: pointer;
 }
 
-.items{
+.items {
   padding-right: 1rem;
 }
 
-.describer h5{
-  font-size:2rem;
-  font-weight:300;
+.describer h5 {
+  font-size: 2rem;
+  font-weight: 300;
   color: rgb(115, 126, 122);
-  letter-spacing:4px;
+  letter-spacing: 4px;
 }
-
 
 /* MOBILE RESPONSIVE SECTION */
 
 @media only screen and (max-width: 600px) {
-
-  .bui{
-      padding:0.1px;
-
+  .bui {
+    padding: 0.1px;
   }
 
-  .items{
-      text-align:left;
+  .items {
+    text-align: left;
   }
 
-    .btni{
-        width:24%;
-        min-height: 3rem;
-    }
-
-    .ideabtn{
-       width:100%;
-    }
-
+  .btni {
+    width: 24%;
+    min-height: 3rem;
   }
 
+  .ideabtn {
+    width: 100%;
+  }
 
+  .card {
+    box-shadow: -0.02px 1px 3px rgb(226, 223, 223);
+    border-radius: 6px;
+    background-color: #fefbff;
+    margin-top: 0.5rem;
+    border: none;
+  }
 
+  .ideabutton {
+    margin: 1.5rem;
+  }
 
-
-
-
+  .ideabtn {
+    height: 4.3rem;
+  }
+}
