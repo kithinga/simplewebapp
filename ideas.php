@@ -59,15 +59,14 @@ include 'header.php';
                         <div class="modal-body">
                             <form class="frm" action="insert.php" method="POST" autocomplete="off">
                                 <label for="title">Title</label>
-                                <input type="text" name="id" placeholder="Title of idea" id="title" required><br>
+                                <input type="text" name="id" placeholder="Title of idea" id="title" required>
                                 <label for="date">Date</label>
                                 <input type="date" name="date" placeholder="the date that the idea is recorded"
-                                    id="date" required><br>
+                                    id="date" required>
                                 <label for="about">About</label>
                                 <input type="text" name="about" placeholder="what is the idea about" id="about"
                                     required><br>
                                 <label for="txtarea">Details</label>
-                                <br>
                                 <textarea name="details" cols="26" rows="2" placeholder="details to describe the idea"
                                     class="txarea" id="txarea" required></textarea><br><br>
                                 <!-- <input type="file" name="image" accept="image/*;capture=camera"><br><br> -->
