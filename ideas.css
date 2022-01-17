@@ -247,19 +247,19 @@ a {
 .modal-body input {
   border-radius: 1.2px solid rgb(167, 174, 177);
   height: 3.5rem;
-  width: 28rem;
+  min-width: 20rem;
   border: solid 1.2px rgb(220, 224, 226);
   font-size: 1rem;
   font-weight: 400;
   color: rgb(58, 55, 58);
   text-align: left;
   padding-left: 4rem;
-  margin-left: 5rem;
+  margin-left:3rem;
   /* text-transform: uppercase; */
 }
 
 ::placeholder {
-  color: rgb(152, 141, 153);
+  color: rgb(125, 121, 126);
   font-weight: 400;
 }
 
@@ -278,24 +278,24 @@ a {
 .modal-body textarea {
   border-radius: 1.2px solid rgb(167, 174, 177);
   height: 5rem;
-  width: 28rem;
-  border: solid 1px rgb(196, 213, 221);
-  border: solid 1.2px rgb(243, 216, 217);
+  width: 20rem;
+  border: solid 1px rgb(200, 212, 218);
+  border: solid 1.2px rgb(218, 210, 211);
   font-size: 1rem;
   font-weight: 300;
   color: rgb(194, 190, 194);
   text-align: left;
   padding-left: 4rem;
-  margin-left: 5rem;
+  margin-left:3rem;
   padding-top: 0.5rem;
 }
 
 /*btn for submitting ide*/
 .submitbtn {
-  height: 3.4rem;
-  width: 12rem;
+  height: 3.1rem;
+  min-width: 9rem;
   color: rgb(11, 169, 194);
-  border-radius: 2.3px;
+  border-radius: 2.1px;
   border: solid 1px rgb(214, 216, 218);
   margin-top: 1rem;
   font-weight: 500;
@@ -311,18 +311,18 @@ a {
 }
 
 .modal-body {
-  margin-bottom: 5rem;
+  margin-bottom:3rrem;
   padding-bottom: 0;
   /* height:60vh; */
 }
 
 .btnclose {
-  width: 12rem;
+  min-width:9rem;
   margin-left: 4rem;
   border-radius: 2.3px;
   border: solid 1.3px rgb(219, 209, 209);
   background: transparent;
-  height: 3.3rem;
+  height: 3.1rem;
   color: rgb(216, 90, 90);
   font-weight: 500;
 }
