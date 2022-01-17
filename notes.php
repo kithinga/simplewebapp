@@ -25,9 +25,9 @@ include 'header.php';
         <div class="row no-gutters iconrow">
             <div class="col-lg-5">
                 <div class="tasktitle">
-                    <p class="tsk">NOTES TO TASKS</p>
+                    <h6 class="tsk">NOTES</h6>
                     <p>Notes to Tasks</p>
-                    <text>Lorem ipsum dolor sit amet consectetur.</text>
+                    <text>Lorem ipsum dolor .</text>
                 </div>
             </div>
 

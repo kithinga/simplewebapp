@@ -15,7 +15,7 @@
             <div class="mbgrid">
                 <div class="mbhome material-icons" onclick="location.href='index.php'">home</div>
                 <div class="dcv">
-                    <div class="">Milife</div>
+                    <h6>Mindwork</h6>
                 </div>
                 <div class="mbacc material-icons"> perm_identity</div>
             </div>

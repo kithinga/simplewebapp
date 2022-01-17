@@ -36,7 +36,7 @@
     /* background-color:red;  */
     padding-top:4rem;
     text-align:left;
-    margin-left:2rem;
+    margin-left:1rem;
 }
 
 
@@ -115,47 +115,65 @@
   color: rgb(80, 78, 78);
 } */
 
+
+
 /* MOBILE RESPONSIVE */
 .mbres{
   display:none;
+  margin-top: 2rem;
+  border-bottom: 2px solid rgb(246, 246, 247);
+ 
+
 }
+
 
 .mbgrid{
   background-color:rgb(255, 255, 255);
+  /* background-color:red; */
   display: grid;
-  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-columns: 1fr 1.6fr 1fr;
   grid-template-areas: "mbhome dcv mbacc";
   /* background-image: linear-gradient(rgb(216, 216, 216), rgb(224, 224, 224)); */
   width:100%;
-  padding:1rem;
+  /* padding:1rem; */
+
+
   
 }
 .mbgrid div{
   text-align:center;
-  margin:1rem;
+  /* margin:1rem; */
 
 }
 
 .mbhome{
-  color: rgb(255, 255, 255);
-  padding:1rem;   
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  margin-top:1rem;   
   width:6rem;
   font-weight: 500;
-  min-height: 3.5rem; 
-  border-radius:2rem;
-  background-color:rgb(34, 34, 34);
+  min-height: 3rem; 
+  border-radius:1px;
+  /* background-color:rgb(252, 245, 245); */
+}
+.dcv h6{
+   color: rgb(75, 72, 72);
+   font-size:1.2rem;
+   padding-top:4rem;
+   font-weight: 900;
 }
 
+
 .mbacc{
-  margin-left:12vw;
+  margin-left:13vw;
   text-align:right;
-  color: rgb(0, 86, 104);
+  color: rgb(73, 100, 105);
   padding:1rem;   
   width:10rem;
   font-weight: 500;
-  min-height: 3.5rem;
-  border-radius:2rem;
-  background-color:rgb(245, 243, 243);
+  min-height: 3rem;
+  border-radius:1px;
+  /* background-color:rgb(245, 243, 243); */
 }
 
 

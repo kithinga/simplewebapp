@@ -21,9 +21,9 @@ include 'header.php';
             <div class="col-lg-5">
                 <div class="describer">
                     <h5>IDEAS</h5>
-                    <h6>This space allows you note down all your ideas and keep
-                        working on them ! </h6>
-                    <p>the feeling of mindfullness</p>
+                    <p>This space allows you note down all your ideas and keep
+                        working on them ! </p>
+                    <text>the feeling of mindfullness</text>
                 </div>
             </div>
             <div class="col-lg-2">

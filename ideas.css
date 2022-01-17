@@ -340,15 +340,15 @@ label {
 }
 
 .describer {
-  padding: 3rem;
-  min-height: 5rem;
+  padding:1.5rem;
+  min-height:4rem;
   color: rgb(37, 34, 34);
   /* background-color: #f5f3f7; */
   border-radius: 2px;
 }
 
-.describer h6 {
-  font-size: 18px;
+.describer p {
+  font-size:1.3rem;
   font-weight: 500;
   color: rgb(30, 158, 175);
   letter-spacing: -0.8px;

@@ -7,19 +7,17 @@
 
 .all-slots {
     min-height: 80vh;
-    background-color:rgb(116, 116, 117);
+    background-color:rgb(56, 56, 68);
     /* background-image: linear-gradient(180deg, rgb(253, 253, 254) , rgb(237, 233, 240)); */
     /* width: 100%; */
  }
 
 
  .intro{
-
-    padding:2rem;
-    margin: 1rem;
-    margin-top: 2rem;
+    margin:0.5rem;
+    margin-top:3.5rem;
     font-family: Poppins;
-    /* background-color: antiquewhite; */
+  
 }
 
 
@@ -27,11 +25,12 @@
       background-color:rgb(255, 254, 255);
       min-height:10rem;
       border-right: none;
-      padding: 2rem;
+      padding:1rem;
       border-top-left-radius:2.3px;
       border-bottom-left-radius:2.3px;
       border:solid 1px rgb(238, 235, 240);
       border-right: none;
+      padding-top: 2rem;
 }
 
 
@@ -39,16 +38,18 @@
 
     border-left: none !important;
     min-height:11rem;
-    padding: 2rem;
+    padding:1rem;
     text-align:right;
     border:solid 1px rgb(227, 224, 230);
     border-top-right-radius:2.3px;
     border-bottom-right-radius:2.3px;   
+    padding-top: 2rem;
 }
 
 
+
 .quote-head{
-    color:rgb(41, 183, 226);
+    color:rgb(7, 142, 184);
     font-weight: 600;
 }
 
@@ -61,7 +62,7 @@
 
 
 .clock-time{
-     color: rgb(95, 60, 95);
+     color: rgb(71, 53, 71);
 }
 
 
@@ -194,7 +195,7 @@
 
 .rga{
     display:grid;
-    background:rgb(255, 255, 255);
+    background-color:rgb(234, 230, 240);
     padding:1rem;
     width: 100%;
     grid-template-areas: "idea sketch"
@@ -205,8 +206,13 @@
 
 }
 
+.ki{
+    background-color:rgb(234, 230, 240);
+    margin-top: 2rem;
+}
+
 .ga{
-    background-color:rgb(255, 255, 255);
+    /* background-color:rgb(36, 36, 58); */
     min-width:3rem;
     height:9rem;
     padding:1rem;
@@ -217,7 +223,7 @@
     font-size:1.3rem;
     text-align:center;
     border:solid 2px rgb(255, 255, 255);
-    color: rgb(105, 104, 104);
+    color: rgb(48, 48, 48);
     
 }
 
@@ -231,7 +237,7 @@
 .ics{
     margin-bottom:0.5rem;
     font-size:1.5rem;
-    color: rgb(115, 113, 117);
+    color: rgb(18, 144, 175);
 }
 
 .daio{
@@ -270,6 +276,7 @@
 
          .all-slots{
              display: none;
+        
          }
        
          .ga h5{
@@ -279,14 +286,16 @@
         
         .ga{
             border: solid 1px rgb(246, 244, 247);
-            background-color:rgb(251, 248, 255);
-            box-shadow: 0px 1px 3px rgb(235, 231, 238);
+            background-color: rgb(255, 255, 255);
+            /* box-shadow: 0px 1px 3px rgb(235, 231, 238); */
         }
+
         
          .daio{
              display:inline-block;
              padding: 0;
              margin: 0;
+         
          }
 
          .decoy1, .decoy2{
@@ -295,11 +304,13 @@
       
          .intro{
              display:grid;
-             background-color:rgb(251, 248, 255);
-             padding:1rem;
+             background-color:rgb(255, 255, 255);
+             padding:0.5rem;
              margin:1.3rem;
              grid-template-columns: 1fr 1fr;
              grid-template-areas: "quotes time";
+             margin-top:2rem;
+             border-radius: 3px;
          }
          .quotes, .times{
             background-color:inherit;

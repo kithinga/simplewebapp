@@ -16,7 +16,7 @@ include 'header.php';
 
 <body>
     <!-- the intro area -->
-    <div class="container-fluid">
+    <div class="container-fluid ki">
         <div class="row no gutters intro">
             <div class="col-lg-3 decoy1">
 

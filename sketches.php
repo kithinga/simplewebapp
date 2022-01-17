@@ -21,7 +21,7 @@ include "header.php";
             <div class="col-lg-5">
                 <div class="imagine">
                     <h6>SKETCHES</h6>
-                    <p> intelligence !</p>
+                    <p>Creativity and beyond</p>
                     <text>depuis to the things.</text>
                 </div>
             </div>

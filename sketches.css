@@ -9,7 +9,7 @@
   min-height: 6rem;
   border: none;
   margin:0.5rem;
-  border-radius:4px;
+  border-radius:3px;
   transition-duration: 0.3s;
 }
 
@@ -24,12 +24,12 @@
 
 .imgbtn {
   outline: none;
-  color: rgb(145, 117, 62);
+  color: rgb(20, 20, 19);
   font-size: 1.2rem;
-  background-color: white;
+  background-color: rgb(231, 229, 221);
   border-radius:3px;
-  width:12rem;
-  height: 5rem;
+  min-width:12rem;
+  min-height:5rem;
   font-weight: 600;
   border: rgb(214, 218, 221) solid 2px;
   text-align: center;
@@ -37,7 +37,7 @@
 }
 
 .navbc{
-    padding:0.5rem;
+    margin:1rem;
     min-height:4rem;
     text-align: center;
     margin-top:8px;
@@ -61,13 +61,13 @@
 }
 
 .imagine{
-    padding:2rem;
+    padding:1.5rem;
 }
 
 .imagine p{
-    font-size:20px;
-    font-weight: 600;
-    color: rgb(202, 142, 30);
+    font-size:1.4rem;
+    font-weight:500;
+    color: rgb(185, 126, 16);
 }
 
 .imagine h6{
@@ -91,6 +91,11 @@
 @media only screen and (max-width: 600px) {
     .imgbtn{
      width:100%;
+      /* width: 4rem; */
+      /* border-radius: 10rem; */
+    }
+    .navbc{
+      /* text-align: right; */
     }
     
 

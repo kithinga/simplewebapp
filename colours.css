@@ -2,7 +2,6 @@
     padding: 0;
     margin:0;
     font-family: Poppins;
-    
 }
     
 .colour-slots{
@@ -11,20 +10,20 @@
 }
 
 .coolea{
-    margin: 1rem;
-    padding:1rem;
+    margin: 1.5rem;
+    /* padding:1rem; */
 }
 
-.coolea h5{
+.coolea h6{
     font-size:2rem;
     font-weight:300;
     color: rgb(115, 126, 122);
-    letter-spacing:4px;
+    letter-spacing:3px;
 }
 
 .coolea p{
-    font-size:18px;
-    font-weight:600;
+    font-size:1.3rem;
+    font-weight:500;
 }
 
 .coli{

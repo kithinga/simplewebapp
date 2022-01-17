@@ -16,24 +16,25 @@
 
 .wordi{
     color: rgb(43, 40, 40);
-    padding:1rem;
+    /* padding:1rem; */
+    margin: 1.5rem;
 }
 
-.wordi h6{
+.wordi p{
      font-weight:500;
-     font-size:18px;
+     font-size:1.3rem;
      color: rgb(130, 37, 216);
      font-family: Poppins;
 }
 
 
 
-.wordi h5 {
+.wordi h6 {
     font-size: 2rem;
     margin-bottom:0.7rem;
     font-weight: 300;
     color: rgb(119, 85, 148);
-    letter-spacing:4px;
+    letter-spacing:3px;
   }
   
 

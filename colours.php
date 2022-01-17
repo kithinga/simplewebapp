@@ -21,7 +21,7 @@ include 'header.php';
         <div class="row no-gutters nrow">
             <div class="col-lg-5">
                 <div class="coolea">
-                    <h5>COLOURS </h5>
+                    <h6>COLOURS </h6>
                     <p>Recording colours for projects</p>
                     <text>harmoniously!</text>
                 </div>
