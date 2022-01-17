@@ -11,6 +11,7 @@
 .modal {
   padding: 0;
   margin: 0;
+  margin-top:8rem;
 }
 
 button:focus {
@@ -261,7 +262,7 @@ padding-top: 2.5rem;
 
 ::placeholder {
   color: rgb(125, 121, 126);
-  font-weight: 400;
+  font-weight:300;
 }
 
 .modal-body{
@@ -333,7 +334,7 @@ padding-top: 2.5rem;
   background-color:rgb(240, 247, 247);
   color: rgb(223, 31, 31);
   font-weight: 500;
-  margin-left: 25%;
+  margin-left: 23%;
 }
 .btnclose:hover {
   border: solid rgb(250, 166, 166) 2px;
@@ -642,6 +643,19 @@ label {
 /* MOBILE RESPONSIVE SECTION */
 
 @media only screen and (max-width: 600px) {
+  ::placeholder {
+    color: rgb(125, 121, 126);
+    font-weight:300;
+    font-size: 0.6rem;
+  }
+  .header-title{
+    font-size:1.1rem;
+  }
+  
+  label{
+    font-size:0.9rem;
+  }
+
   .bui {
     padding: 0.1px;
   }
