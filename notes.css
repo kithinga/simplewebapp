@@ -33,11 +33,13 @@
     font-size:1.5rem;
 
 }
+
 .ptwo{
     color: rgb(7, 32, 58);
     font-weight:400;
     font-size: 8px;
 }
+
 .tasks{
     min-height: 10rem;
 }
@@ -64,9 +66,11 @@
     color:rgb(48, 48, 87);
     font-size: 1rem;
 }
+
 .type::first-letter{
     text-transform:uppercase;
 }
+
 .note_item:hover{
     transform: scale(1.05);
     cursor: pointer;
@@ -74,8 +78,6 @@
      color:rgb(7, 32, 58);
 }
  
-
-
 
 /* tasks todo section */
 .todo_item{
@@ -93,6 +95,7 @@
     border-bottom-right-radius: 12px;
     
 }
+
 .todo_item:hover{
     transform: scale(1.05);
     cursor: pointer;
