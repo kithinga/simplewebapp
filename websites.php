@@ -16,7 +16,7 @@ include 'links.php';
 <body>
     <?php
 include 'header.php';
-   ?>
+?>
     <br><br>
     <div class="sites container-fluid">
         <div class="row no-gutters nrow">
@@ -60,7 +60,7 @@ if ($result) {
                     <a href="<?php print $row['link'];?>" target="_blank">
                         <p class="link">view site <span class="look"><span class="material-icons">
                                     chevron_right
-                                </span></span></p>
+                        </span></span></p>
                     </a>
                 </div>
 
