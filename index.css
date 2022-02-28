@@ -1,7 +1,7 @@
 *{
     padding:0;
     margin:0;
-    font-family: 'Poppins';
+    /* font-family:Poppins; */
 }
 
 
@@ -16,7 +16,7 @@
  .intro{
     margin:0.5rem;
     margin-top:3.5rem;
-    font-family: Poppins;
+    /* font-family: Poppins; */
   
 }
 
@@ -71,10 +71,6 @@
     font-size:0.5rem;
     color: rgb(49, 31, 212);
 }
-
-
-
-
 
   .ha{
     color: rgb(7, 7, 7);
@@ -303,11 +299,11 @@
          }
       
          .intro{
-             display:grid;
+             /* display:grid; */
              background-color:rgb(255, 255, 255);
              padding:0.5rem;
              margin:1.3rem;
-             grid-template-columns: 1fr 1fr;
+             /* grid-template-columns: 1fr 1fr; */
              grid-template-areas: "quotes time";
              margin-top:2rem;
              border-radius: 3px;
